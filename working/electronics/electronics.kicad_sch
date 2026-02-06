@@ -2,9 +2,181 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid b7e7bded-3d46-4ddf-9414-16b75a945e5b)
+	(uuid "b7e7bded-3d46-4ddf-9414-16b75a945e5b")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 167.64 135.89)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "262ce9db-4d3b-49ee-a003-57cf7b7ec926")
+		(property "Sheetname" "DMD"
+			(at 167.64 135.1784 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dmd.kicad_sch"
+			(at 167.64 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electronics"
+				(path "/b7e7bded-3d46-4ddf-9414-16b75a945e5b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 114.3)
+		(size 33.02 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29692dc6-1256-4805-a17b-9ee8c5716e67")
+		(property "Sheetname" "UV_RedLightSource"
+			(at 116.84 113.5884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uv_redlightsource.kicad_sch"
+			(at 116.84 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electronics"
+				(path "/b7e7bded-3d46-4ddf-9414-16b75a945e5b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 39.37)
+		(size 31.75 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d7ba274-9d3b-4f3b-a36b-3c3a6fa48d5e")
+		(property "Sheetname" "PowerManagmentControl"
+			(at 114.3 38.6584 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_managment_control.kicad_sch"
+			(at 114.3 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electronics"
+				(path "/b7e7bded-3d46-4ddf-9414-16b75a945e5b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 62.23)
+		(size 27.94 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfdb460b-4ba8-4e28-972a-01a9545baf7e")
+		(property "Sheetname" "Wafer_Stepper_Controller"
+			(at 172.72 61.5184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wafer_stepper_controller.kicad_sch"
+			(at 172.72 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electronics"
+				(path "/b7e7bded-3d46-4ddf-9414-16b75a945e5b"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
