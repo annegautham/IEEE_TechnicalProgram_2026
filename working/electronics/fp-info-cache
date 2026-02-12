@@ -1,4 +1,4 @@
-27226098830983841
+27224328487485760
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107914,13 +107914,6 @@ Varistor VF
 my_bga_footprints
 
 
-
-0
-225
-225
-my_bga_footprints
-BGA-225_15x15_13.0x13.0mm
-BGA-225, 15x15 grid, 0.8mm pitch
 
 0
 225
