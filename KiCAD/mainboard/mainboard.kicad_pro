@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "uvBoardV1.kicad_pro",
+    "filename": "mainboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -608,6 +608,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "38e83f42-2cf9-4799-a46f-ca415d95b90a",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
