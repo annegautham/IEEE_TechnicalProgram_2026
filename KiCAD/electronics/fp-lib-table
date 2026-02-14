@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DLPC1438")(type "KiCad")(uri "${KIPRJMOD}/DLPC1438.pretty")(options "")(descr ""))
+  (lib (name "my_bga_footprints")(type "KiCad")(uri "${KIPRJMOD}/my_bga_footprints.pretty")(options "")(descr ""))
+)
