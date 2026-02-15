@@ -4454,6 +4454,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 560.705 176.53)
+		(size 100.965 128.905)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cd29d54-68c1-4b23-aec1-57d737e6ea74")
+		(property "Sheetname" "DLPA2005_Interface"
+			(at 560.705 175.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DLPA2005_Interface.kicad_sch"
+			(at 560.705 306.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
