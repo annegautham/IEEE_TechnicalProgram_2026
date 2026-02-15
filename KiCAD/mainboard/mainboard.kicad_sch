@@ -81,6 +81,16 @@
 				(justify left top)
 			)
 		)
+		(pin "RESETZ" input
+			(at 673.735 152.4 180)
+			(uuid "18b855bb-e144-4f9b-afec-71a749aa0519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a"
