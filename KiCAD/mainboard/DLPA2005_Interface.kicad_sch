@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "667e37d1-e3bb-44e8-8c68-891ce99328b8")
+	(uuid "6f8e3acb-36fa-4f2a-bfcd-8820be99bbd1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "tp_library:DLPA2005ERSLT"
@@ -1003,6 +1003,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Vallerie"
+		(exclude_from_sim no)
+		(at 21.844 16.256 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "0257efa4-efdb-49cb-b48d-0bb285ceae9e")
 	)
 	(symbol
 		(lib_id "tp_library:DLPA2005ERSLT")

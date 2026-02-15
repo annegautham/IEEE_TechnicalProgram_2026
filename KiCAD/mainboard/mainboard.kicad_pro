@@ -616,6 +616,14 @@
     [
       "9cd29d54-68c1-4b23-aec1-57d737e6ea74",
       "DLPA2005_Interface"
+    ],
+    [
+      "a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0",
+      "DLPC1438_Interface"
+    ],
+    [
+      "2ef4843e-e813-4038-8f91-df837a4944f8",
+      "DMD_Interface"
     ]
   ],
   "text_variables": {}
