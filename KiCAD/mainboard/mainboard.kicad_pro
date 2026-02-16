@@ -448,7 +448,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "tp_library"
+    ]
   },
   "meta": {
     "filename": "mainboard.kicad_pro",
