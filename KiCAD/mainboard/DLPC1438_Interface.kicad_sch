@@ -3749,6 +3749,248 @@
 		)
 		(uuid "5b9669b5-82a7-4053-9aeb-2ece32fa2438")
 	)
+	(hierarchical_label "DMD_HS_WDATAF_N"
+		(shape input)
+		(at 106.68 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06af4ae0-9a0f-4c19-9b16-48f8da743dbc")
+	)
+	(hierarchical_label "DMD_HS_WDATAB_P"
+		(shape input)
+		(at 106.68 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13476cfa-fb50-4e59-8c4d-0dd388bc13ea")
+	)
+	(hierarchical_label "DMD_HS_WDATAA_N"
+		(shape input)
+		(at 106.68 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dd014ef-f103-4861-8215-37e48aa877bf")
+	)
+	(hierarchical_label "DMD_HS_CLK_N"
+		(shape input)
+		(at 106.68 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a80991b-4488-4f3c-88a7-74fbda2d3c65")
+	)
+	(hierarchical_label "DMD_HS_WDATAA_P"
+		(shape input)
+		(at 106.68 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "417f0d47-4115-4319-8586-db6656221513")
+	)
+	(hierarchical_label "DMD_HS_CLK_P"
+		(shape input)
+		(at 106.68 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "493b2033-d7cd-48b6-8a8f-330eebb32107")
+	)
+	(hierarchical_label "DMD_HS_WDATAB_N"
+		(shape input)
+		(at 106.68 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6843b184-ba24-4fb4-857d-29275a3281f0")
+	)
+	(hierarchical_label "DMD_LS_WDATA"
+		(shape input)
+		(at 100.33 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "699d9385-dd78-4370-ad62-fbd64b5cb2a3")
+	)
+	(hierarchical_label "DMD_DEN_ARSTZ"
+		(shape input)
+		(at 106.68 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71d6df7b-7a01-4da6-98f4-c1aa14fd897f")
+	)
+	(hierarchical_label "DMD_HS_WDATAD_P"
+		(shape input)
+		(at 106.68 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b34e569f-7fe7-43f3-885c-d453267f9383")
+	)
+	(hierarchical_label "DMD_HS_WDATAC_P"
+		(shape input)
+		(at 106.68 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b515189b-4954-4591-ac82-ff61adc87e3b")
+	)
+	(hierarchical_label "DMD_LS_RDATA"
+		(shape input)
+		(at 71.12 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c59d2448-1826-4c32-8c26-5f0dae4d006d")
+	)
+	(hierarchical_label "DMD_HS_WDATAC_N"
+		(shape input)
+		(at 106.68 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca511e05-3f5f-4318-820c-5fe3d6e855bd")
+	)
+	(hierarchical_label "DMD_HS_WDATAE_N"
+		(shape input)
+		(at 106.68 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caa1577f-0277-4a4c-a6dd-b409b3391ddd")
+	)
+	(hierarchical_label "DMD_HS_WDATAF_P"
+		(shape input)
+		(at 106.68 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf0a3cd4-d3cb-48db-95df-f202f0733dfa")
+	)
+	(hierarchical_label "DMD_LS_CLK"
+		(shape input)
+		(at 78.74 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc2e66a1-6bc1-4857-af4a-d0f15e088e5d")
+	)
+	(hierarchical_label "DMD_HS_WDATAD_N"
+		(shape input)
+		(at 106.68 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df30b873-c742-4b35-8c69-615c2629032c")
+	)
+	(hierarchical_label "DMD_HS_WDATAG_N"
+		(shape input)
+		(at 106.68 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efa9dc6e-9c58-42f4-b4a6-020da745e8ab")
+	)
+	(hierarchical_label "DMD_HS_WDATAE_P"
+		(shape input)
+		(at 106.68 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1e8b71c-fb0b-40e8-bc0f-ddbc6db433e7")
+	)
+	(hierarchical_label "DMD_HS_WDATAG_P"
+		(shape input)
+		(at 106.68 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f70818ea-ce7c-4aaa-85b2-e5f4ebf5b585")
+	)
+	(hierarchical_label "DMD_HS_WDATAH_P"
+		(shape input)
+		(at 106.68 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f78a1e43-eba8-4589-b8bc-481f3b9692af")
+	)
+	(hierarchical_label "DMD_HS_WDATAH_N"
+		(shape input)
+		(at 106.68 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff4ab87b-f599-482a-bb24-94e19cb56255")
+	)
 	(symbol
 		(lib_id "tp_library:DLPC1438ZEZ")
 		(at 106.68 72.39 0)
