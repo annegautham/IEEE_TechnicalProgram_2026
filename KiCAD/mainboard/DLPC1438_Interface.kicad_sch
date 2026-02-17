@@ -4243,26 +4243,6 @@
 		)
 		(uuid "f835598a-d036-4d36-a93d-46d4dddf002e")
 	)
-	(label "GPIO_9"
-		(at 106.68 308.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05ad9fe6-400c-4a78-a178-bfa3f3e8e026")
-	)
-	(label "FPGA_ERROR"
-		(at 162.56 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0fdc8f18-95dd-4ee5-b1a9-9f91d3191696")
-	)
 	(label "ACT_SYNC"
 		(at 106.68 275.59 180)
 		(effects
@@ -4283,26 +4263,6 @@
 		)
 		(uuid "64017807-7d8f-455b-a3a0-af239eb82542")
 	)
-	(label "PROJ_ON"
-		(at 106.68 306.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68ade255-9ce2-444c-a939-4fbd797967ab")
-	)
-	(label "RC_CHARGE"
-		(at 162.56 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87d0d317-9c24-4f39-8ce4-692870047af8")
-	)
 	(label "GPIO_3"
 		(at 106.68 222.25 180)
 		(effects
@@ -4322,36 +4282,6 @@
 			(justify right bottom)
 		)
 		(uuid "c0f36a57-ca91-4e6f-9471-64286ff351cc")
-	)
-	(label "THERM_PWR"
-		(at 162.56 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e395c92f-7f9f-45f1-8fdb-cdf9f85416fd")
-	)
-	(label "GPIO_6"
-		(at 106.68 273.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9ab9433-7a08-4a9f-958a-3357188876d6")
-	)
-	(label "AVG_ERROR"
-		(at 162.56 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eac7377b-2902-4776-adca-e734ea32ac32")
 	)
 	(global_label "SPI1_CSZ0"
 		(shape input)
@@ -4415,6 +4345,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_6"
+		(shape input)
+		(at 106.68 273.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78a7dcba-42af-4a3b-9430-e4d4bea22562")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.0424 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4503,6 +4455,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_9"
+		(shape input)
+		(at 106.68 308.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1304ba0-15cb-4166-b3f9-9d33b849e168")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.0424 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4672,6 +4646,17 @@
 		)
 		(uuid "1dd014ef-f103-4861-8215-37e48aa877bf")
 	)
+	(hierarchical_label "THERM_PWR"
+		(shape input)
+		(at 162.56 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2935d949-8c49-4760-88d4-90751214ac03")
+	)
 	(hierarchical_label "DMD_HS_CLK_N"
 		(shape input)
 		(at 106.68 125.73 180)
@@ -4682,6 +4667,17 @@
 			(justify right)
 		)
 		(uuid "2a80991b-4488-4f3c-88a7-74fbda2d3c65")
+	)
+	(hierarchical_label "PROJ_ON"
+		(shape input)
+		(at 106.68 306.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35e4dfa6-92ad-4300-b538-1d65e453418f")
 	)
 	(hierarchical_label "DMD_HS_WDATAA_P"
 		(shape input)
@@ -4705,6 +4701,28 @@
 		)
 		(uuid "493b2033-d7cd-48b6-8a8f-330eebb32107")
 	)
+	(hierarchical_label "DMD_LS_RDATA"
+		(shape input)
+		(at 106.68 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a085633-4ed3-4887-a08b-d204447f85b2")
+	)
+	(hierarchical_label "RC_CHARGE"
+		(shape input)
+		(at 162.56 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66ee0792-a4cb-4194-b695-6763f98804c4")
+	)
 	(hierarchical_label "DMD_HS_WDATAB_N"
 		(shape input)
 		(at 106.68 133.35 180)
@@ -4726,6 +4744,17 @@
 			(justify right)
 		)
 		(uuid "71d6df7b-7a01-4da6-98f4-c1aa14fd897f")
+	)
+	(hierarchical_label "FPGA_RDY"
+		(shape input)
+		(at 162.56 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90791ea4-c4bf-47c8-a658-1c860de916a9")
 	)
 	(hierarchical_label "DMD_HS_WDATAD_P"
 		(shape input)
@@ -4961,7 +4990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.884 210.566 90)
 			(effects
 				(font
@@ -4981,6 +5010,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 88.9 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
+			(at 88.9 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.614 173.736 90)
 			(effects
 				(font
@@ -5048,6 +5086,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 87.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
+			(at 87.63 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5142,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RC0402FR-0730R1L"
 			(at 94.234 221.234 90)
 			(effects
 				(font
@@ -5115,6 +5162,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 93.98 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-0730R1L"
+			(at 93.98 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.106 211.074 90)
 			(effects
 				(font
@@ -5182,6 +5238,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 85.09 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
+			(at 85.09 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RC0402FR-0730R1L"
 			(at 94.234 218.694 90)
 			(effects
 				(font
@@ -5249,6 +5314,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 93.98 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-0730R1L"
+			(at 93.98 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RC0402FR-0730R1L"
 			(at 92.964 183.134 90)
 			(effects
 				(font
@@ -6097,6 +6171,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 92.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-0730R1L"
+			(at 92.71 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.836 174.244 90)
 			(effects
 				(font
@@ -6164,6 +6247,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
+			(at 83.82 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)

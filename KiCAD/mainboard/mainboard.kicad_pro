@@ -547,6 +547,12 @@
         },
         {
           "group_by": true,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
@@ -568,12 +574,6 @@
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
           "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": true
         },
         {
           "group_by": false,
@@ -609,6 +609,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
