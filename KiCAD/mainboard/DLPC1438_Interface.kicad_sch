@@ -4024,13 +4024,13 @@
 		(uuid "5b9669b5-82a7-4053-9aeb-2ece32fa2438")
 	)
 	(junction
-		(at 87.63 184.15)
+		(at 88.9 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ea76834-2d01-49e0-bab2-65fa5f1c9ca0")
 	)
 	(junction
-		(at 83.82 181.61)
+		(at 85.09 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89a77847-9ce6-4390-af69-06f03e9603d5")
@@ -4042,7 +4042,7 @@
 		(uuid "a7444f4c-f3f3-48e6-8232-35a6071e7cb7")
 	)
 	(junction
-		(at 83.82 170.18)
+		(at 85.09 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba29b909-936f-4e66-8e04-a83d0b8ccf2e")
@@ -4109,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 184.15) (xy 87.63 184.15)
+			(xy 81.28 184.15) (xy 88.9 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4129,7 +4129,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 181.61) (xy 83.82 181.61)
+			(xy 81.28 181.61) (xy 85.09 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4139,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 184.15) (xy 88.9 184.15)
+			(xy 88.9 184.15) (xy 90.17 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4179,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 184.15) (xy 106.68 184.15)
+			(xy 97.79 184.15) (xy 106.68 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4199,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 177.8) (xy 87.63 184.15)
+			(xy 88.9 177.8) (xy 88.9 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4219,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 181.61) (xy 106.68 181.61)
+			(xy 85.09 181.61) (xy 106.68 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4229,7 +4229,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 170.18) (xy 83.82 170.18)
+			(xy 74.93 170.18) (xy 85.09 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4269,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 177.8) (xy 83.82 181.61)
+			(xy 85.09 177.8) (xy 85.09 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4279,7 +4279,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 170.18) (xy 87.63 170.18)
+			(xy 85.09 170.18) (xy 88.9 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4341,7 +4341,7 @@
 	)
 	(global_label "SPI1_MISO"
 		(shape input)
-		(at 80.01 181.61 180)
+		(at 81.28 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4351,7 +4351,7 @@
 		)
 		(uuid "3d84a071-9689-4829-94f9-edb8573f0210")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.1672 181.61 0)
+			(at 68.4372 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4517,7 @@
 	)
 	(global_label "SPI1_CLK"
 		(shape input)
-		(at 80.01 184.15 180)
+		(at 81.28 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4527,7 +4527,7 @@
 		)
 		(uuid "af8afc94-ed81-472d-a47c-420b331a2521")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.1953 184.15 0)
+			(at 69.4653 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +4946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 170.18 0)
+		(at 74.93 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4955,7 +4955,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cba36eb-ab82-4672-99da-9e8587e27ae3")
 		(property "Reference" "#PWR07"
-			(at 73.66 176.53 0)
+			(at 74.93 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +4964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 175.26 0)
+			(at 74.93 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 170.18 0)
+			(at 74.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +4981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 170.18 0)
+			(at 74.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 170.18 0)
+			(at 74.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5088,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 87.63 173.99 180)
+		(at 88.9 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5096,7 +5096,7 @@
 		(dnp no)
 		(uuid "8691d1df-960e-4319-a89c-4e3fe0e5e85a")
 		(property "Reference" "R176"
-			(at 92.456 173.482 90)
+			(at 93.726 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +5104,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 90.17 173.482 90)
+			(at 91.44 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5112,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 86.614 173.736 90)
+			(at 87.884 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 173.99 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5130,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 87.63 173.99 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
-			(at 87.63 173.99 90)
+			(at 88.9 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6173,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 92.71 184.15 90)
+		(at 93.98 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6181,7 +6181,7 @@
 		(dnp no)
 		(uuid "d2cd0763-8eb9-43c4-80e4-a15a75a22e7c")
 		(property "Reference" "R77"
-			(at 93.218 188.976 90)
+			(at 94.488 188.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +6189,7 @@
 			)
 		)
 		(property "Value" "30.1"
-			(at 93.218 186.69 90)
+			(at 94.488 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +6197,7 @@
 			)
 		)
 		(property "Footprint" "RC0402FR-0730R1L"
-			(at 92.964 183.134 90)
+			(at 94.234 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 184.15 0)
+			(at 93.98 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6215,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 92.71 184.15 0)
+			(at 93.98 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +6224,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-0730R1L"
-			(at 92.71 184.15 90)
+			(at 93.98 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +6249,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 83.82 173.99 0)
+		(at 85.09 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6257,7 +6257,7 @@
 		(dnp no)
 		(uuid "d685a38b-600e-4b64-a786-a8eac414e071")
 		(property "Reference" "R179"
-			(at 78.994 174.498 90)
+			(at 80.264 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6265,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 81.28 174.498 90)
+			(at 82.55 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6273,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 84.836 174.244 90)
+			(at 86.106 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 173.99 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6291,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 83.82 173.99 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,7 +6300,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
-			(at 83.82 173.99 90)
+			(at 85.09 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)

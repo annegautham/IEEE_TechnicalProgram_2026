@@ -226,6 +226,48 @@
 		(uuid "f2a445ff-c9d8-431b-a904-24d948acc757")
 	)
 	(sheet
+		(at 353.06 285.75)
+		(size 73.66 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1598073b-cadd-4ddc-981f-6a3774f37a0f")
+		(property "Sheetname" "Power_Input&Generation"
+			(at 353.06 285.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input&generation.kicad_sch"
+			(at 353.06 323.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 123.19 279.4)
 		(size 158.75 40.64)
 		(exclude_from_sim no)
@@ -250,7 +292,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DMD_Interface.kicad_sch"
+		(property "Sheetfile" "dmd_interface.kicad_sch"
 			(at 123.19 320.6246 0)
 			(effects
 				(font
@@ -562,7 +604,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DLPA2005_Interface.kicad_sch"
+		(property "Sheetfile" "dlpa2005_Interface.kicad_sch"
 			(at 673.735 232.3596 0)
 			(effects
 				(font
@@ -614,7 +656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DLPC1438_Interface.kicad_sch"
+		(property "Sheetfile" "dlpc1438_interface.kicad_sch"
 			(at 121.92 273.6346 0)
 			(effects
 				(font

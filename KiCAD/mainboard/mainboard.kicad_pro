@@ -681,6 +681,10 @@
     [
       "2ef4843e-e813-4038-8f91-df837a4944f8",
       "DMD_Interface"
+    ],
+    [
+      "1598073b-cadd-4ddc-981f-6a3774f37a0f",
+      "Power_Input&Generation"
     ]
   ],
   "text_variables": {}

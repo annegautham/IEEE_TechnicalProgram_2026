@@ -2799,7 +2799,7 @@
 	)
 	(rectangle
 		(start 17.145 58.42)
-		(end 104.775 167.005)
+		(end 104.775 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -5309,7 +5309,7 @@
 			(uuid "897d07d7-eac4-4f10-9103-9ed8305e340e")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "J1")
 					(unit 1)
@@ -5885,7 +5885,7 @@
 			(uuid "06d2cbe9-32c8-47fe-8a56-aa21d595f020")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "D6")
 					(unit 1)
@@ -6457,7 +6457,7 @@
 			(uuid "1d1ee399-6f85-45c8-9e41-e221f2b32b43")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "IC4")
 					(unit 1)
@@ -6679,7 +6679,7 @@
 			(uuid "f7e8a52f-256b-4d4b-851b-38d529406141")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "C116")
 					(unit 1)
@@ -7130,7 +7130,7 @@
 			(uuid "91a0faec-514e-488d-a3a0-c2d6ebb0f186")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "#PWR02")
 					(unit 1)
@@ -7325,7 +7325,7 @@
 			(uuid "00789e46-3fe6-490d-859e-4b77389d6994")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "IC3")
 					(unit 1)
@@ -7469,7 +7469,7 @@
 			(uuid "c4541689-0c55-4e56-97ad-2b7076da358b")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "#PWR01")
 					(unit 1)
@@ -7622,7 +7622,7 @@
 			(uuid "c3e703dd-2a1e-4f5d-aa82-8032cf79d46a")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/2ef4843e-e813-4038-8f91-df837a4944f8"
 					(reference "J30")
 					(unit 1)

@@ -1445,7 +1445,7 @@
 			(uuid "09b5e971-9466-478c-9edd-cbfb9bdbd07b")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/9cd29d54-68c1-4b23-aec1-57d737e6ea74"
 					(reference "IC2")
 					(unit 1)
@@ -1524,7 +1524,7 @@
 			(uuid "dba22421-8194-40a7-a87c-9f8f11723c6a")
 		)
 		(instances
-			(project ""
+			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/9cd29d54-68c1-4b23-aec1-57d737e6ea74"
 					(reference "C22")
 					(unit 1)
