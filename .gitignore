@@ -1,0 +1,12 @@
+# KiCad autosave/lock/backups
+**/#auto_saved_files#/
+**/~*.lck
+**/*-bak
+**/*.bak
+**/fp-info-cache
+**/*-backups/
+**/*.zip
+
+# SolidWorks temp
+~$*.SLDASM
+~$*.SLDPRT
