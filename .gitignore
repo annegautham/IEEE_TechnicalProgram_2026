@@ -7,6 +7,3 @@
 **/*-backups/
 **/*.zip
 
-# SolidWorks temp
-~$*.SLDASM
-~$*.SLDPRT
