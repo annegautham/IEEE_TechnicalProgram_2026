@@ -13409,16 +13409,6 @@
 		)
 		(uuid "4a9480fc-78c6-42ee-913a-c36170703725")
 	)
-	(label "PDATA0"
-		(at 255.27 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4acf9122-6c5f-41ae-b49f-5f5cdf71eafb")
-	)
 	(label "DLPC_3DR"
 		(at 234.95 224.79 0)
 		(effects
@@ -13668,6 +13658,16 @@
 			(justify left bottom)
 		)
 		(uuid "75722921-03e1-412d-aef3-be3061664295")
+	)
+	(label "PDATA0"
+		(at 248.92 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b16b17f-b580-4be0-a9e5-e3d83f8376ff")
 	)
 	(label "VSS"
 		(at 153.67 199.39 0)
