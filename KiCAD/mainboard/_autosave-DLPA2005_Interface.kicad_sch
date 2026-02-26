@@ -1384,15 +1384,21 @@
 		)
 		(uuid "0257efa4-efdb-49cb-b48d-0bb285ceae9e")
 	)
+	(junction
+		(at 156.21 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad6bb4e9-27a1-4e96-9e87-6aa34d33cb63")
+	)
 	(wire
 		(pts
-			(xy 153.67 26.67) (xy 153.67 33.02)
+			(xy 157.48 33.02) (xy 156.21 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e4b6190-5ee0-4752-9f6e-c8c85e651bb3")
+		(uuid "0a4b4f7b-e15a-4e25-9ec1-bc0ba2b4262c")
 	)
 	(wire
 		(pts
@@ -1416,16 +1422,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 26.67) (xy 153.67 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b69ea13-f10c-4f6b-8df5-4b9fc97ad022")
-	)
-	(wire
-		(pts
 			(xy 97.79 27.94) (xy 97.79 33.02)
 		)
 		(stroke
@@ -1443,6 +1439,56 @@
 			(type default)
 		)
 		(uuid "a541d0ab-dfa9-4e95-908d-af27c324bcbc")
+	)
+	(wire
+		(pts
+			(xy 135.89 27.94) (xy 135.89 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74592da-c6b5-4df9-a5e3-ab7167174c68")
+	)
+	(wire
+		(pts
+			(xy 123.19 30.48) (xy 123.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43b61f4-1c75-4a20-9f65-75b8cb175b53")
+	)
+	(wire
+		(pts
+			(xy 156.21 33.02) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1a37fb-c0dd-4e1b-8cf0-c10d1c26bd8a")
+	)
+	(wire
+		(pts
+			(xy 120.65 30.48) (xy 120.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a14782-4d5a-4b89-a827-8ee1c0a3730b")
+	)
+	(wire
+		(pts
+			(xy 153.67 25.4) (xy 153.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ff8e0f-e610-42be-ab95-a619876f1cf0")
 	)
 	(hierarchical_label "SPI1_CSZ0"
 		(shape input)
@@ -1477,6 +1523,17 @@
 		)
 		(uuid "4e5dbc62-8d46-4452-b238-b906152b7fd2")
 	)
+	(hierarchical_label "RC_CHARGE"
+		(shape input)
+		(at 135.89 27.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55cbdcaa-ff82-4bff-8cc7-4196652e0914")
+	)
 	(hierarchical_label "SPI1_MISO"
 		(shape output)
 		(at 92.71 25.4 90)
@@ -1487,17 +1544,6 @@
 			(justify left)
 		)
 		(uuid "ce49f3e6-4981-4cfc-a528-e73c7a748e0e")
-	)
-	(hierarchical_label "RESETZ"
-		(shape input)
-		(at 154.94 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cfc56bf8-2460-4321-8bbd-fb4a2840b0c1")
 	)
 	(hierarchical_label "PROJ_ON"
 		(shape input)
