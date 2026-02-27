@@ -580,6 +580,48 @@
 		)
 	)
 	(sheet
+		(at 198.12 169.164)
+		(size 91.186 62.992)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d5f2403-028f-46b2-8cb2-b9bf2af6356d")
+		(property "Sheetname" "FPGA_Connections"
+			(at 198.12 168.4524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Connections.kicad_sch"
+			(at 198.12 232.7406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 673.735 102.87)
 		(size 100.965 128.905)
 		(exclude_from_sim no)

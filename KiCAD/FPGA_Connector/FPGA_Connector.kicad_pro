@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "stepper.kicad_pro",
+    "filename": "FPGA_Connector.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,7 +410,7 @@
   },
   "sheets": [
     [
-      "7f2f9bd0-9ba8-417d-82fb-a8a1829c52b2",
+      "ea18f202-f160-4b0d-b44c-7a846953c9b1",
       "Root"
     ]
   ],
