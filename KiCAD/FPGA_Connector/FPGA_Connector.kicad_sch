@@ -3107,6 +3107,16 @@
 		)
 		(uuid "bd0ddfe0-2ede-4f49-a1dc-47da3c5ab58d")
 	)
+	(label "PDATA[0..7]"
+		(at 124.46 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c50f0f38-300d-49c4-8385-cad9cc7a16fc")
+	)
 	(label "DATAEN_CMD"
 		(at 115.57 102.87 180)
 		(effects
