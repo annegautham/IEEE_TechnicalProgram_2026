@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_AHDF15A-KG-TAXB_ASM"
+		(property "Footprint" "footprints:AHDF15AKGTAXB"
 			(at -1.524 4.064 0)
 			(effects
 				(font
