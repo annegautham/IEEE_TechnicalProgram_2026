@@ -97,6 +97,26 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 281.94) (xy 265.43 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f271287-0fa0-44dc-9f85-e40ca8e5e389")
+	)
+	(wire
+		(pts
+			(xy 257.81 281.94) (xy 257.81 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5880bd94-3eb6-4355-9083-cf1049d93119")
+	)
+	(wire
+		(pts
 			(xy 161.29 274.32) (xy 171.45 274.32)
 		)
 		(stroke
@@ -117,6 +137,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 281.94) (xy 260.35 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bed455d-20f6-4ac7-85aa-f37dc00f2705")
+	)
+	(wire
+		(pts
 			(xy 161.29 251.46) (xy 171.45 251.46)
 		)
 		(stroke
@@ -124,6 +154,16 @@
 			(type default)
 		)
 		(uuid "5e36f729-1aba-4c92-9492-0ba0e7f3d2f6")
+	)
+	(wire
+		(pts
+			(xy 255.27 281.94) (xy 255.27 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607bbfc4-1732-4ba4-b36d-bf1044a2c356")
 	)
 	(wire
 		(pts
@@ -157,6 +197,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 281.94) (xy 270.51 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d570333-222d-4f3a-91c9-77fb3d90b8a5")
+	)
+	(wire
+		(pts
 			(xy 161.29 256.54) (xy 171.45 256.54)
 		)
 		(stroke
@@ -174,6 +224,16 @@
 			(type default)
 		)
 		(uuid "77a1e8ec-7703-4046-a133-7a9f94410f2b")
+	)
+	(wire
+		(pts
+			(xy 267.97 281.94) (xy 267.97 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d8ddc4-6c65-41a8-a00a-6cb5f2802b35")
 	)
 	(wire
 		(pts
@@ -337,6 +397,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 281.94) (xy 273.05 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df64a4c3-c986-471f-b8b7-83a4410fbb30")
+	)
+	(wire
+		(pts
 			(xy 207.01 281.94) (xy 207.01 287.02)
 		)
 		(stroke
@@ -364,6 +434,16 @@
 			(type default)
 		)
 		(uuid "f2a445ff-c9d8-431b-a904-24d948acc757")
+	)
+	(wire
+		(pts
+			(xy 262.89 281.94) (xy 262.89 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93f1d3c-3f87-488f-ab14-436b5397ab53")
 	)
 	(sheet
 		(at 302.26 278.13)
@@ -409,7 +489,7 @@
 	)
 	(sheet
 		(at 172.085 287.02)
-		(size 117.475 30.48)
+		(size 117.475 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -433,7 +513,7 @@
 			)
 		)
 		(property "Sheetfile" "dmd_interface.kicad_sch"
-			(at 172.085 318.0846 0)
+			(at 172.085 342.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,6 +784,86 @@
 		(pin "VRST" input
 			(at 289.56 304.8 0)
 			(uuid "4e8e50fe-8210-41c5-9aac-552eead2fa36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_4" input
+			(at 255.27 287.02 90)
+			(uuid "f26e68cc-e192-4551-aaf0-bf2f2a8a6c4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_5" input
+			(at 257.81 287.02 90)
+			(uuid "d1c2c1fb-99f4-4b56-b70d-2dad44f7d9f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_12" input
+			(at 260.35 287.02 90)
+			(uuid "6f30399b-3421-4ad2-88de-dd3259fd8d6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_15" input
+			(at 262.89 287.02 90)
+			(uuid "73aa08e0-7c58-47d6-ae98-5b94265a0364")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_16" input
+			(at 265.43 287.02 90)
+			(uuid "a1fad404-282a-4d25-891c-f7c5f82323a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_17" input
+			(at 267.97 287.02 90)
+			(uuid "f2e431d4-c66b-4904-b704-c5b06d78fa2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_18" input
+			(at 270.51 287.02 90)
+			(uuid "e6ad8d44-e665-4531-9580-8829222808c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_19" input
+			(at 273.05 287.02 90)
+			(uuid "58aa10a8-348c-4d0c-a7ff-c3aa7ed41730")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,6 +1378,86 @@
 		(pin "VSYNC" input
 			(at 171.45 266.7 180)
 			(uuid "0f833226-696d-469f-9559-ff8dfe8ab871")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_4" input
+			(at 255.27 281.94 270)
+			(uuid "76ea7231-f2ec-4439-ac32-d935dd41e6e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_5" input
+			(at 257.81 281.94 270)
+			(uuid "06191a66-6316-45f1-9906-b9a781540c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_12" input
+			(at 260.35 281.94 270)
+			(uuid "c4744468-41f9-4b72-bf00-95d855db8c07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_15" input
+			(at 262.89 281.94 270)
+			(uuid "869f0886-d49e-41c6-afdc-c0407fd69dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_16" input
+			(at 265.43 281.94 270)
+			(uuid "c609be16-89b7-4e41-a3bd-69caf21e1579")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_17" input
+			(at 267.97 281.94 270)
+			(uuid "75975252-1aa2-4339-be47-2c84bb9d4c0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_18" input
+			(at 270.51 281.94 270)
+			(uuid "bc2c55a5-c193-4949-a57c-294546b7b007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_19" input
+			(at 273.05 281.94 270)
+			(uuid "3cacc772-7ef8-4a2f-a592-2a03839dedf0")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4321,28 +4321,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_5"
-		(shape input)
-		(at 133.35 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37eb9c55-e671-4665-803d-8fc78094ecde")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7124 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_9"
 		(shape input)
 		(at 120.65 104.14 180)
@@ -4356,94 +4334,6 @@
 		(uuid "5049437d-e45d-4ba8-bded-f8313e68db8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.0124 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_18"
-		(shape input)
-		(at 133.35 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5148014a-2619-4e1d-9392-18e649f4f6e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5029 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_19"
-		(shape input)
-		(at 133.35 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "593aa015-1ff5-4212-9279-e9888cd98b53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5029 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_15"
-		(shape input)
-		(at 133.35 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a8097a2-5cd5-4cb3-9c1b-aa2bbf88333b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5029 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_12"
-		(shape input)
-		(at 133.35 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ea688ed-e29c-4ddb-91b0-c70442beb2b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5029 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,50 +4431,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_16"
-		(shape input)
-		(at 133.35 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86e0feac-c362-4774-80c9-258dfc019c27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5029 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_17"
-		(shape input)
-		(at 133.35 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9053f259-159b-4763-9787-9adffd3716b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5029 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P1P8V_DLPC"
 		(shape input)
 		(at 34.29 34.29 180)
@@ -4598,28 +4444,6 @@
 		(uuid "9344ab7f-7824-4d78-9b0f-990aa38ee8df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.4515 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_4"
-		(shape input)
-		(at 133.35 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2022bbd-c883-4a4b-a88c-0beaad94cf49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7124 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,6 +4563,17 @@
 			)
 		)
 	)
+	(hierarchical_label "GPIO_4"
+		(shape input)
+		(at 133.35 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "033a0aa2-0e31-4a2a-b869-556d57bc68a5")
+	)
 	(hierarchical_label "DMD_HS_WDATAF_P"
 		(shape input)
 		(at 69.85 91.44 0)
@@ -4749,6 +4584,17 @@
 			(justify left)
 		)
 		(uuid "0f267214-d924-4258-93ae-fc05eae07c12")
+	)
+	(hierarchical_label "GPIO_19"
+		(shape input)
+		(at 133.35 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16528ae5-0edc-44be-aab8-40df7eaee384")
 	)
 	(hierarchical_label "VRST"
 		(shape input)
@@ -4904,6 +4750,17 @@
 		)
 		(uuid "6cbe02e6-2c7b-4210-8086-6c5b026ae3de")
 	)
+	(hierarchical_label "GPIO_16"
+		(shape input)
+		(at 133.35 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f369ff8-1260-473c-8ca1-f09b04cea803")
+	)
 	(hierarchical_label "VOFS"
 		(shape input)
 		(at 110.49 31.75 0)
@@ -4914,6 +4771,39 @@
 			(justify left)
 		)
 		(uuid "70c6b247-77b2-4969-9971-a19886c2bfdd")
+	)
+	(hierarchical_label "GPIO_15"
+		(shape input)
+		(at 133.35 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74f35e7b-44e1-4e7c-9711-47cdb0409d30")
+	)
+	(hierarchical_label "GPIO_5"
+		(shape input)
+		(at 133.35 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7826bbb2-9ac1-4384-b6f3-53712d342813")
+	)
+	(hierarchical_label "GPIO_12"
+		(shape input)
+		(at 133.35 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cea2e5e-d3f3-4af6-a879-de2a1808916b")
 	)
 	(hierarchical_label "DMD_HS_WDATAA_N"
 		(shape input)
@@ -4981,6 +4871,17 @@
 		)
 		(uuid "ae383e32-a261-45c5-a46f-fb7ad733e25b")
 	)
+	(hierarchical_label "GPIO_18"
+		(shape input)
+		(at 133.35 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0181fa2-7df6-4b77-9888-48bdccf5d91b")
+	)
 	(hierarchical_label "VBIAS"
 		(shape input)
 		(at 120.65 31.75 0)
@@ -5024,6 +4925,17 @@
 			(justify left)
 		)
 		(uuid "bc8cf40f-8a7c-444f-9946-5ae2ebb11cf8")
+	)
+	(hierarchical_label "GPIO_17"
+		(shape input)
+		(at 133.35 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c15b61e0-56ef-4156-9000-12fd9af4f4bf")
 	)
 	(hierarchical_label "DMD_LS_WDATA"
 		(shape input)
