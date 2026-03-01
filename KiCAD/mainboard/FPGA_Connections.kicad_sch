@@ -5,7 +5,108 @@
 	(uuid "3ff209e1-7ffb-4239-90dd-4c0ac7e5ff12")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CONN_AHDF15A-KG-TAXB_ASM:AHDF15A-KG-TAXB"
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tp_library:AHDF15A-KG-TAXB"
 			(pin_names
 				(offset 0.254)
 			)
@@ -13,7 +114,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 8.89 6.35 0)
+				(at 8.89 21.59 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -21,25 +122,24 @@
 				)
 			)
 			(property "Value" "AHDF15A-KG-TAXB"
-				(at -3.81 6.858 0)
+				(at -3.81 22.098 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "footprints:CONN_AHDF15A-KG-TAXB_ASM"
-				(at -1.524 4.064 0)
+			(property "Footprint" "tp_library:AHDF15AKGTAXB"
+				(at -1.524 19.304 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "AHDF15A-KG-TAXB"
-				(at -1.016 9.652 0)
+				(at -1.016 24.892 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -78,7 +178,7 @@
 			(symbol "AHDF15A-KG-TAXB_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -38.1)
+						(xy 5.08 17.78) (xy 5.08 -22.86)
 					)
 					(stroke
 						(width 0.127)
@@ -90,7 +190,223 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -38.1) (xy 12.7 -38.1)
+						(xy 5.08 -22.86) (xy 12.7 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 15.24) (xy 5.08 15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 15.24) (xy 8.89 16.0867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 15.24) (xy 8.89 14.3933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 12.7) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 12.7) (xy 8.89 13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 12.7) (xy 8.89 11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 8.89 11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 8.89 9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy 8.89 8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy 8.89 6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 8.89 5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 8.89 4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 2.54) (xy 8.89 3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 2.54) (xy 8.89 1.6933)
 					)
 					(stroke
 						(width 0.127)
@@ -426,7 +742,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -22.86) (xy 5.08 -22.86)
+						(xy 12.7 17.78) (xy 5.08 17.78)
 					)
 					(stroke
 						(width 0.127)
@@ -438,223 +754,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -22.86) (xy 8.89 -22.0133)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -22.86) (xy 8.89 -23.7067)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -25.4) (xy 5.08 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -25.4) (xy 8.89 -24.5533)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -25.4) (xy 8.89 -26.2467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -27.94) (xy 5.08 -27.94)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -27.94) (xy 8.89 -27.0933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -27.94) (xy 8.89 -28.7867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -30.48) (xy 5.08 -30.48)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -30.48) (xy 8.89 -29.6333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -30.48) (xy 8.89 -31.3267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -33.02) (xy 5.08 -33.02)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -33.02) (xy 8.89 -32.1733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -33.02) (xy 8.89 -33.8667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -35.56) (xy 5.08 -35.56)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -35.56) (xy 8.89 -34.7133)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -35.56) (xy 8.89 -36.4067)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -38.1) (xy 12.7 2.54)
+						(xy 12.7 -22.86) (xy 12.7 17.78)
 					)
 					(stroke
 						(width 0.127)
@@ -665,7 +765,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 0 0)
+					(at 0 15.24 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -683,7 +783,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
+					(at 0 12.7 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -701,7 +801,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5.08 0)
+					(at 0 10.16 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -719,7 +819,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -7.62 0)
+					(at 0 7.62 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -737,7 +837,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -10.16 0)
+					(at 0 5.08 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -755,7 +855,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -12.7 0)
+					(at 0 2.54 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -773,7 +873,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -15.24 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -791,7 +891,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -17.78 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -809,7 +909,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -20.32 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "9"
 						(effects
@@ -827,7 +927,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -22.86 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "10"
 						(effects
@@ -845,7 +945,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -25.4 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "11"
 						(effects
@@ -863,7 +963,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -27.94 0)
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -881,7 +981,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -30.48 0)
+					(at 0 -15.24 0)
 					(length 5.08)
 					(name "13"
 						(effects
@@ -899,7 +999,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -33.02 0)
+					(at 0 -17.78 0)
 					(length 5.08)
 					(name "14"
 						(effects
@@ -917,7 +1017,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -35.56 0)
+					(at 0 -20.32 0)
 					(length 5.08)
 					(name "15"
 						(effects
@@ -1797,107 +1897,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(bus_entry
 		(at 21.59 31.75)
@@ -2316,6 +2315,117 @@
 		(uuid "f7789377-605d-4006-8af3-81d91bbb71ac")
 	)
 	(symbol
+		(lib_id "tp_library:AHDF15A-KG-TAXB")
+		(at 35.56 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09c96a39-e9b1-4431-a7c9-01af58bc076d")
+		(property "Reference" "J2"
+			(at 49.53 41.9099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AHDF15A-KG-TAXB"
+			(at 49.53 44.4499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tp_library:AHDF15AKGTAXB"
+			(at 49.53 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "AHDF15A-KG-TAXB"
+			(at 34.544 17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59b534e2-0f1b-47b0-bcf1-162c0e3148a1")
+		)
+		(pin "12"
+			(uuid "043e00ca-4bc6-4aff-9d73-13dc73be66b7")
+		)
+		(pin "7"
+			(uuid "d3f5254e-b3bf-4463-8d3c-a6c0bbe2d7de")
+		)
+		(pin "2"
+			(uuid "ddc75d7e-7b4d-4515-9296-f8a9b935572a")
+		)
+		(pin "10"
+			(uuid "af732c40-d29c-429c-881f-1b0fc909aef0")
+		)
+		(pin "6"
+			(uuid "deabfcf0-e5a9-4498-893e-29d96dad6e91")
+		)
+		(pin "4"
+			(uuid "d538f8db-84a2-42e7-a6c0-fc115c800576")
+		)
+		(pin "11"
+			(uuid "bb534191-431b-4692-8d57-147441d3ab75")
+		)
+		(pin "14"
+			(uuid "67c906ba-9371-43d9-86cd-ddbd91308b39")
+		)
+		(pin "3"
+			(uuid "b375626b-2128-47d4-ad6d-0807d3e9dbd9")
+		)
+		(pin "9"
+			(uuid "9c855476-3cca-4033-a32d-ff18a9dae093")
+		)
+		(pin "13"
+			(uuid "be87ea25-b946-4175-ab59-9714b2089beb")
+		)
+		(pin "15"
+			(uuid "cb5657ba-a16c-479a-bcb8-8f9cae65fa3f")
+		)
+		(pin "8"
+			(uuid "adbac977-4739-4b18-9b7c-136382f38517")
+		)
+		(pin "5"
+			(uuid "87084c5f-0e31-4ad3-b121-1ea057da0f47")
+		)
+		(instances
+			(project ""
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/d9917a32-1639-4a8c-8be9-7890da258af1"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 62.23 0)
 		(unit 1)
@@ -2376,117 +2486,6 @@
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/d9917a32-1639-4a8c-8be9-7890da258af1"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CONN_AHDF15A-KG-TAXB_ASM:AHDF15A-KG-TAXB")
-		(at 35.56 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa3a36f6-e5db-4b78-8516-fe33c969678b")
-		(property "Reference" "J2"
-			(at 49.53 43.1799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AHDF15A-KG-TAXB"
-			(at 49.53 45.7199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CONN_AHDF15A-KG-TAXB_ASM"
-			(at 34.036 22.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AHDF15A-KG-TAXB"
-			(at 34.544 17.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0d20da60-d673-470a-b80b-1ae5cf325e00")
-		)
-		(pin "3"
-			(uuid "5f408200-ffe1-4f9b-a0f7-157668ed8e8d")
-		)
-		(pin "6"
-			(uuid "17c077ae-9e4f-4b9c-aaff-a1be0f53526e")
-		)
-		(pin "5"
-			(uuid "563f0d77-3aa5-4045-b956-be82ef287748")
-		)
-		(pin "2"
-			(uuid "78fb2036-82e4-416b-9068-3ad9334de3ec")
-		)
-		(pin "1"
-			(uuid "432242ca-723d-4685-a9ba-0324bddee917")
-		)
-		(pin "10"
-			(uuid "096dac95-75b1-4c64-86e1-d11ee8ed01db")
-		)
-		(pin "9"
-			(uuid "5b7d3c1b-941e-4579-af5e-1e8c7e15d38a")
-		)
-		(pin "15"
-			(uuid "e36fcc27-2b35-4ad3-bde3-0e678db77fee")
-		)
-		(pin "14"
-			(uuid "818e0f09-e51c-4ae2-970a-fc101ae24f8b")
-		)
-		(pin "13"
-			(uuid "a90b5b5e-f6dd-4905-9f63-93be1705fb3f")
-		)
-		(pin "12"
-			(uuid "e0324705-ef23-4664-926d-4bd328c1fdf4")
-		)
-		(pin "11"
-			(uuid "54520ca9-2ef2-48d6-9c91-792e66c08518")
-		)
-		(pin "8"
-			(uuid "61525f6d-3c7c-4bbb-ac95-84f49e868abe")
-		)
-		(pin "7"
-			(uuid "3ec573b8-b3b0-4a87-a479-c06f1e0572e6")
-		)
-		(instances
-			(project "mainboard"
-				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/d9917a32-1639-4a8c-8be9-7890da258af1"
-					(reference "J2")
 					(unit 1)
 				)
 			)

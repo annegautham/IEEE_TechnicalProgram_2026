@@ -7411,12 +7411,6 @@
 		(uuid "fdf3f2f4-01b7-4770-8d37-a4be551acbb4")
 	)
 	(junction
-		(at 391.16 373.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe7819f6-642f-412c-9a7b-a4702d3cbc17")
-	)
-	(junction
 		(at 311.15 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7969,16 +7963,6 @@
 			(type default)
 		)
 		(uuid "197705ab-0623-4fab-a045-fa452dc77e75")
-	)
-	(wire
-		(pts
-			(xy 449.58 340.36) (xy 453.39 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19c8a9c5-a8c0-4e02-8270-b2bab2717894")
 	)
 	(wire
 		(pts
@@ -8662,16 +8646,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 373.38) (xy 391.16 373.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428c8b5e-f1ac-4671-a78b-7eae35059055")
-	)
-	(wire
-		(pts
 			(xy 93.98 283.21) (xy 88.9 283.21)
 		)
 		(stroke
@@ -8699,6 +8673,16 @@
 			(type default)
 		)
 		(uuid "43a2e9bb-3787-4b86-9e1c-c746816f631e")
+	)
+	(wire
+		(pts
+			(xy 377.19 373.38) (xy 391.16 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a4952c-eb72-47e7-bf50-1a714d9e378c")
 	)
 	(wire
 		(pts
@@ -9962,16 +9946,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 373.38) (xy 392.43 373.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84b1932c-6d45-4fd2-b071-14fa3b2bbd56")
-	)
-	(wire
-		(pts
 			(xy 232.41 77.47) (xy 232.41 92.71)
 		)
 		(stroke
@@ -11172,7 +11146,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 340.36) (xy 443.23 340.36)
+			(xy 434.34 340.36) (xy 453.39 340.36)
 		)
 		(stroke
 			(width 0)
@@ -14792,6 +14766,135 @@
 		)
 	)
 	(symbol
+		(lib_id "tp_library:SN74AUP1G06DCKR")
+		(at 403.86 373.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04bb74e5-350c-477f-8477-241ef8ff0fec")
+		(property "Reference" "IC8"
+			(at 403.86 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AUP1G06DCKR"
+			(at 403.86 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "tp_library:SOT65P210X110-5N"
+			(at 425.45 468.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1g06"
+			(at 425.45 568.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power Single Inverter Buffer/Driver with Open-Drain Outputs"
+			(at 391.16 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 425.45 768.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AUP1G06DCKR"
+			(at 425.45 868.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1G06DCKR?qs=X3IDIfI%252BJAVtzq677rSX8Q%3D%3D"
+			(at 425.45 968.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 425.45 1068.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AUP1G06DCKR"
+			(at 425.45 1168.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "37922c65-0842-4887-9f07-2a17e88ea8a1")
+		)
+		(pin "4"
+			(uuid "2e61ac20-2626-42ca-86d8-bc4b8f52a48d")
+		)
+		(pin "1"
+			(uuid "ce187bc9-f0ea-4be7-b025-264e703f7b3b")
+		)
+		(pin "2"
+			(uuid "ba72ce93-e40b-4265-838b-a8e565750075")
+		)
+		(pin "3"
+			(uuid "23c8506a-9604-4c9c-bd7e-224ec8787ec8")
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 62.23 88.9 0)
 		(unit 1)
@@ -16289,141 +16392,6 @@
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tp_library:SN74AUP1G06DCKR")
-		(at 403.86 342.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bb27b3e-9807-4f6a-b359-4db415a2d547")
-		(property "Reference" "U?"
-			(at 403.86 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AUP1G06DCKR"
-			(at 403.86 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "tp_library:SOT65P210X110-5N"
-			(at 425.45 437.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1g06"
-			(at 425.45 537.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power Single Inverter Buffer/Driver with Open-Drain Outputs"
-			(at 391.16 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 425.45 737.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74AUP1G06DCKR"
-			(at 425.45 837.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1G06DCKR?qs=X3IDIfI%252BJAVtzq677rSX8Q%3D%3D"
-			(at 425.45 937.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 425.45 1037.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74AUP1G06DCKR"
-			(at 425.45 1137.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "442e8eb0-0645-4009-bb4b-7dc596b71080")
-		)
-		(pin "4"
-			(uuid "725a5772-8cf3-4069-8dac-25686cf0d54b")
-		)
-		(pin "1"
-			(uuid "3563392e-e84e-48ca-beca-50b6d610353f")
-		)
-		(pin "5"
-			(uuid "ba32041e-ff27-4727-ba6d-77a48f96ef51")
-		)
-		(pin "2"
-			(uuid "f24d3d7d-f007-4b26-9d0a-31296413a3b1")
-		)
-		(instances
-			(project ""
-				(path "/2aefde09-481d-407e-9e77-57613227d626"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project "mainboard"
-				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -22227,141 +22195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tp_library:SN74AUP1G06DCKR")
-		(at 403.86 373.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6398cab-1712-46c3-ae59-55e33665f3c8")
-		(property "Reference" "U?"
-			(at 403.86 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AUP1G06DCKR"
-			(at 403.86 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "tp_library:SOT65P210X110-5N"
-			(at 425.45 468.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1g06"
-			(at 425.45 568.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power Single Inverter Buffer/Driver with Open-Drain Outputs"
-			(at 391.16 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 425.45 768.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74AUP1G06DCKR"
-			(at 425.45 868.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1G06DCKR?qs=X3IDIfI%252BJAVtzq677rSX8Q%3D%3D"
-			(at 425.45 968.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 425.45 1068.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74AUP1G06DCKR"
-			(at 425.45 1168.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e0ca4df3-2e78-4a17-80bd-7ad858c5a4f0")
-		)
-		(pin "2"
-			(uuid "47e48bf0-1437-4ce3-9b9f-023912c00996")
-		)
-		(pin "4"
-			(uuid "c3c75711-40ae-40cc-8144-2ff4c0cdc1d8")
-		)
-		(pin "3"
-			(uuid "081c8628-7055-444a-b89d-0aaaf5f92533")
-		)
-		(pin "1"
-			(uuid "13849153-cd17-463a-8bc0-14e6696cabd4")
-		)
-		(instances
-			(project ""
-				(path "/2aefde09-481d-407e-9e77-57613227d626"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-			(project "mainboard"
-				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 140.97 173.99 0)
 		(unit 1)
@@ -24115,6 +23948,135 @@
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tp_library:SN74AUP1G06DCKR")
+		(at 403.86 342.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2ed5b35-cadf-40d6-9c62-36270ba25f22")
+		(property "Reference" "IC6"
+			(at 403.86 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AUP1G06DCKR"
+			(at 403.86 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "tp_library:SOT65P210X110-5N"
+			(at 425.45 437.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1g06"
+			(at 425.45 537.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power Single Inverter Buffer/Driver with Open-Drain Outputs"
+			(at 391.16 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 425.45 737.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AUP1G06DCKR"
+			(at 425.45 837.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1G06DCKR?qs=X3IDIfI%252BJAVtzq677rSX8Q%3D%3D"
+			(at 425.45 937.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 425.45 1037.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AUP1G06DCKR"
+			(at 425.45 1137.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "55663ffa-ec3c-4f33-9ed3-ca176ad6c8cc")
+		)
+		(pin "4"
+			(uuid "c81961d1-995c-4639-8235-b469dfcc06a9")
+		)
+		(pin "1"
+			(uuid "567ca2eb-b50f-44fe-b5a2-6ed0211a8ff3")
+		)
+		(pin "2"
+			(uuid "0fdb539d-f2d6-43d2-bf15-4acf00e01c36")
+		)
+		(pin "3"
+			(uuid "831e5019-674d-480e-8d5b-5937e61aa689")
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
+					(reference "IC6")
 					(unit 1)
 				)
 			)

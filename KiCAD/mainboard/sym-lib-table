@@ -1,6 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "tp_library")(type "KiCad")(uri "C:/Users/Marah/Documents/ieee/IEEE_TechnicalProgram_2026/KiCAD/tp_library.kicad_sym")(options "")(descr ""))
-  (lib (name "SN74AUP1G06DCKR")(type "KiCad")(uri "C:/Users/Marah/Documents/ieee/IEEE_TechnicalProgram_2026/KiCAD/SN74AUP1G06DCKR.kicad_sym")(options "")(descr ""))
-  (lib (name "CONN_AHDF15A-KG-TAXB_ASM")(type "KiCad")(uri "/Users/nathanwu/Desktop/Github/IEEE_TechnicalProgram_2026/KiCAD/CONN_AHDF15A-KG-TAXB_ASM.kicad_sym")(options "")(descr ""))
+  (lib (name "tp_library")(type "KiCad")(uri "${KIPRJMOD}/../tp_library.kicad_sym")(options "")(descr ""))
 )
