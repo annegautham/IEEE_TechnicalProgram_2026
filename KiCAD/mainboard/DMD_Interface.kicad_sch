@@ -3395,6 +3395,26 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 152.4) (xy 133.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7e158a-8290-4b21-96ba-7b02c7dd3b2b")
+	)
+	(wire
+		(pts
+			(xy 134.62 154.94) (xy 133.35 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eebb021-8480-4cc0-804b-2f4d84b833b0")
+	)
+	(wire
+		(pts
 			(xy 36.83 88.9) (xy 41.91 88.9)
 		)
 		(stroke
@@ -3422,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "3539fb2e-3184-4a49-87c6-49af40b28d65")
+	)
+	(wire
+		(pts
+			(xy 134.62 160.02) (xy 133.35 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf0c320-2486-4385-a41c-18083ecfe307")
 	)
 	(wire
 		(pts
@@ -3935,6 +3965,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 157.48) (xy 133.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3ef796-3123-481f-91c2-f734196b0c12")
+	)
+	(wire
+		(pts
 			(xy 152.4 101.6) (xy 162.56 101.6)
 		)
 		(stroke
@@ -3985,7 +4025,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 149.86) (xy 118.11 149.86)
+			(xy 134.62 149.86) (xy 118.11 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4299,28 +4339,6 @@
 			)
 		)
 	)
-	(global_label "SPI1_CSZ0"
-		(shape input)
-		(at 133.35 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34ec284c-7b6e-46d3-abbd-529aa0088bae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2049 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_9"
 		(shape input)
 		(at 120.65 104.14 180)
@@ -4334,50 +4352,6 @@
 		(uuid "5049437d-e45d-4ba8-bded-f8313e68db8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.0124 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_MOSI"
-		(shape input)
-		(at 133.35 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6baacc0a-0fb2-4d92-a1a0-b886082feeca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5072 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_CLK"
-		(shape input)
-		(at 133.35 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71c88350-5c8d-4140-9ce9-ae22254cc24e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.5353 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,28 +4471,6 @@
 			)
 		)
 	)
-	(global_label "SPI1_MISO"
-		(shape input)
-		(at 133.35 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d22839c5-35fc-4a3c-9a86-b5526a86a431")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5072 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P1P8V_DLPC"
 		(shape input)
 		(at 78.74 105.41 0)
@@ -4595,6 +4547,17 @@
 			(justify right)
 		)
 		(uuid "16528ae5-0edc-44be-aab8-40df7eaee384")
+	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape input)
+		(at 133.35 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e923f27-3f9b-4d25-827f-f89f6aea74bc")
 	)
 	(hierarchical_label "VRST"
 		(shape input)
@@ -4805,6 +4768,17 @@
 		)
 		(uuid "7cea2e5e-d3f3-4af6-a879-de2a1808916b")
 	)
+	(hierarchical_label "SPI1_CLK"
+		(shape input)
+		(at 133.35 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "825c9580-8c15-40cd-a570-dcb80406d827")
+	)
 	(hierarchical_label "DMD_HS_WDATAA_N"
 		(shape input)
 		(at 41.91 119.38 180)
@@ -4859,6 +4833,17 @@
 			(justify right)
 		)
 		(uuid "a69d72b1-f21d-46a6-a098-10f12d52f62d")
+	)
+	(hierarchical_label "SPI1_CSZ0"
+		(shape input)
+		(at 133.35 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac3faa45-8433-4f09-9ab4-fca5b8875ef2")
 	)
 	(hierarchical_label "PRINT_ACTIVE"
 		(shape input)
@@ -5002,6 +4987,17 @@
 			(justify right)
 		)
 		(uuid "f5295905-5637-4e62-b9f2-77f190532a09")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 133.35 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5ac9e65-3779-4e81-b4f6-ebcb06efc9a9")
 	)
 	(hierarchical_label "DMD_HS_WDATAE_P"
 		(shape input)
@@ -5435,7 +5431,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 138.43 154.94 0)
+		(at 139.7 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5444,7 +5440,7 @@
 		(dnp no)
 		(uuid "05493628-2201-4fed-ad3f-62d2f3eb2e62")
 		(property "Reference" "J10"
-			(at 128.016 145.542 0)
+			(at 129.286 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5448,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 128.016 148.082 0)
+			(at 129.286 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5456,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 138.43 154.94 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 154.94 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5474,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 138.43 154.94 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

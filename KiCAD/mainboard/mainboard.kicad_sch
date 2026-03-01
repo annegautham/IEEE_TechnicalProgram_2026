@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 285.75 281.94) (xy 285.75 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06186899-5d53-4463-a732-62595d0e7e84")
+	)
+	(wire
+		(pts
 			(xy 247.65 281.94) (xy 247.65 287.02)
 		)
 		(stroke
@@ -14,6 +24,16 @@
 			(type default)
 		)
 		(uuid "0fb918dc-9ac0-4173-ad8a-9ef0c82e6087")
+	)
+	(wire
+		(pts
+			(xy 280.67 281.94) (xy 280.67 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11253077-10ff-4c29-a05b-235ba316eaab")
 	)
 	(wire
 		(pts
@@ -327,6 +347,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 281.94) (xy 283.21 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e5a790-0b1e-43c7-ad5b-89007a71edb1")
+	)
+	(wire
+		(pts
 			(xy 199.39 281.94) (xy 199.39 287.02)
 		)
 		(stroke
@@ -354,6 +384,16 @@
 			(type default)
 		)
 		(uuid "c7e9e98c-3d16-4f9e-a4d2-94c11e97922c")
+	)
+	(wire
+		(pts
+			(xy 278.13 281.94) (xy 278.13 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4cb766-f3ef-4cda-835c-ffe83296d23d")
 	)
 	(wire
 		(pts
@@ -446,7 +486,7 @@
 		(uuid "f93f1d3c-3f87-488f-ab14-436b5397ab53")
 	)
 	(sheet
-		(at 302.26 278.13)
+		(at 399.415 276.86)
 		(size 73.66 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -462,7 +502,7 @@
 		)
 		(uuid "1598073b-cadd-4ddc-981f-6a3774f37a0f")
 		(property "Sheetname" "Power_Input&Generation"
-			(at 302.26 277.4184 0)
+			(at 399.415 276.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +511,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input&generation.kicad_sch"
-			(at 302.26 315.5446 0)
+			(at 399.415 314.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +529,7 @@
 	)
 	(sheet
 		(at 172.085 287.02)
-		(size 117.475 54.61)
+		(size 139.7 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -742,7 +782,7 @@
 			)
 		)
 		(pin "PRINT_ACTIVE" input
-			(at 289.56 313.69 0)
+			(at 311.785 313.69 0)
 			(uuid "44c1b200-ddc7-49c3-b7a2-551617ebc722")
 			(effects
 				(font
@@ -752,7 +792,7 @@
 			)
 		)
 		(pin "SYS_RDY" input
-			(at 289.56 309.88 0)
+			(at 311.785 309.88 0)
 			(uuid "2237841b-8d69-4e74-b799-c1eabe79e0b5")
 			(effects
 				(font
@@ -762,7 +802,7 @@
 			)
 		)
 		(pin "VBIAS" input
-			(at 289.56 295.91 0)
+			(at 311.785 295.91 0)
 			(uuid "e68c8b10-c1f5-4913-bdf5-34141cc287e4")
 			(effects
 				(font
@@ -772,7 +812,7 @@
 			)
 		)
 		(pin "VOFS" input
-			(at 289.56 299.72 0)
+			(at 311.785 299.72 0)
 			(uuid "0c9e23b0-4a67-4ddd-b3e8-8684c4b12d16")
 			(effects
 				(font
@@ -782,7 +822,7 @@
 			)
 		)
 		(pin "VRST" input
-			(at 289.56 304.8 0)
+			(at 311.785 304.8 0)
 			(uuid "4e8e50fe-8210-41c5-9aac-552eead2fa36")
 			(effects
 				(font
@@ -871,6 +911,46 @@
 				(justify right)
 			)
 		)
+		(pin "SPI1_CLK" input
+			(at 278.13 287.02 90)
+			(uuid "48c6e09d-53d4-46d8-bf3b-d608ff014b54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_CSZ0" input
+			(at 280.67 287.02 90)
+			(uuid "2db15e07-1819-451f-9638-1ff473c2610b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 283.21 287.02 90)
+			(uuid "d694be2d-436c-4792-b112-6f859236fac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 285.75 287.02 90)
+			(uuid "58454e56-987e-4fc8-b95d-62d7c64ea713")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a"
@@ -933,7 +1013,7 @@
 	)
 	(sheet
 		(at 171.45 239.395)
-		(size 119.38 42.545)
+		(size 139.7 42.545)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1156,7 +1236,7 @@
 			)
 		)
 		(pin "FPGA_RDY" input
-			(at 290.83 264.16 0)
+			(at 311.15 264.16 0)
 			(uuid "1b932a15-d4e2-4e6e-8bd4-e6298d912141")
 			(effects
 				(font
@@ -1186,7 +1266,7 @@
 			)
 		)
 		(pin "PROJ_ON" input
-			(at 290.83 269.24 0)
+			(at 311.15 269.24 0)
 			(uuid "6dc1327c-089d-4ac1-8035-221f307b4487")
 			(effects
 				(font
@@ -1196,7 +1276,7 @@
 			)
 		)
 		(pin "RC_CHARGE" input
-			(at 290.83 274.32 0)
+			(at 311.15 274.32 0)
 			(uuid "f70089fb-82fd-4daf-8423-0cde8c181991")
 			(effects
 				(font
@@ -1206,7 +1286,7 @@
 			)
 		)
 		(pin "THERM_PWR" input
-			(at 290.83 278.13 0)
+			(at 311.15 278.13 0)
 			(uuid "06424364-02cf-4178-bd38-657aad19dedd")
 			(effects
 				(font
@@ -1226,7 +1306,7 @@
 			)
 		)
 		(pin "ACT_SYNC" input
-			(at 290.83 259.08 0)
+			(at 311.15 259.08 0)
 			(uuid "0029ba09-edca-46c5-a5fc-dc3a1724a4f7")
 			(effects
 				(font
@@ -1236,7 +1316,7 @@
 			)
 		)
 		(pin "HOST_IR" input
-			(at 290.83 254 0)
+			(at 311.15 254 0)
 			(uuid "9d76222e-ce88-4964-892a-7a3dbfe85ea3")
 			(effects
 				(font
@@ -1458,6 +1538,46 @@
 		(pin "GPIO_19" input
 			(at 273.05 281.94 270)
 			(uuid "3cacc772-7ef8-4a2f-a592-2a03839dedf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_CLK" input
+			(at 278.13 281.94 270)
+			(uuid "a03689fa-9631-4bc7-999a-138a9c728930")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_CSZ0" input
+			(at 280.67 281.94 270)
+			(uuid "2b40bc17-838b-44e6-9fa5-2f220dbe3fb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 283.21 281.94 270)
+			(uuid "e83a4592-909e-4233-9762-cdd52961d477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 285.75 281.94 270)
+			(uuid "00b8da62-38c5-4520-959e-fcd3f3ae654c")
 			(effects
 				(font
 					(size 1.27 1.27)
