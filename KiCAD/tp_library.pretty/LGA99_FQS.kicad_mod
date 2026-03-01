@@ -974,7 +974,7 @@
 		(uuid "de9bd5c5-09ec-4798-8366-c95c51722a2e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/custom_dlp.pretty/LGA99_FQS-customized.step"
+	(model "${KIPRJMOD}/../STEP/LGA99_FQS-customized.step"
 		(offset
 			(xyz -1.7424 0 5.5)
 		)
