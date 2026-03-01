@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FPGA_Connector.kicad_pro",
+    "filename": "fpga_interconnect.kicad_pro",
     "version": 3
   },
   "net_settings": {

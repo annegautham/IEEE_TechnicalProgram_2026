@@ -243,7 +243,7 @@
 		)
 		(path "/adb308d9-75ec-4e48-a2ac-993c6d1c7196")
 		(sheetname "/")
-		(sheetfile "FPGA_Connector.kicad_sch")
+		(sheetfile "fpga_interconnect.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 14.12 -7.04)
@@ -1204,7 +1204,7 @@
 		)
 		(path "/8d75e770-cac6-42d3-b378-29657771e4d3")
 		(sheetname "/")
-		(sheetfile "FPGA_Connector.kicad_sch")
+		(sheetfile "fpga_interconnect.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 14.12 -7.04)
