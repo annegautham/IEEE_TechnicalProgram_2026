@@ -511,6 +511,9 @@
       ],
       "/DLPC1438_Interface/VDDLP12": [
         "P1P1V"
+      ],
+      "Net-(R171-Pad2)": [
+        "TP21"
       ]
     },
     "netclass_patterns": []

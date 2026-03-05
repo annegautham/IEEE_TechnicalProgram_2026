@@ -1585,6 +1585,26 @@
 				(justify left)
 			)
 		)
+		(pin "IIC0_SCL" input
+			(at 146.05 122.555 90)
+			(uuid "be1e7701-08cb-484b-ad8e-88d40476c3b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IIC0_SDA" input
+			(at 157.48 122.555 90)
+			(uuid "64c02bb3-013a-4a69-9376-d5524de72dd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a"
