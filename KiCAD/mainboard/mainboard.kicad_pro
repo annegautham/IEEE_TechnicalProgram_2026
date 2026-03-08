@@ -493,29 +493,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/DLPC1438_Interface/DLPC_FLSH_PROG": [
-        "TP7"
-      ],
-      "/DLPC1438_Interface/DLPC_LED_SEL_0": [
-        "TP20"
-      ],
-      "/DLPC1438_Interface/OSC_OUT_T": [
-        "TP12"
-      ],
-      "/DLPC1438_Interface/VCC": [
-        "P1P8V_DLPC"
-      ],
-      "/DLPC1438_Interface/VDD": [
-        "P1P1V"
-      ],
-      "/DLPC1438_Interface/VDDLP12": [
-        "P1P1V"
-      ],
-      "Net-(R171-Pad2)": [
-        "TP21"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
