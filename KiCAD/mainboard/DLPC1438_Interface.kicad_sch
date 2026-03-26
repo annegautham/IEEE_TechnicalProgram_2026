@@ -10543,6 +10543,12 @@
 		(uuid "ba3ac5fa-9eee-4a93-bb49-13b9cfa57e29")
 	)
 	(junction
+		(at 513.08 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd1b194f-282c-4dfd-b35b-ae5c110a5d22")
+	)
+	(junction
 		(at 66.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10619,12 +10625,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d08b8cbc-5ee7-4e06-9b60-25f4ad538021")
-	)
-	(junction
-		(at 513.08 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d158a484-a501-4698-9a62-7d5dbe152790")
 	)
 	(junction
 		(at 431.8 85.09)
@@ -10992,6 +10992,16 @@
 		)
 		(uuid "05fb9543-e48e-4c58-b8a4-413c78971105")
 	)
+	(wire
+		(pts
+			(xy 236.982 224.79) (xy 231.14 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068b1bd0-3588-4da9-8f7b-820ddb32ca69")
+	)
 	(polyline
 		(pts
 			(xy 280.67 274.32) (xy 280.67 201.93)
@@ -11074,6 +11084,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 140.208) (xy 252.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b409389-f002-42c2-af14-97a3f14295b7")
+	)
+	(wire
+		(pts
 			(xy 99.06 40.64) (xy 99.06 43.18)
 		)
 		(stroke
@@ -11151,16 +11171,6 @@
 			(type default)
 		)
 		(uuid "10129a1e-ff7a-4768-a852-e18baf377179")
-	)
-	(wire
-		(pts
-			(xy 231.14 224.79) (xy 238.76 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10535988-008d-43ea-9791-17e90fadfe99")
 	)
 	(wire
 		(pts
@@ -11304,6 +11314,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 40.64) (xy 227.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a967d1-210c-4fd9-a1ba-74714a15e6af")
+	)
+	(wire
+		(pts
 			(xy 242.57 143.51) (xy 252.73 143.51)
 		)
 		(stroke
@@ -11342,6 +11362,16 @@
 		)
 		(uuid "1917c265-7008-4779-b5cf-6eaef3917cb1")
 	)
+	(wire
+		(pts
+			(xy 270.51 64.008) (xy 270.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1982c0b7-7a13-4ecc-897f-da65cfe9c007")
+	)
 	(polyline
 		(pts
 			(xy 278.13 184.15) (xy 195.58 184.15)
@@ -11354,7 +11384,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 43.18) (xy 135.89 55.88)
+			(xy 135.89 43.18) (xy 135.89 54.102)
 		)
 		(stroke
 			(width 0)
@@ -11454,16 +11484,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 60.96) (xy 260.35 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c91a0f8-b945-4706-8fa5-199210c61d7e")
-	)
-	(wire
-		(pts
 			(xy 417.83 115.57) (xy 431.8 115.57)
 		)
 		(stroke
@@ -11494,23 +11514,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 127) (xy 242.57 130.81)
+			(xy 242.57 127) (xy 242.57 129.032)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1fc2d7bb-dbd6-491d-988b-4a90413badec")
-	)
-	(wire
-		(pts
-			(xy 227.33 40.64) (xy 227.33 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd99474-593c-4802-8dfe-7c0bb51988c2")
 	)
 	(wire
 		(pts
@@ -11621,16 +11631,6 @@
 			(type default)
 		)
 		(uuid "23c8d29b-ae5e-4d7e-99b8-a1c670e95611")
-	)
-	(wire
-		(pts
-			(xy 270.51 60.96) (xy 270.51 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241c6cfc-9e50-4c51-b4ab-00c3ec46c2e4")
 	)
 	(wire
 		(pts
@@ -11772,26 +11772,6 @@
 		)
 		(uuid "2aa2f050-c7db-4c58-9497-bcb2933951ae")
 	)
-	(wire
-		(pts
-			(xy 270.51 53.34) (xy 270.51 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b40a90e-27a8-46f2-97cf-e714fc96d346")
-	)
-	(wire
-		(pts
-			(xy 252.73 138.43) (xy 252.73 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bdddace-70ea-451a-a170-cb2e207f855e")
-	)
 	(polyline
 		(pts
 			(xy 455.93 261.62) (xy 579.12 261.62)
@@ -11831,16 +11811,6 @@
 			(type default)
 		)
 		(uuid "2d3718cc-0c93-4238-b228-e15ed539bf7c")
-	)
-	(wire
-		(pts
-			(xy 265.43 224.79) (xy 265.43 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d3c8bbc-f8d1-46d1-8d65-974855e91e79")
 	)
 	(polyline
 		(pts
@@ -11904,6 +11874,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 64.008) (xy 245.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308d2158-6420-4e4d-adeb-c0a2e62b463c")
+	)
+	(wire
+		(pts
 			(xy 353.06 204.47) (xy 353.06 209.55)
 		)
 		(stroke
@@ -11944,6 +11924,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 64.008) (xy 260.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e98f58-28cc-400f-acd5-9aea3a644655")
+	)
+	(wire
+		(pts
 			(xy 417.83 234.95) (xy 433.07 234.95)
 		)
 		(stroke
@@ -11961,16 +11951,6 @@
 			(type default)
 		)
 		(uuid "3649732e-26f2-4e62-9dc1-c6ebdd44d3b9")
-	)
-	(wire
-		(pts
-			(xy 219.71 60.96) (xy 219.71 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e21231-fb20-4c0d-9beb-336425c08fd4")
 	)
 	(wire
 		(pts
@@ -12104,6 +12084,16 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 231.648) (xy 513.08 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d635894-a867-435b-a11c-4f10e3455957")
+	)
+	(wire
+		(pts
 			(xy 96.52 153.67) (xy 104.14 153.67)
 		)
 		(stroke
@@ -12214,6 +12204,16 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 220.472) (xy 513.08 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4144d7ca-fbc0-42c0-b2b3-3f94243f840a")
+	)
+	(wire
+		(pts
 			(xy 433.07 234.95) (xy 433.07 232.41)
 		)
 		(stroke
@@ -12254,6 +12254,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 64.008) (xy 251.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d29b36-ca72-4ad5-84b0-28b90263613c")
+	)
+	(wire
+		(pts
+			(xy 242.57 140.208) (xy 242.57 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e6df78-b2dd-49f1-a654-8f7a94273e80")
+	)
+	(wire
+		(pts
 			(xy 417.83 138.43) (xy 429.26 138.43)
 		)
 		(stroke
@@ -12261,16 +12281,6 @@
 			(type default)
 		)
 		(uuid "464dff58-ef8c-4cbb-9ac3-4c258a2fcc7b")
-	)
-	(wire
-		(pts
-			(xy 227.33 66.04) (xy 227.33 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a21d13-45fd-4acb-9055-5c51046883f8")
 	)
 	(wire
 		(pts
@@ -12304,13 +12314,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 49.53) (xy 219.71 53.34)
+			(xy 135.89 65.278) (xy 135.89 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48402c1e-d194-4172-bf2d-ca322b6f1cbb")
+		(uuid "47f47967-b39d-4e4b-bf2b-ce80ffb8743b")
 	)
 	(wire
 		(pts
@@ -12371,6 +12381,16 @@
 			(type default)
 		)
 		(uuid "49c5404f-cb86-4f49-b5ca-333b31d95452")
+	)
+	(wire
+		(pts
+			(xy 248.158 224.79) (xy 265.43 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d18c85-bc3b-4cb3-835f-93bace881f4c")
 	)
 	(wire
 		(pts
@@ -12554,6 +12574,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 49.53) (xy 236.22 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533dae74-e82b-4731-bc6b-22c8ac043f85")
+	)
+	(wire
+		(pts
 			(xy 361.95 293.37) (xy 346.71 293.37)
 		)
 		(stroke
@@ -12664,7 +12694,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 309.88) (xy 91.44 309.88)
+			(xy 85.09 309.88) (xy 89.662 309.88)
 		)
 		(stroke
 			(width 0)
@@ -12691,6 +12721,16 @@
 			(type default)
 		)
 		(uuid "589a6aef-8c77-49e7-a3e9-10c49fdd8004")
+	)
+	(wire
+		(pts
+			(xy 219.71 64.008) (xy 219.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593e3649-c875-42f7-8eb3-4fabe4bdac8e")
 	)
 	(wire
 		(pts
@@ -12754,7 +12794,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 49.53) (xy 245.11 53.34)
+			(xy 245.11 49.53) (xy 245.11 52.832)
 		)
 		(stroke
 			(width 0)
@@ -12894,7 +12934,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 49.53) (xy 210.82 53.34)
+			(xy 151.638 309.88) (xy 158.75 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9ce955-c1c6-48df-abf9-4e20262d8fff")
+	)
+	(wire
+		(pts
+			(xy 210.82 49.53) (xy 210.82 52.832)
 		)
 		(stroke
 			(width 0)
@@ -13244,7 +13294,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 60.96) (xy 194.31 66.04)
+			(xy 194.31 64.008) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13312,16 +13362,6 @@
 		)
 		(uuid "6fe47be0-a08e-43d5-b904-5d60281773bc")
 	)
-	(wire
-		(pts
-			(xy 513.08 219.71) (xy 513.08 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701362ce-af4a-48c5-88a1-2a55efbf816d")
-	)
 	(polyline
 		(pts
 			(xy 287.02 287.02) (xy 287.02 288.29)
@@ -13371,26 +13411,6 @@
 			(type default)
 		)
 		(uuid "72e18220-44bf-496c-8bab-a7823740595a")
-	)
-	(wire
-		(pts
-			(xy 245.11 66.04) (xy 245.11 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75fd472c-5c0b-4cd1-9963-2bb4d35e6605")
-	)
-	(wire
-		(pts
-			(xy 149.86 309.88) (xy 158.75 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "762f6b2c-1a95-46c2-a33d-866cd4e3c51b")
 	)
 	(wire
 		(pts
@@ -13491,6 +13511,16 @@
 			(type default)
 		)
 		(uuid "7c2b49e0-6ff0-4682-81fa-31c04d27da6f")
+	)
+	(wire
+		(pts
+			(xy 260.35 49.53) (xy 260.35 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9caebf-ec85-4d3b-8284-9aef5cf58ceb")
 	)
 	(wire
 		(pts
@@ -13604,13 +13634,13 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 215.9) (xy 513.08 219.71)
+			(xy 227.33 64.008) (xy 227.33 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8256bc35-1a1f-470d-ad7d-23b923e33b95")
+		(uuid "8248cd9f-e6b7-43e0-a831-124ca5bd1466")
 	)
 	(wire
 		(pts
@@ -13774,16 +13804,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 60.96) (xy 210.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890b60ae-9cca-491b-87f6-362aef924d04")
-	)
-	(wire
-		(pts
 			(xy 355.6 156.21) (xy 361.95 156.21)
 		)
 		(stroke
@@ -13834,26 +13854,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 63.5) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aefbeae-b281-4a93-9a96-38aed67c67ad")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 135.89 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b6b79f5-30ee-456b-8c8c-d1c9327b7b9c")
-	)
-	(wire
-		(pts
 			(xy 435.61 260.35) (xy 433.07 260.35)
 		)
 		(stroke
@@ -13881,6 +13881,16 @@
 			(type default)
 		)
 		(uuid "8c1b6cd6-90ba-45ea-9457-b2584a624ef1")
+	)
+	(wire
+		(pts
+			(xy 186.69 49.53) (xy 186.69 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4d6cc4-b370-41a1-8915-c440c3c7624a")
 	)
 	(wire
 		(pts
@@ -14004,6 +14014,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 49.53) (xy 251.46 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920d6bcc-71ba-4770-b0d5-f98c36f0ac2a")
+	)
+	(wire
+		(pts
 			(xy 433.07 267.97) (xy 433.07 265.43)
 		)
 		(stroke
@@ -14011,16 +14031,6 @@
 			(type default)
 		)
 		(uuid "923d6931-9317-4bbc-9ddb-c8c189331765")
-	)
-	(wire
-		(pts
-			(xy 252.73 130.81) (xy 252.73 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "923e45ee-f1d8-44f4-bd35-f9b0a98a294a")
 	)
 	(wire
 		(pts
@@ -14094,16 +14104,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 60.96) (xy 186.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9592e2d9-7615-4339-bf88-5f627cbb30bc")
-	)
-	(wire
-		(pts
 			(xy 201.93 66.04) (xy 210.82 66.04)
 		)
 		(stroke
@@ -14164,16 +14164,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 66.04) (xy 251.46 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0809cb-1b32-4b0f-a326-4c80dadac281")
-	)
-	(wire
-		(pts
 			(xy 433.07 245.11) (xy 435.61 245.11)
 		)
 		(stroke
@@ -14191,16 +14181,6 @@
 			(type default)
 		)
 		(uuid "9c8351d7-5748-40dd-990c-e9f5f74cae7d")
-	)
-	(wire
-		(pts
-			(xy 186.69 49.53) (xy 186.69 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ca03e23-ebb8-4699-b5ec-486dee0e41c1")
 	)
 	(wire
 		(pts
@@ -14284,16 +14264,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 309.88) (xy 110.49 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2282c01-64cb-4354-9d3a-ce3d3053637e")
-	)
-	(wire
-		(pts
 			(xy 417.83 49.53) (xy 431.8 49.53)
 		)
 		(stroke
@@ -14344,16 +14314,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 49.53) (xy 236.22 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6786f51-8489-4802-b55e-7a4f3ac332ac")
-	)
-	(wire
-		(pts
 			(xy 533.4 345.44) (xy 533.4 342.9)
 		)
 		(stroke
@@ -14371,6 +14331,16 @@
 			(type default)
 		)
 		(uuid "a7c33f10-a99c-4eeb-ac8e-9df3a374be20")
+	)
+	(wire
+		(pts
+			(xy 318.77 137.668) (xy 318.77 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c71558-5048-42eb-9675-24c1bea6c2e1")
 	)
 	(wire
 		(pts
@@ -14394,13 +14364,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 49.53) (xy 201.93 53.34)
+			(xy 227.33 49.53) (xy 227.33 52.832)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9fef3a2-b495-4aa3-b8cc-d09710f926c6")
+		(uuid "abc21e4b-98f8-4741-818e-871d624cb4f4")
 	)
 	(wire
 		(pts
@@ -14411,16 +14381,6 @@
 			(type default)
 		)
 		(uuid "ac5ac3e4-10fb-489d-9dea-bef9e4e22094")
-	)
-	(wire
-		(pts
-			(xy 125.73 133.35) (xy 130.81 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad98b808-e696-4a73-bff6-4ec29dabf2dc")
 	)
 	(wire
 		(pts
@@ -14451,6 +14411,16 @@
 			(type default)
 		)
 		(uuid "ae7af4b8-d34b-4ab0-9952-c6014cdf36c5")
+	)
+	(wire
+		(pts
+			(xy 513.08 215.9) (xy 513.08 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb18cd0-5d9a-4635-887d-66eb10be37d9")
 	)
 	(wire
 		(pts
@@ -14501,6 +14471,16 @@
 			(type default)
 		)
 		(uuid "af5740e3-2e02-4c7c-82e9-9f09d5e0d9bd")
+	)
+	(wire
+		(pts
+			(xy 210.82 64.008) (xy 210.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af983548-34d8-46a0-995e-dbc077220f47")
 	)
 	(wire
 		(pts
@@ -14594,16 +14574,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 224.79) (xy 265.43 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3703d76-e570-4d8d-9211-4efd70fd27e0")
-	)
-	(wire
-		(pts
 			(xy 335.28 125.73) (xy 361.95 125.73)
 		)
 		(stroke
@@ -14624,6 +14594,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 64.008) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e0dc99-a240-45cf-aaad-7fef56733d3f")
+	)
+	(wire
+		(pts
 			(xy 332.74 81.28) (xy 360.68 77.47)
 		)
 		(stroke
@@ -14631,16 +14611,6 @@
 			(type default)
 		)
 		(uuid "b6ebc5f8-1552-4b65-a047-bcb7395e77f1")
-	)
-	(wire
-		(pts
-			(xy 260.35 49.53) (xy 260.35 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c10266-9587-4c81-bcb9-8fa2c0b23d8e")
 	)
 	(wire
 		(pts
@@ -14734,7 +14704,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 133.35) (xy 118.11 133.35)
+			(xy 116.84 133.35) (xy 117.602 133.35)
 		)
 		(stroke
 			(width 0)
@@ -14784,23 +14754,13 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 125.73) (xy 318.77 130.81)
+			(xy 318.77 125.73) (xy 318.77 126.492)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0dd0471-d60a-4a5c-9d78-f861b6ceddb6")
-	)
-	(wire
-		(pts
-			(xy 194.31 49.53) (xy 194.31 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1717a99-66e4-4ce2-ab71-0d3417c3a54f")
 	)
 	(wire
 		(pts
@@ -14974,6 +14934,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 64.008) (xy 201.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca13af9d-eb66-49b6-8eb2-af042950cbdf")
+	)
+	(wire
+		(pts
 			(xy 104.14 153.67) (xy 106.68 153.67)
 		)
 		(stroke
@@ -15084,6 +15054,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.838 309.88) (xy 110.49 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6a0dcd-9f94-4552-a093-fad4f093992d")
+	)
+	(wire
+		(pts
 			(xy 417.83 255.27) (xy 421.64 255.27)
 		)
 		(stroke
@@ -15164,7 +15144,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 309.88) (xy 142.24 309.88)
+			(xy 133.35 309.88) (xy 140.462 309.88)
 		)
 		(stroke
 			(width 0)
@@ -15274,6 +15254,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 224.79) (xy 265.43 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d897cd15-87f2-4372-a672-5538342c8e93")
+	)
+	(wire
+		(pts
 			(xy 312.42 173.99) (xy 307.34 173.99)
 		)
 		(stroke
@@ -15354,16 +15344,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 60.96) (xy 201.93 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc238b02-c368-4e59-89c0-a0bb73a31f2f")
-	)
-	(wire
-		(pts
 			(xy 227.33 66.04) (xy 219.71 66.04)
 		)
 		(stroke
@@ -15371,6 +15351,16 @@
 			(type default)
 		)
 		(uuid "dca38cf6-fa36-4319-97ff-4fe770232774")
+	)
+	(wire
+		(pts
+			(xy 128.778 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6926f3-f0fe-44c1-b5ab-e1f6aa2a0dc5")
 	)
 	(wire
 		(pts
@@ -15494,7 +15484,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 66.04) (xy 236.22 60.96)
+			(xy 236.22 66.04) (xy 236.22 64.008)
 		)
 		(stroke
 			(width 0)
@@ -15511,6 +15501,16 @@
 			(type default)
 		)
 		(uuid "e2adab0e-5bfe-476c-80c3-53018bfea998")
+	)
+	(wire
+		(pts
+			(xy 201.93 49.53) (xy 201.93 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e301b62b-de12-448f-9ea6-38ca052120ec")
 	)
 	(wire
 		(pts
@@ -15632,16 +15632,6 @@
 		)
 		(uuid "e90c52a6-228e-4a4a-a99f-69e798b63889")
 	)
-	(wire
-		(pts
-			(xy 227.33 49.53) (xy 227.33 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaabf0f8-0fb8-4d1b-8d67-1a2dc8be1873")
-	)
 	(polyline
 		(pts
 			(xy 280.67 201.93) (xy 195.58 201.93)
@@ -15694,7 +15684,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 43.18) (xy 142.24 55.88)
+			(xy 142.24 43.18) (xy 142.24 54.102)
 		)
 		(stroke
 			(width 0)
@@ -15731,6 +15721,16 @@
 			(type default)
 		)
 		(uuid "ecec0997-c55f-403a-8ca9-a626872ec12f")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 219.71 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2b1720-42e2-4d21-8183-e6fe1924152d")
 	)
 	(wire
 		(pts
@@ -15811,6 +15811,16 @@
 			(type default)
 		)
 		(uuid "f286cd7c-199d-45d1-a3cf-f19d73198113")
+	)
+	(wire
+		(pts
+			(xy 194.31 49.53) (xy 194.31 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f315e6cd-0134-4c72-8bff-70d505f8199f")
 	)
 	(wire
 		(pts
@@ -15922,16 +15932,6 @@
 		)
 		(uuid "f8b218ec-05b7-4b87-a63f-ab9692668e44")
 	)
-	(wire
-		(pts
-			(xy 251.46 49.53) (xy 251.46 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97b067b-65c8-42ad-84eb-8e8d449ee61c")
-	)
 	(polyline
 		(pts
 			(xy 143.51 190.5) (xy 43.18 190.5)
@@ -15974,6 +15974,26 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 52.832) (xy 270.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf6568f-37ac-4790-bd9c-a945f01ca5cf")
+	)
+	(wire
+		(pts
+			(xy 142.24 65.278) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf816f3-9d13-415d-abae-f1aee6464df3")
+	)
+	(wire
+		(pts
 			(xy 80.01 73.66) (xy 80.01 83.82)
 		)
 		(stroke
@@ -15984,13 +16004,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 138.43) (xy 242.57 143.51)
+			(xy 252.73 129.032) (xy 252.73 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc744dae-0b76-4ba0-b2f2-2a9a4499d1be")
+		(uuid "fc5517e2-8d57-44ee-a108-272cb182192c")
 	)
 	(wire
 		(pts
@@ -19694,7 +19714,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 513.08 228.6 0)
+		(at 513.08 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19702,7 +19722,7 @@
 		(dnp no)
 		(uuid "0af9685b-73ea-4544-b8ff-28d551c4c503")
 		(property "Reference" "C112"
-			(at 506.73 224.536 0)
+			(at 509.016 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +19731,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 506.73 226.314 0)
+			(at 510.794 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19720,7 +19740,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19730,7 +19750,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19739,7 +19759,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19748,7 +19768,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19757,7 +19777,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19767,7 +19787,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19777,7 +19797,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19787,7 +19807,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19797,7 +19817,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19807,7 +19827,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19817,7 +19837,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19827,7 +19847,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 513.08 228.6 0)
+			(at 513.08 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19990,7 +20010,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 251.46 57.15 0)
+		(at 251.46 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19998,7 +20018,7 @@
 		(dnp no)
 		(uuid "14fe5d6a-3f02-4c06-b809-ee4d0eba9d10")
 		(property "Reference" "C139"
-			(at 253.238 54.356 0)
+			(at 248.666 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20007,7 +20027,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 253.492 60.452 0)
+			(at 254.762 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20016,7 +20036,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20026,7 +20046,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20035,7 +20055,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20044,7 +20064,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20053,7 +20073,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20063,7 +20083,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20073,7 +20093,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20083,7 +20103,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20093,7 +20113,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20103,7 +20123,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20113,7 +20133,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20123,7 +20143,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 251.46 57.15 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20374,7 +20394,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 186.69 57.15 0)
+		(at 186.69 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20382,7 +20402,7 @@
 		(dnp no)
 		(uuid "1c35f585-c93e-41d0-98b4-62de21b54e83")
 		(property "Reference" "C126"
-			(at 189.738 56.134 0)
+			(at 185.674 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20391,7 +20411,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 189.738 58.674 0)
+			(at 188.214 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20400,7 +20420,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20410,7 +20430,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20419,7 +20439,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20428,7 +20448,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20437,7 +20457,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20447,7 +20467,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20457,7 +20477,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20467,7 +20487,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20477,7 +20497,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20487,7 +20507,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20497,7 +20517,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20507,7 +20527,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 186.69 57.15 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20599,7 +20619,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 260.35 57.15 0)
+		(at 260.35 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20607,7 +20627,7 @@
 		(dnp no)
 		(uuid "24766a1d-fd70-4b7d-8261-85f6623a59cb")
 		(property "Reference" "C120"
-			(at 263.398 56.134 0)
+			(at 259.334 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20616,7 +20636,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 263.398 58.674 0)
+			(at 261.874 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20625,7 +20645,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20635,7 +20655,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20644,7 +20664,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20653,7 +20673,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20662,7 +20682,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +20692,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20682,7 +20702,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20692,7 +20712,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20702,7 +20722,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20712,7 +20732,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20722,7 +20742,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20732,7 +20752,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 260.35 57.15 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21057,7 +21077,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 121.92 133.35 270)
+		(at 123.19 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21065,7 +21085,7 @@
 		(dnp no)
 		(uuid "298c1ca7-807b-486f-bfde-2b4104f63763")
 		(property "Reference" "C115"
-			(at 125.984 127 0)
+			(at 116.84 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21074,7 +21094,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 124.206 127 0)
+			(at 116.84 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21083,7 +21103,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21093,7 +21113,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21102,7 +21122,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21111,7 +21131,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21120,7 +21140,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21130,7 +21150,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,7 +21160,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21150,7 +21170,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21160,7 +21180,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21170,7 +21190,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,7 +21200,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21190,7 +21210,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 121.92 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21414,7 +21434,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 252.73 134.62 0)
+		(at 252.73 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21422,7 +21442,7 @@
 		(dnp no)
 		(uuid "2e9d7831-0782-4974-b127-17db7d0c1662")
 		(property "Reference" "C131"
-			(at 255.778 133.604 0)
+			(at 251.714 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21431,7 +21451,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 255.778 136.144 0)
+			(at 254.254 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23059,7 +23079,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 318.77 134.62 0)
+		(at 318.77 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23067,7 +23087,7 @@
 		(dnp no)
 		(uuid "56f03733-bd70-4743-98a4-4396464e231b")
 		(property "Reference" "C127"
-			(at 321.818 133.604 0)
+			(at 317.754 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23076,7 +23096,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 321.818 136.144 0)
+			(at 320.294 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23085,7 +23105,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23095,7 +23115,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23104,7 +23124,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23113,7 +23133,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23122,7 +23142,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23132,7 +23152,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23142,7 +23162,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23152,7 +23172,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23162,7 +23182,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23172,7 +23192,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23182,7 +23202,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23192,7 +23212,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 318.77 134.62 0)
+			(at 318.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23218,7 +23238,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 270.51 57.15 0)
+		(at 270.51 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23226,7 +23246,7 @@
 		(dnp no)
 		(uuid "57390e1f-0e48-4a61-a42d-06506b62d6e0")
 		(property "Reference" "C142"
-			(at 273.558 56.134 0)
+			(at 269.494 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23235,7 +23255,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 273.558 58.674 0)
+			(at 272.034 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23244,7 +23264,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23254,7 +23274,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23263,7 +23283,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23272,7 +23292,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +23301,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23291,7 +23311,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23301,7 +23321,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23311,7 +23331,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23321,7 +23341,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +23351,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23341,7 +23361,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23351,7 +23371,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 270.51 57.15 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23377,7 +23397,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 242.57 224.79 270)
+		(at 242.57 224.79 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23386,7 +23406,7 @@
 		(dnp no)
 		(uuid "579676a9-3753-46f4-b6c4-0e445f8f9671")
 		(property "Reference" "C7"
-			(at 246.634 231.14 0)
+			(at 236.22 228.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23395,7 +23415,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 244.856 230.886 0)
+			(at 236.474 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24521,7 +24541,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 219.71 57.15 0)
+		(at 219.71 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24529,7 +24549,7 @@
 		(dnp no)
 		(uuid "7b861845-9780-4345-845c-44d21d494153")
 		(property "Reference" "C132"
-			(at 222.758 56.134 0)
+			(at 218.694 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24538,7 +24558,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 222.758 58.674 0)
+			(at 221.234 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24547,7 +24567,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24557,7 +24577,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24566,7 +24586,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24575,7 +24595,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24584,7 +24604,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24594,7 +24614,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24604,7 +24624,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24614,7 +24634,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24624,7 +24644,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24634,7 +24654,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24644,7 +24664,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24654,7 +24674,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 219.71 57.15 0)
+			(at 219.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24827,7 +24847,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 135.89 59.69 0)
+		(at 135.89 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24835,7 +24855,7 @@
 		(dnp no)
 		(uuid "7fbd89ff-f4f8-4b01-9218-c3a539bb07dc")
 		(property "Reference" "C156"
-			(at 136.398 55.626 0)
+			(at 131.826 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24844,7 +24864,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 136.398 57.404 0)
+			(at 133.604 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25190,7 +25210,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 210.82 57.15 0)
+		(at 210.82 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25198,7 +25218,7 @@
 		(dnp no)
 		(uuid "8477b463-5d22-4d51-a067-26343e14a66e")
 		(property "Reference" "C143"
-			(at 213.868 56.134 0)
+			(at 209.804 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25207,7 +25227,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 213.868 58.674 0)
+			(at 212.344 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25216,7 +25236,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25226,7 +25246,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25235,7 +25255,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25244,7 +25264,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25253,7 +25273,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25263,7 +25283,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25273,7 +25293,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25283,7 +25303,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25293,7 +25313,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25303,7 +25323,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25313,7 +25333,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25323,7 +25343,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 210.82 57.15 0)
+			(at 210.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25349,7 +25369,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 201.93 57.15 0)
+		(at 201.93 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25357,7 +25377,7 @@
 		(dnp no)
 		(uuid "854b550b-0698-4197-a2f9-c2b3e1e774d8")
 		(property "Reference" "C125"
-			(at 204.978 56.134 0)
+			(at 200.914 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25366,7 +25386,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 204.978 58.674 0)
+			(at 203.454 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25375,7 +25395,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25385,7 +25405,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25394,7 +25414,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25403,7 +25423,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25412,7 +25432,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25422,7 +25442,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25432,7 +25452,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25442,7 +25462,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25452,7 +25472,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25462,7 +25482,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25472,7 +25492,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25482,7 +25502,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 201.93 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25508,7 +25528,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 194.31 57.15 0)
+		(at 194.31 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25516,7 +25536,7 @@
 		(dnp no)
 		(uuid "85b7d5e7-485d-4fa6-a590-abbe002e7cd6")
 		(property "Reference" "C141"
-			(at 197.358 56.134 0)
+			(at 193.294 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25525,7 +25545,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 197.358 58.674 0)
+			(at 195.834 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25534,7 +25554,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25544,7 +25564,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25553,7 +25573,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25562,7 +25582,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25571,7 +25591,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25581,7 +25601,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25591,7 +25611,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25601,7 +25621,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25611,7 +25631,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25621,7 +25641,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25631,7 +25651,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25641,7 +25661,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 194.31 57.15 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26579,7 +26599,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 242.57 134.62 0)
+		(at 242.57 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26587,7 +26607,7 @@
 		(dnp no)
 		(uuid "9452ce4f-2bec-446e-afe0-7ee72d25da17")
 		(property "Reference" "C130"
-			(at 245.618 133.604 0)
+			(at 241.554 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26596,7 +26616,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 245.872 136.398 0)
+			(at 244.348 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27877,7 +27897,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 146.05 309.88 270)
+		(at 146.05 309.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27885,7 +27905,7 @@
 		(dnp no)
 		(uuid "b86f21ab-e086-4810-8680-32c91129b462")
 		(property "Reference" "C171"
-			(at 150.114 303.53 0)
+			(at 139.7 305.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27894,7 +27914,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 148.336 303.53 0)
+			(at 139.7 307.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29337,7 +29357,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 95.25 309.88 270)
+		(at 95.25 309.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29345,7 +29365,7 @@
 		(dnp no)
 		(uuid "c88fd1c7-416c-4cce-8f09-5eafb218f0cf")
 		(property "Reference" "C170"
-			(at 99.314 303.53 0)
+			(at 88.9 305.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29354,7 +29374,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 97.536 303.53 0)
+			(at 88.9 307.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29940,7 +29960,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 245.11 57.15 0)
+		(at 245.11 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29948,7 +29968,7 @@
 		(dnp no)
 		(uuid "db036f2e-277d-47b2-a55b-56a3064b8d92")
 		(property "Reference" "C155"
-			(at 248.158 56.134 0)
+			(at 244.094 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29957,7 +29977,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 248.158 58.674 0)
+			(at 246.634 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29966,7 +29986,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29976,7 +29996,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29985,7 +30005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29994,7 +30014,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30003,7 +30023,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30013,7 +30033,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30023,7 +30043,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30033,7 +30053,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30043,7 +30063,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30053,7 +30073,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30063,7 +30083,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30073,7 +30093,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 245.11 57.15 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30099,7 +30119,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 142.24 59.69 0)
+		(at 142.24 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30107,7 +30127,7 @@
 		(dnp no)
 		(uuid "dbc4f662-d5e5-41f2-87dc-47bb12e268cc")
 		(property "Reference" "C157"
-			(at 143.51 55.372 0)
+			(at 137.922 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30116,7 +30136,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 143.764 57.404 0)
+			(at 139.954 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30683,7 +30703,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 307.34 177.8 0)
+		(at 307.34 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30691,7 +30711,7 @@
 		(dnp no)
 		(uuid "e467ecb0-a159-48bb-8d6a-215bcce3e6a8")
 		(property "Reference" "C138"
-			(at 310.388 176.784 0)
+			(at 306.324 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30700,7 +30720,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 310.388 179.324 0)
+			(at 308.864 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30709,7 +30729,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30719,7 +30739,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30728,7 +30748,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30737,7 +30757,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30746,7 +30766,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30756,7 +30776,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30766,7 +30786,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30776,7 +30796,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30786,7 +30806,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30796,7 +30816,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30806,7 +30826,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30816,7 +30836,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 307.34 177.8 0)
+			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31079,7 +31099,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 236.22 57.15 0)
+		(at 236.22 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31087,7 +31107,7 @@
 		(dnp no)
 		(uuid "e9c8fa1d-0853-4ee4-bdbb-c01fa8e99ce8")
 		(property "Reference" "C128"
-			(at 239.268 56.134 0)
+			(at 235.204 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31096,7 +31116,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 239.268 58.674 0)
+			(at 237.744 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31105,7 +31125,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31115,7 +31135,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31124,7 +31144,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31133,7 +31153,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31142,7 +31162,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31152,7 +31172,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31162,7 +31182,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31172,7 +31192,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31182,7 +31202,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31192,7 +31212,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31202,7 +31222,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31212,7 +31232,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 236.22 57.15 0)
+			(at 236.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31305,7 +31325,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 227.33 57.15 0)
+		(at 227.33 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31313,7 +31333,7 @@
 		(dnp no)
 		(uuid "eeb9953a-2621-45e5-8132-d2f9c0fd2ca0")
 		(property "Reference" "C140"
-			(at 230.378 56.134 0)
+			(at 226.314 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31322,7 +31342,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 230.378 58.674 0)
+			(at 228.854 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31331,7 +31351,7 @@
 			)
 		)
 		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31341,7 +31361,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31350,7 +31370,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31359,7 +31379,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31368,7 +31388,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31378,7 +31398,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31388,7 +31408,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31398,7 +31418,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31408,7 +31428,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31418,7 +31438,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31428,7 +31448,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31438,7 +31458,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 227.33 57.15 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
