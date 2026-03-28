@@ -988,251 +988,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LMR33610BDDAR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LMR33610BDDAR"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33610.pdf"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=1400kHz, Adjustable output voltage, HSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simple-switcher synchronous buck step-down voltage-regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Texas*HSOP*1EP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LMR33610BDDAR_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LMR33610BDDAR_1_1"
-				(pin power_in line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Switching:TPS54340DDA"
 			(pin_names
 				(offset 0.254)
@@ -2592,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 26.67) (xy 74.93 27.94)
+			(xy 85.09 26.67) (xy 85.09 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2709,6 +2464,16 @@
 			(type default)
 		)
 		(uuid "2d0fc0bb-52bd-48ba-b1b7-723ced3ecf6b")
+	)
+	(wire
+		(pts
+			(xy 43.18 26.67) (xy 52.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34749b70-5182-4ce6-bd93-4b15bb915a33")
 	)
 	(wire
 		(pts
@@ -2862,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 26.67) (xy 74.93 26.67)
+			(xy 80.01 26.67) (xy 85.09 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2972,16 +2737,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 26.67) (xy 62.23 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf1c909-4712-4189-86e1-1ecb363626ed")
-	)
-	(wire
-		(pts
 			(xy 35.56 77.47) (xy 46.99 77.47)
 		)
 		(stroke
@@ -2989,6 +2744,16 @@
 			(type default)
 		)
 		(uuid "9344a649-4c02-4c2e-8164-21265ab1bce0")
+	)
+	(wire
+		(pts
+			(xy 72.39 26.67) (xy 64.77 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9715288f-3035-477b-9d92-151bcebf7068")
 	)
 	(wire
 		(pts
@@ -3398,7 +3163,7 @@
 	)
 	(symbol
 		(lib_id "ERJP06F3301V:ERJP06F3301V")
-		(at 46.99 26.67 270)
+		(at 52.07 26.67 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3407,7 +3172,7 @@
 		(dnp no)
 		(uuid "0a170246-690d-4394-9198-f92545995e3b")
 		(property "Reference" "R117"
-			(at 47.244 24.384 90)
+			(at 54.356 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3180,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 47.244 29.21 90)
+			(at 49.53 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3188,7 @@
 			)
 		)
 		(property "Footprint" "RES_ERJP06_PAN"
-			(at 46.99 26.67 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3198,7 @@
 			)
 		)
 		(property "Datasheet" "ERJP06F3301V"
-			(at 46.99 26.67 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3208,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 26.67 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,95 +3609,6 @@
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/1598073b-cadd-4ddc-981f-6a3774f37a0f"
 					(reference "C72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LMR33610BDDAR")
-		(at 226.06 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3356a41e-9bcb-4bfe-901d-42ce00009602")
-		(property "Reference" "U4"
-			(at 226.06 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR33610BDDAR"
-			(at 226.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
-			(at 226.06 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33610.pdf"
-			(at 226.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=1400kHz, Adjustable output voltage, HSOP-8"
-			(at 226.06 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc9181b2-fdd5-4c0c-a28f-6ffdf579b376")
-		)
-		(pin "8"
-			(uuid "914f6bf5-7a31-46eb-bb80-dd92af189a31")
-		)
-		(pin "1"
-			(uuid "fdf148fe-2d71-45b2-8f55-b18f114fe862")
-		)
-		(pin "9"
-			(uuid "cf3f5289-2d3d-4e09-aeb9-5424d7ce3e9f")
-		)
-		(pin "7"
-			(uuid "ee66c281-0a97-4531-bec3-6b6962dfb815")
-		)
-		(pin "3"
-			(uuid "59544005-8314-4791-9480-c3bad320daf3")
-		)
-		(pin "5"
-			(uuid "2cb3fb2f-2c8f-4852-9767-8442313c93d7")
-		)
-		(pin "4"
-			(uuid "2a5100a2-8c70-4727-9565-71770b00e946")
-		)
-		(pin "6"
-			(uuid "d2a23af0-719f-40a7-a818-3bfd313f151d")
-		)
-		(instances
-			(project ""
-				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/1598073b-cadd-4ddc-981f-6a3774f37a0f"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4395,7 +4071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 27.94 0)
+		(at 85.09 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4404,7 +4080,7 @@
 		(fields_autoplaced yes)
 		(uuid "54b62a15-a33a-4657-b467-5dc1297e4499")
 		(property "Reference" "#PWR013"
-			(at 74.93 34.29 0)
+			(at 85.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4089,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 33.02 0)
+			(at 85.09 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 27.94 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 27.94 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 27.94 0)
+			(at 85.09 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,97 +4558,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LMR33610BDDAR")
-		(at 224.79 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82b153b5-4996-4dc2-aa0b-64915f3a8fe4")
-		(property "Reference" "U2"
-			(at 224.79 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR33610BDDAR"
-			(at 224.79 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
-			(at 224.79 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33610.pdf"
-			(at 224.79 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=1400kHz, Adjustable output voltage, HSOP-8"
-			(at 224.79 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "5ae06442-f5ec-4cb5-a764-efd8b6688188")
-		)
-		(pin "5"
-			(uuid "cdbf3ffd-9c64-46bd-91fa-396a61d22fcf")
-		)
-		(pin "6"
-			(uuid "ec13b90b-1988-4363-bfa5-16a3c59b7d25")
-		)
-		(pin "1"
-			(uuid "05a4beb2-0214-4e88-a502-28b1108b608d")
-		)
-		(pin "3"
-			(uuid "dcd406ec-a5b5-4973-88ea-f1857113f630")
-		)
-		(pin "7"
-			(uuid "efd1bee0-c08c-41a9-95d0-78e5894ed40f")
-		)
-		(pin "2"
-			(uuid "a3b63c99-a236-4eb5-80c3-256d5726067c")
-		)
-		(pin "9"
-			(uuid "90ed009d-b14d-433e-8e2e-8e41cde5823f")
-		)
-		(pin "4"
-			(uuid "50c07ebb-6d4c-4d71-aff6-687ec00d753d")
-		)
-		(instances
-			(project ""
-				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/1598073b-cadd-4ddc-981f-6a3774f37a0f"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 66.04 26.67 180)
+		(at 76.2 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4980,7 +4567,7 @@
 		(dnp no)
 		(uuid "88a3598b-fd47-4617-a5dd-40a7bb238a98")
 		(property "Reference" "D12"
-			(at 66.04 29.718 0)
+			(at 76.2 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4575,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 66.04 23.876 0)
+			(at 76.2 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +4583,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 66.04 26.67 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +4592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 26.67 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +4601,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 66.04 26.67 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4610,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 26.67 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +4619,7 @@
 			)
 		)
 		(property "Part Number" "LTST-C190GKT"
-			(at 66.04 26.67 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,95 +5234,6 @@
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/1598073b-cadd-4ddc-981f-6a3774f37a0f"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LMR33610BDDAR")
-		(at 226.06 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b813fe4d-c635-4f56-8147-c9fd5b099489")
-		(property "Reference" "U3"
-			(at 226.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR33610BDDAR"
-			(at 226.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
-			(at 226.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33610.pdf"
-			(at 226.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=1400kHz, Adjustable output voltage, HSOP-8"
-			(at 226.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "c0009dd0-ed46-43de-b2b3-7cc1b92c3c80")
-		)
-		(pin "1"
-			(uuid "13e44da8-5d6d-4e2f-b3cd-810f3ac81a86")
-		)
-		(pin "2"
-			(uuid "87218f5e-3d09-4bcb-8984-7b321323721c")
-		)
-		(pin "3"
-			(uuid "3212002a-758b-4e14-9500-55d41347ac0a")
-		)
-		(pin "6"
-			(uuid "e5a42a2c-d2fd-4d76-8959-14e94309e252")
-		)
-		(pin "9"
-			(uuid "2b2dde78-f8c2-42b9-8886-ad8cb6efd24b")
-		)
-		(pin "7"
-			(uuid "35c7e4f9-364a-4fe3-ad89-4558536f6707")
-		)
-		(pin "5"
-			(uuid "2e7d5a52-dc3c-4350-8b55-269a1f1b3978")
-		)
-		(pin "4"
-			(uuid "9a95bcf9-ff66-4cf2-ad15-819f84837a77")
-		)
-		(instances
-			(project ""
-				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/1598073b-cadd-4ddc-981f-6a3774f37a0f"
-					(reference "U3")
 					(unit 1)
 				)
 			)
