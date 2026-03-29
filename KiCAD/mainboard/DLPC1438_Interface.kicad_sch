@@ -11211,6 +11211,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 250.19) (xy 421.64 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0023f537-ad77-4a30-aa81-dc39f0512d51")
+	)
+	(wire
+		(pts
 			(xy 361.95 234.95) (xy 359.41 234.95)
 		)
 		(stroke
@@ -12558,16 +12568,6 @@
 			(type default)
 		)
 		(uuid "3cedcc1a-1eae-485c-b6c4-c3f9c55ed713")
-	)
-	(wire
-		(pts
-			(xy 524.51 224.79) (xy 537.21 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d184c06-ef87-48e7-ae1e-035e0576f392")
 	)
 	(wire
 		(pts
@@ -14181,16 +14181,6 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 250.19) (xy 421.64 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed97e43-8ea4-4e65-a813-c064dbd8bc2e")
-	)
-	(wire
-		(pts
 			(xy 359.41 232.41) (xy 359.41 234.95)
 		)
 		(stroke
@@ -14538,6 +14528,16 @@
 			(type default)
 		)
 		(uuid "8c4d6cc4-b370-41a1-8915-c440c3c7624a")
+	)
+	(wire
+		(pts
+			(xy 537.21 224.79) (xy 524.51 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4d9eec-0248-4d08-950d-0e959886847e")
 	)
 	(wire
 		(pts
@@ -17996,6 +17996,16 @@
 		)
 		(uuid "646c0967-69eb-4fad-aa31-2648b82914d1")
 	)
+	(label "JTAG_TCK"
+		(at 524.51 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65601593-dbc9-4063-a85d-9d4e9e229df8")
+	)
 	(label "SPI0_MISO"
 		(at 560.07 345.44 180)
 		(effects
@@ -18085,16 +18095,6 @@
 			(justify left bottom)
 		)
 		(uuid "789422f1-b6f5-4193-8361-07e8a33a8981")
-	)
-	(label "JTAG_TCK"
-		(at 524.51 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79cc7a16-f89f-49d4-acda-36cd3dbd68ed")
 	)
 	(label "SPI0_CLK"
 		(at 532.13 129.54 0)
@@ -18276,6 +18276,16 @@
 		)
 		(uuid "9c5fbc5e-31b8-4f46-b2a3-da4c31741c10")
 	)
+	(label "JTAG_TCK"
+		(at 421.64 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ee81726-8d85-46b8-a810-7aa8dc039043")
+	)
 	(label "I2C1_33_EN"
 		(at 109.22 321.31 0)
 		(effects
@@ -18445,16 +18455,6 @@
 			(justify left bottom)
 		)
 		(uuid "c4c64dc8-5a7e-4df7-80a9-a954fa801e7a")
-	)
-	(label "JTAG_TCK"
-		(at 421.64 250.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cad7b526-ee4f-41d8-85c2-6b8845eb0c79")
 	)
 	(label "TSTPT_7"
 		(at 420.37 219.71 0)

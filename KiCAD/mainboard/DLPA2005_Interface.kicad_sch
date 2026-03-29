@@ -4296,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 76.2) (xy 24.13 76.2)
+			(xy 30.48 76.2) (xy 24.13 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4466,28 +4466,6 @@
 	)
 	(global_label "VBIAS"
 		(shape input)
-		(at 80.01 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "071d3e19-637c-4b5b-91a5-9d61111fbe26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.2567 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBIAS"
-		(shape input)
 		(at 24.13 85.09 90)
 		(fields_autoplaced yes)
 		(effects
@@ -4543,28 +4521,6 @@
 		(uuid "60117ca9-f482-4b02-bf67-dc71f8f00507")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.34 58.2167 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VOFS"
-		(shape input)
-		(at 80.01 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c40d4ff-3281-4f14-bb1f-07176199a4e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7124 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,28 +4658,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VRST"
-		(shape input)
-		(at 45.72 66.04 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de751b03-b55b-49e5-9766-938351ba1db5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 58.5191 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4870,6 +4804,39 @@
 			(justify left)
 		)
 		(uuid "bc232a9a-1d29-4a8c-abe7-248694539590")
+	)
+	(hierarchical_label "VRST"
+		(shape input)
+		(at 45.72 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d157ffe1-be7b-43f4-9d81-d3f1732dfeaf")
+	)
+	(hierarchical_label "VBIAS"
+		(shape input)
+		(at 80.01 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecc0536e-75e0-4bc1-ab9c-d1acbb86576f")
+	)
+	(hierarchical_label "VOFS"
+		(shape input)
+		(at 80.01 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eed8fae3-dedf-4261-830a-9806b58c5ab6")
 	)
 	(hierarchical_label "SPI1_CSZ0"
 		(shape input)
@@ -5780,6 +5747,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "246eb1d6-00b6-427c-8a5c-9a0c57a2619e")
+		(property "Reference" "TP23"
+			(at 33.401 82.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 31.877 80.391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 30.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ac13515-2bce-4d0e-b844-181d7e7464bf")
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/9cd29d54-68c1-4b23-aec1-57d737e6ea74"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 201.93 69.85 0)
 		(unit 1)
@@ -6630,7 +6663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 29.21 92.71 0)
 			(effects
 				(font
@@ -6961,73 +6994,6 @@
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/9cd29d54-68c1-4b23-aec1-57d737e6ea74"
 					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 29.21 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ad68f30-59d7-4cc8-ac8e-d2d13b545c08")
-		(property "Reference" "TP23"
-			(at 34.29 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 34.29 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecc81dd9-98d3-4be8-aa6c-f27a80972c64")
-		)
-		(instances
-			(project "mainboard"
-				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/9cd29d54-68c1-4b23-aec1-57d737e6ea74"
-					(reference "TP23")
 					(unit 1)
 				)
 			)

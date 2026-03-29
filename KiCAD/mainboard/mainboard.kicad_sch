@@ -257,6 +257,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 173.99) (xy 252.73 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5bddef-4ecc-411c-a70b-f45932cfc612")
+	)
+	(wire
+		(pts
 			(xy 212.09 165.1) (xy 212.09 170.18)
 		)
 		(stroke
@@ -334,6 +344,26 @@
 			(type default)
 		)
 		(uuid "8dccbfa8-7608-47e1-8005-f84ad6e2b8a9")
+	)
+	(wire
+		(pts
+			(xy 247.65 181.61) (xy 252.73 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f039948-7973-46f5-9d10-c0eb2d116941")
+	)
+	(wire
+		(pts
+			(xy 247.65 177.8) (xy 252.73 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32fb29b-366f-4732-ad2e-9641640d7e09")
 	)
 	(wire
 		(pts
@@ -862,7 +892,7 @@
 			)
 		)
 		(pin "VBIAS" input
-			(at 247.65 176.53 0)
+			(at 247.65 177.8 0)
 			(uuid "e68c8b10-c1f5-4913-bdf5-34141cc287e4")
 			(effects
 				(font
@@ -882,7 +912,7 @@
 			)
 		)
 		(pin "VRST" input
-			(at 247.65 179.07 0)
+			(at 247.65 181.61 0)
 			(uuid "4e8e50fe-8210-41c5-9aac-552eead2fa36")
 			(effects
 				(font
@@ -1106,6 +1136,36 @@
 		(pin "SPI1_MOSI" input
 			(at 252.73 151.13 180)
 			(uuid "c4723f3f-789e-4917-8223-d8f032670154")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBIAS" input
+			(at 252.73 177.8 180)
+			(uuid "c00a278a-a6ff-45db-bdff-62457f6a88c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOFS" input
+			(at 252.73 173.99 180)
+			(uuid "cba73a40-eebd-41e5-a131-e976399830f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VRST" input
+			(at 252.73 181.61 180)
+			(uuid "afc7453e-aa2f-4d83-a73e-231b5bcdf781")
 			(effects
 				(font
 					(size 1.27 1.27)
