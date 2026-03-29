@@ -10296,12 +10296,6 @@
 		(uuid "f7a96235-922a-4eeb-95b2-76d02e6e89d1")
 	)
 	(junction
-		(at 58.42 50.292)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0019dc97-175d-4b14-a977-aff7e763aac8")
-	)
-	(junction
 		(at 518.16 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13697,16 +13691,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 58.42 50.292)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c38bcf-4df7-4314-800b-0893c9154a12")
-	)
-	(wire
-		(pts
 			(xy 417.83 207.01) (xy 420.37 207.01)
 		)
 		(stroke
@@ -14367,16 +14351,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.292) (xy 58.42 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "872e173a-7102-42ca-b387-5097e354500c")
-	)
-	(wire
-		(pts
 			(xy 433.07 280.67) (xy 433.07 278.13)
 		)
 		(stroke
@@ -14847,7 +14821,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 61.468) (xy 58.42 73.66)
+			(xy 58.42 64.008) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15974,6 +15948,16 @@
 			(type default)
 		)
 		(uuid "d252ae2d-0930-4e3d-805c-db6abd13f3a0")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 58.42 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28e513a-656d-4ae8-a9a8-988ae0ba445c")
 	)
 	(wire
 		(pts
@@ -20863,7 +20847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 513.08 226.06 0)
 			(effects
 				(font
@@ -21226,7 +21210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -21532,7 +21516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 114.3 228.6 0)
 			(effects
 				(font
@@ -21756,7 +21740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 186.69 58.42 0)
 			(effects
 				(font
@@ -21981,7 +21965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 260.35 58.42 0)
 			(effects
 				(font
@@ -22439,7 +22423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -22730,7 +22714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 252.73 134.62 0)
 			(effects
 				(font
@@ -23843,7 +23827,7 @@
 	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 58.42 55.88 90)
+		(at 58.42 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23851,7 +23835,7 @@
 		(dnp no)
 		(uuid "4df83f9c-f964-4252-8349-bb18e5d49c86")
 		(property "Reference" "C144"
-			(at 53.594 55.118 0)
+			(at 53.594 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23860,7 +23844,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 55.626 55.372 0)
+			(at 55.626 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23868,8 +23852,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
-			(at 58.42 55.88 0)
+		(property "Footprint" "CAPC2012X70"
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23879,7 +23863,7 @@
 			)
 		)
 		(property "Datasheet" "TMK105BJ104KV-F"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23888,7 +23872,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23897,7 +23881,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23906,7 +23890,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23916,7 +23900,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23926,7 +23910,7 @@
 			)
 		)
 		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23936,7 +23920,7 @@
 			)
 		)
 		(property "Package" "0805 Yageo"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23946,7 +23930,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23956,7 +23940,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23966,7 +23950,7 @@
 			)
 		)
 		(property "MP" "CC0805KRX7R9BB104"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23976,7 +23960,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 58.42 55.88 0)
+			(at 58.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24441,7 +24425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 318.77 132.08 0)
 			(effects
 				(font
@@ -24600,7 +24584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 270.51 58.42 0)
 			(effects
 				(font
@@ -24760,7 +24744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 242.57 224.79 0)
 			(effects
 				(font
@@ -25142,7 +25126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 483.87 180.34 0)
 			(effects
 				(font
@@ -25732,7 +25716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -25891,7 +25875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 72.39 57.15 0)
 			(effects
 				(font
@@ -26194,7 +26178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 219.71 58.42 0)
 			(effects
 				(font
@@ -26500,7 +26484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 135.89 59.69 0)
 			(effects
 				(font
@@ -26944,7 +26928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -27103,7 +27087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 201.93 58.42 0)
 			(effects
 				(font
@@ -27262,7 +27246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 194.31 58.42 0)
 			(effects
 				(font
@@ -27911,7 +27895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 66.04 57.15 0)
 			(effects
 				(font
@@ -28333,7 +28317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 242.57 134.62 0)
 			(effects
 				(font
@@ -29786,7 +29770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 146.05 309.88 0)
 			(effects
 				(font
@@ -31442,7 +31426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 95.25 309.88 0)
 			(effects
 				(font
@@ -32041,7 +32025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 549.91 139.7 0)
 			(effects
 				(font
@@ -32278,7 +32262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -32437,7 +32421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -33087,7 +33071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 307.34 181.61 0)
 			(effects
 				(font
@@ -33483,7 +33467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 236.22 58.42 0)
 			(effects
 				(font
@@ -33709,7 +33693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -33951,7 +33935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 563.88 147.32 0)
 			(effects
 				(font
@@ -34191,7 +34175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 80.01 57.15 0)
 			(effects
 				(font
@@ -34576,7 +34560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "CAPC2012X70"
 			(at 128.27 59.69 0)
 			(effects
 				(font
