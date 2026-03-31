@@ -87,6 +87,17 @@ img = Image.open(IMAGE_PATH).convert("L")  # grayscale
 arr = np.array(img, dtype=np.uint8)
 
 height, width = arr.shape
+
+# needs to be 1280 × 720 for FPGA
+if (width, height) != (1280, 720):
+    if input("Warning: Image is not 1280x720. Resize? (y/n) ").lower() == 'y':
+        img = img.resize((1280, 720))
+        arr = np.array(img, dtype=np.uint8)
+        height, width = arr.shape
+    else:
+        print("Exiting.")
+        exit()
+
 print(f"Image: {width}x{height}")
 
 # Flatten to 1D byte stream
@@ -110,11 +121,15 @@ sent = 0
 while sent < len(data):
     chunk = data[sent:sent+CHUNK]
     ser.write(chunk)
+
+    ack = ser.read(1)
+    if ack != b'\xAA':
+        print("Error: No ACK received")
+        break
+
     sent += len(chunk)
 
-    # Optional: pacing (important if Teensy overruns)
-    time.sleep(0.001)
-
+    # Just progress update every 20 chunks
     if sent % (CHUNK * 20) == 0:
         print(f"Sent {sent}/{len(data)} bytes")
 
@@ -127,6 +142,28 @@ crc = crc16(data)
 print(f"CRC16: {hex(crc)}")
 
 # Send CRC as little endian
+ser.reset_input_buffer()
 ser.write(bytes([crc & 0xFF, (crc >> 8) & 0xFF]))
+
+results = ser.read(2)
+
+if len(results) < 2:
+    print("Incomplete response from Teensy")
+else:
+    resultTeensy, resultFPGA = results[0:1], results[1:2]
+
+    if resultTeensy == b'\xCC':
+        print("✅ CRC MATCH TEENSY")
+    elif resultTeensy == b'\xEE':
+        print("❌ CRC MISMATCH TEENSY")
+    else:
+        print("⚠️ Unknown Teensy response")
+
+    if resultFPGA == b'\xDD':
+        print("✅ CRC MATCH FPGA")
+    elif resultFPGA == b'\xEF':
+        print("❌ CRC MISMATCH FPGA")
+    else:
+        print("⚠️ Unknown FPGA response")
 
 ser.close()
