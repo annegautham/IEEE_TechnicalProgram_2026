@@ -472,7 +472,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -483,17 +483,397 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.1,
+        "via_diameter": 0.55,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "BGA_Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DMD_LVDS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DMD_VOLTAGE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LED_DRIVE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VIN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VOTHER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/DLPA2005_Interface/PROJ_ON": [
+        "BGA_Signal"
+      ],
+      "/DLPA2005_Interface/RC_CHARGE": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/ACT_SYNC": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/CMP_OUT": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DATEN_CM_D": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DLPC_HOST_IRQ": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DLPC_LED_SEL_0": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DLPC_LED_SEL_1": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DLPC_PLLO": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DLPC_SPICLK": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DLPC_SPICSZ0": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DLPC_SPIDOUT": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_DEN_ARSTZ": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_CLK_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_CLK_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAA_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAA_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAB_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAB_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAC_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAC_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAD_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAD_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAE_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAE_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAF_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAF_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAG_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAG_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAH_N": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_HS_WDATAH_P": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/DMD_LS_RDATA": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/FPGA_RDY": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_1": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_12": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_15": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_16": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_17": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_18": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_19": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_2": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_3": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_4": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/GPIO_5": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/HSYNC": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/IIC0_SCL": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/IIC0_SDA": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/IIC1_SCL": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/IIC1_SDA": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/INTZ": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/JTAG_TCK": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/JTAG_TDI": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/JTAG_TDO": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/JTAG_TMS": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/JTAG_TRSTZ": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/LS_CLK": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/LS_WDATA": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/OSC_OUT": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PCLK": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA0": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA1": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA2": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA3": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA4": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA5": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA6": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDATA7": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/PDM_CVS_TE": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/RESETZ": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/SPI0_MISO": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/SPI1_MISO": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/THERM_PWR": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_0": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_1": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_2": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_3": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_4": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_5": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_6": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/TSTPT_7": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/VDD_PLL": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/VSS_PLL": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/VSYNC": [
+        "BGA_Signal"
+      ],
+      "GND": [
+        "BGA_Signal"
+      ],
+      "GPIO_6": [
+        "BGA_Signal"
+      ],
+      "GPIO_9": [
+        "BGA_Signal"
+      ],
+      "P1P1V": [
+        "BGA_Signal"
+      ],
+      "P1P8V_DLPC": [
+        "BGA_Signal"
+      ],
+      "P3P3V_SB": [
+        "BGA_Signal"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
