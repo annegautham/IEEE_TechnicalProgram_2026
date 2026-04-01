@@ -5917,7 +5917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 128.27 30.48 0)
 			(effects
 				(font
@@ -6321,7 +6321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 43.18 63.5 0)
 			(effects
 				(font
@@ -6596,7 +6596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 191.77 54.61 0)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 90.17 25.4 0)
 			(effects
 				(font
@@ -7226,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 91.44 160.02 0)
 			(effects
 				(font
@@ -8325,7 +8325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 130.81 30.48 0)
 			(effects
 				(font

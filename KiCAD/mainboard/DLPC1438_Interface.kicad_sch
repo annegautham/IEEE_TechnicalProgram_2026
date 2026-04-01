@@ -12191,16 +12191,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 146.05) (xy 106.68 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28c9ccb9-3fe7-4924-aeed-c23f31ceaf65")
-	)
-	(wire
-		(pts
 			(xy 135.89 43.18) (xy 142.24 43.18)
 		)
 		(stroke
@@ -13981,6 +13971,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 285.75) (xy 422.91 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7404fbc3-0f2e-4adb-9609-95dccaee0a3d")
+	)
+	(wire
+		(pts
 			(xy 518.16 160.02) (xy 518.16 168.91)
 		)
 		(stroke
@@ -14098,6 +14098,16 @@
 			(type default)
 		)
 		(uuid "7cfecf10-af95-4381-918d-294950136548")
+	)
+	(wire
+		(pts
+			(xy 106.68 146.05) (xy 95.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7e372d-ba59-446f-9d63-02e383c1a401")
 	)
 	(wire
 		(pts
@@ -16181,6 +16191,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 283.21) (xy 422.91 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba8361d-203f-4480-a746-1831fef31fe4")
+	)
+	(wire
+		(pts
 			(xy 227.33 66.04) (xy 219.71 66.04)
 		)
 		(stroke
@@ -17666,6 +17686,16 @@
 		)
 		(uuid "041227ca-1dac-4d3f-9e82-9e90464c71eb")
 	)
+	(label "IIC1_SCL_1p8"
+		(at 422.91 285.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "062c661e-51b8-4414-8869-d21a2c3188a5")
+	)
 	(label "CMP_OUT"
 		(at 492.76 64.77 0)
 		(effects
@@ -17797,7 +17827,7 @@
 		(uuid "26dce03e-c76c-45fc-bdec-ff2d75f2e1e0")
 	)
 	(label "PDM_CVS_TE"
-		(at 419.1 191.77 0)
+		(at 420.37 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17805,6 +17835,16 @@
 			(justify left bottom)
 		)
 		(uuid "299264ab-4f6e-41cb-a268-0ad51d0107e2")
+	)
+	(label "IIC1_SDA_1p8"
+		(at 422.91 283.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35002465-69bc-4140-82a2-9825e11fd0d2")
 	)
 	(label "SPI1_CLK"
 		(at 482.6 129.54 0)
@@ -19824,17 +19864,6 @@
 		)
 		(uuid "1c422e5e-32a0-4aec-afae-4ec1d5958ed4")
 	)
-	(hierarchical_label "IIC1_SDA"
-		(shape input)
-		(at 417.83 285.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e829450-06b7-45f9-99dc-67538097c348")
-	)
 	(hierarchical_label "GPIO_15"
 		(shape input)
 		(at 417.83 123.19 0)
@@ -20275,17 +20304,6 @@
 		)
 		(uuid "aebad980-6c46-4173-890c-f69cc752bb7b")
 	)
-	(hierarchical_label "IIC1_SCL"
-		(shape input)
-		(at 417.83 283.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8fc9b4b-47b4-4d33-8924-6b240bed1077")
-	)
 	(hierarchical_label "SPI1_CLK"
 		(shape input)
 		(at 334.01 156.21 180)
@@ -20546,7 +20564,6 @@
 		(length 2.54)
 		(shape diamond)
 		(at 420.37 288.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20555,7 +20572,7 @@
 		)
 		(uuid "03cd40b6-7927-4ee6-a056-5a80884dfd75")
 		(property "Netclass" "BGA_Signal"
-			(at 421.5765 285.75 0)
+			(at 434.594 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24049,7 +24066,6 @@
 		(length 2.54)
 		(shape diamond)
 		(at 417.83 285.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24058,7 +24074,7 @@
 		)
 		(uuid "f23232b7-76fc-44fb-a03d-7fe5fb1b2fdc")
 		(property "Netclass" "BGA_Signal"
-			(at 419.0365 283.21 0)
+			(at 437.134 284.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24811,7 +24827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 420.37 64.77 0)
 			(effects
 				(font
@@ -25928,7 +25944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 261.62 234.95 0)
 			(effects
 				(font
@@ -26078,7 +26094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 85.09 151.13 0)
 			(effects
 				(font
@@ -31550,7 +31566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 326.39 198.12 0)
 			(effects
 				(font
@@ -32862,7 +32878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 321.31 74.93 0)
 			(effects
 				(font
@@ -33296,7 +33312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 342.9 191.77 0)
 			(effects
 				(font
@@ -34744,7 +34760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 323.85 81.28 0)
 			(effects
 				(font
@@ -35680,7 +35696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 345.44 156.21 0)
 			(effects
 				(font
@@ -36726,7 +36742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730R1L:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 320.04 113.03 0)
 			(effects
 				(font
@@ -37431,7 +37447,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 31.75 213.36 0)
 			(effects
 				(font

@@ -750,7 +750,13 @@
       "/DLPC1438_Interface/IIC1_SCL": [
         "BGA_Signal"
       ],
+      "/DLPC1438_Interface/IIC1_SCL_1p8": [
+        "BGA_Signal"
+      ],
       "/DLPC1438_Interface/IIC1_SDA": [
+        "BGA_Signal"
+      ],
+      "/DLPC1438_Interface/IIC1_SDA_1p8": [
         "BGA_Signal"
       ],
       "/DLPC1438_Interface/INTZ": [
