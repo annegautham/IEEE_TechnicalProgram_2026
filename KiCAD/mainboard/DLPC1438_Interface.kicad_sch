@@ -11671,6 +11671,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 44.45) (xy 361.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16332856-9332-48d6-91f9-5fe51688b36b")
+	)
+	(wire
+		(pts
 			(xy 331.47 74.93) (xy 361.95 74.93)
 		)
 		(stroke
@@ -14681,6 +14691,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 46.99) (xy 342.9 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d46bf4-ef26-42c9-83d3-b4f7d1230f80")
+	)
+	(wire
+		(pts
 			(xy 483.87 158.75) (xy 486.41 158.75)
 		)
 		(stroke
@@ -16761,6 +16781,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 44.45) (xy 331.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f533aa05-4468-45ef-b830-97042636b2eb")
+	)
+	(wire
+		(pts
 			(xy 194.31 49.53) (xy 186.69 49.53)
 		)
 		(stroke
@@ -16988,6 +17018,16 @@
 			(type default)
 		)
 		(uuid "fdf5b330-ed51-41ce-85d3-7e811fb59c39")
+	)
+	(wire
+		(pts
+			(xy 327.66 46.99) (xy 330.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe083afc-6941-4ac7-b44d-28427f94decc")
 	)
 	(wire
 		(pts
@@ -18326,6 +18366,16 @@
 		)
 		(uuid "9ee81726-8d85-46b8-a810-7aa8dc039043")
 	)
+	(label "LS_WDATA"
+		(at 347.98 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fc6bb50-19b2-49b9-8fec-57c3ccccf86e")
+	)
 	(label "I2C1_33_EN"
 		(at 109.22 321.31 0)
 		(effects
@@ -18615,6 +18665,16 @@
 			(justify left bottom)
 		)
 		(uuid "ef862913-fcf1-4145-b7b7-adeff48cbc84")
+	)
+	(label "LS_CLK"
+		(at 347.98 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efccb9f0-0c42-44d2-90e0-1579eb404250")
 	)
 	(label "SPI0_CLK"
 		(at 95.25 146.05 0)
@@ -20295,7 +20355,7 @@
 	)
 	(hierarchical_label "LS_WDATA"
 		(shape input)
-		(at 361.95 46.99 180)
+		(at 327.66 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20339,7 +20399,7 @@
 	)
 	(hierarchical_label "LS_CLK"
 		(shape input)
-		(at 361.95 44.45 180)
+		(at 327.66 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22298,7 +22358,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 361.95 44.45 0)
+		(at 345.44 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22308,7 +22368,7 @@
 		)
 		(uuid "603ea75e-b4b4-4d16-b4df-fac097af729c")
 		(property "Netclass" "BGA_Signal"
-			(at 363.1565 41.91 0)
+			(at 346.6465 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22317,7 +22377,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 57.15 -17.78 0)
+			(at 40.64 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22949,7 +23009,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 361.95 46.99 0)
+		(at 345.44 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22959,7 +23019,7 @@
 		)
 		(uuid "a0cff16d-c69b-4c63-b4d2-05a80100b0c1")
 		(property "Netclass" "BGA_Signal"
-			(at 363.1565 44.45 0)
+			(at 346.6465 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22968,7 +23028,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 57.15 -15.24 0)
+			(at 40.64 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30278,6 +30338,87 @@
 		)
 	)
 	(symbol
+		(lib_id "RC0805JR-070RL:RC0805JR-070RL")
+		(at 331.47 44.45 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f92ed11-b8d8-41ab-9981-c9feb21232df")
+		(property "Reference" "R45"
+			(at 339.0901 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "43"
+			(at 336.5501 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 331.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 331.47 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f4b7c8e-08f6-4b6e-8dd0-f07a8228537b")
+		)
+		(pin "1"
+			(uuid "ee836b62-09db-4feb-9e51-59e49573cab7")
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
 		(at 135.89 59.69 90)
 		(unit 1)
@@ -32396,6 +32537,87 @@
 			(project "mainboard"
 				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RC0805JR-070RL:RC0805JR-070RL")
+		(at 330.2 46.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "992388a3-853a-4733-ade2-79d341a37a84")
+		(property "Reference" "R44"
+			(at 337.8201 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "43"
+			(at 335.2801 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 330.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 330.2 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c4455a7-ca92-4a6e-9ab2-c548e4809049")
+		)
+		(pin "1"
+			(uuid "a9066afb-7ec1-42d0-ac5a-2db70a03515e")
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
+					(reference "R44")
 					(unit 1)
 				)
 			)
