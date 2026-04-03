@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <SPI.h>
-#include "helperFuncs.h"
+#include <helperFuncs.h>
 
 uint32_t index_val = 0;
 uint32_t total_length = 921600;
@@ -14,18 +14,24 @@ uint8_t crc_index = 0;
 #define CS_PIN 10
 #define CHUNK 512
 
-uint8_t buffer[CHUNK];
+bool haveFPGA = false;
+
+char buffer[CHUNK];
 
 void setup() {
   Serial.begin(115200);
-  SPI.begin();
+  if (haveFPGA == true) {
+    SPI.begin();
+  }
+  
 
   pinMode(CS_PIN, OUTPUT);
   digitalWrite(CS_PIN, HIGH);
 
-  SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0));
-
-  index_val = make_index();
+  if (haveFPGA == true) {
+    SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0));
+  }
+  
 }
 
 void loop() {
@@ -41,19 +47,25 @@ void loop() {
     
     int len = Serial.readBytes(buffer, to_read);
 
-    // Update CRC
     running_crc = crc16_update(running_crc, buffer, len);
 
     digitalWrite(CS_PIN, LOW);
 
     if (first) {
-      send_header(true);
+      if (haveFPGA == true) {
+        send_header(true);
+      }
       first = false;
     } else {
-      send_header(false);
+      if (haveFPGA == true) {
+        send_header(false);
+      }
     }
 
-    SPI.transfer(buffer, len);
+    if (haveFPGA == true) {
+      SPI.transfer(buffer, len);
+    }
+    
 
     digitalWrite(CS_PIN, HIGH);
 
@@ -61,11 +73,12 @@ void loop() {
 
     // ACK chunk
     Serial.write(0xAA);
-
+    
     // =========================
     // once last chunk is sent we check crc and send the same crc to fpga
     // =========================
     if (sent >= total_length) {
+
       while (Serial.available() && crc_index < 2) {
         crc_bytes[crc_index++] = Serial.read();
       }
@@ -75,13 +88,17 @@ void loop() {
 
         if (received_crc == running_crc) {
           Serial.write(0xCC);  // good
-          // send same crc to FPGA
-          digitalWrite(CS_PIN, LOW);
 
-          uint8_t resp1 = SPI.transfer((uint8_t)(running_crc & 0xFF));
-          uint8_t resp2 = SPI.transfer((uint8_t)((running_crc >> 8) & 0xFF));
-
-          digitalWrite(CS_PIN, HIGH);
+          uint8_t resp1 = crc_bytes[0];
+          uint8_t resp2 = crc_bytes[1];
+          
+          if (haveFPGA == true) {
+            // send same crc to FPGA
+            digitalWrite(CS_PIN, LOW);
+            resp1 = SPI.transfer((uint8_t)(running_crc & 0xFF));
+            resp2 = SPI.transfer((uint8_t)((running_crc >> 8) & 0xFF));
+            digitalWrite(CS_PIN, HIGH);
+          }
 
           // Combine FPGA response (if it's 16-bit)
           uint16_t fpga_crc = resp1 | (resp2 << 8);
@@ -94,6 +111,7 @@ void loop() {
           }
         } else {
           Serial.write(0xEE);  // bad
+          Serial.write(0xBB);
         }
 
         // reset for new frame

@@ -61,9 +61,9 @@ print("Selected Image:", selected_image)
 
 COM_PORT = selected_port
 BAUD = 115200
-TIMEOUT = 1       
+TIMEOUT = 2      
 
-CHUNK = 512            # must match Teensy buffer
+CHUNK = 512            
 IMAGE_PATH = selected_image
 
 # =========================
@@ -124,7 +124,8 @@ while sent < len(data):
 
     ack = ser.read(1)
     if ack != b'\xAA':
-        print("Error: No ACK received")
+        print("Error: Wrong ACK received")
+        print('Received: ', ack)
         break
 
     sent += len(chunk)
@@ -142,10 +143,15 @@ crc = crc16(data)
 print(f"CRC16: {hex(crc)}")
 
 # Send CRC as little endian
-ser.reset_input_buffer()
 ser.write(bytes([crc & 0xFF, (crc >> 8) & 0xFF]))
 
-results = ser.read(2)
+results = ser.read(3)
+
+# For some reason teensy sends xAA xCC and then xDD and I think it's because
+# there's a leftover ACK from last chunk but when I tried to remove that last
+# ACK it didn't register an ACK for the last chunk so I made the executive decision
+# to just ignore it and slice it here!
+results = results[1:3]
 
 if len(results) < 2:
     print("Incomplete response from Teensy")

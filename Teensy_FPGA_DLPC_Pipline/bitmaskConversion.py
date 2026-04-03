@@ -1,4 +1,3 @@
-# MACRO FOR KLAYOUT MAKE A .LYM FILE FOR MACRO DEV ON IT
 import pya
 import math
 import os
@@ -9,7 +8,7 @@ import os
 OUTPUT_DIR = os.path.join(os.path.expanduser("~"), "Desktop", "klayout_tiles")
 IMG_WIDTH = 1280
 IMG_HEIGHT = 720
-MARGIN = 15.0  # Margin in micrometers (um)
+MARGIN = 0  # Margin in micrometers (um)
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)

@@ -1,6 +1,3 @@
-#ifndef HELPER_FUNCS_H
-#define HELPER_FUNCS_H
-
 #include <Arduino.h>
 #include <SPI.h>
 
@@ -11,5 +8,4 @@ extern uint32_t total_length;
 // function declarations
 void send_header(bool include_length);
 uint16_t crc16(uint8_t *data, uint32_t len);
-
-#endif
+uint16_t crc16_update(uint16_t crc, uint8_t *data, uint32_t len);
