@@ -3,6 +3,7 @@ from PIL import Image
 import tkinter as tk
 from tkinter import filedialog
 import re
+import cleanImages
 
 def stitch_images():
     # 1. Open Folder Picker
@@ -44,6 +45,7 @@ def stitch_images():
     # 5. Paste tiles
     for ix, iy in coords:
         img_path = os.path.join(folder_selected, f"tile_y{iy:02d}_x{ix:02d}.png")
+        cleanImages.remove_black_markers(img_path, img_path)
         if os.path.exists(img_path):
             img = Image.open(img_path)
             # In PIL (0,0) is TOP-left. KLayout exports (0,0) as BOTTOM-left.

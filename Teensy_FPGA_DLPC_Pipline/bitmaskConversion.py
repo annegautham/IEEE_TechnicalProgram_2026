@@ -40,7 +40,7 @@ layout_w = xmax - xmin
 layout_h = ymax - ymin
 
 # Define zoom level
-tiles_across = 3 
+tiles_across = 9
 tile_w_um = layout_w / tiles_across
 # Calculate height based on 1280:720 aspect ratio
 tile_h_um = tile_w_um * (IMG_HEIGHT / IMG_WIDTH) 
@@ -61,6 +61,22 @@ view.set_config("grid-visible", "false")
 view.set_config("axes-visible", "false")
 view.set_config("scale-bar-visible", "false")
 
+view.set_config("inst-points-visible", "false")
+view.set_config("selection-visible", "false")
+
+# Force the renderer to show all details regardless of zoom
+view.set_config("min-feature-size", "0")
+# Disable the "Stippling" (stripes) globally
+view.set_config("fill-mode", "0")
+
+# 2. Force the layer to be solid instead of striped
+# This iterates through the layers and sets their fill to 'solid'
+lp = view.begin_layers()
+while not lp.at_end():
+    layer_properties = lp.current()
+    layer_properties.dither_pattern = 0 # 0 is solid fill
+    lp.next()
+
 try:
     for iy in range(ny):
         for ix in range(nx):
@@ -73,9 +89,10 @@ try:
             # zoom_box sets the viewport to these specific micron coordinates
             view.zoom_box(pya.DBox(x0, y0, x1, y1))
             pya.Application.instance().process_events()
-
+            
+            clip_box = pya.DBox(x0, y0, x1, y1)
             filename = os.path.join(OUTPUT_DIR, f"tile_y{iy:02d}_x{ix:02d}.png")
-            view.save_image(filename, IMG_WIDTH, IMG_HEIGHT)
+            view.save_image_with_options(filename, IMG_WIDTH, IMG_HEIGHT, 0, 0, 0, clip_box, False)
             print(f"Saved: {filename}")
 
 finally:

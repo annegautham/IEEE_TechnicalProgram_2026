@@ -29,7 +29,10 @@ void setup() {
   digitalWrite(CS_PIN, HIGH);
 
   if (haveFPGA == true) {
-    SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0));
+    // 40-50 MHz ideally, testing at 20 MHz
+    // Teensy says it can go to 100 MHz SPI but like that's the hard max
+    // also the FPGA has a internal clock of 100 MHz so shouldn't go only 2x more
+    SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0)); 
   }
   
 }

@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 import os
 import re
+import cleanImages
 
 # =========================
 # CONFIG
@@ -96,6 +97,7 @@ def crc16(data):
 # =========================
 for ix, iy in coords:
     IMAGE_PATH = os.path.join(selected_folder, f"tile_y{iy:02d}_x{ix:02d}.png")
+    cleanImages.remove_black_markers(IMAGE_PATH, IMAGE_PATH)
     img = Image.open(IMAGE_PATH).convert("L")  # grayscale
     arr = np.array(img, dtype=np.uint8)
 
