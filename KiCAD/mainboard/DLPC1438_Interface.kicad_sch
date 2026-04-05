@@ -11365,7 +11365,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 220.98) (xy 139.7 220.98)
+			(xy 125.73 220.98) (xy 127 220.98)
 		)
 		(stroke
 			(width 0)
@@ -15032,6 +15032,16 @@
 			(type default)
 		)
 		(uuid "a22d3865-bf90-49d9-b742-67ae4eebb0b1")
+	)
+	(wire
+		(pts
+			(xy 137.16 220.98) (xy 139.7 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26852c1-bdff-46c4-884e-02eff334d22a")
 	)
 	(wire
 		(pts
@@ -24689,7 +24699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 513.08 226.06 0)
 			(effects
 				(font
@@ -24889,6 +24899,76 @@
 		)
 	)
 	(symbol
+		(lib_id "ul_SML-LX1206SIC-TR:SML-LX1206SIC-TR")
+		(at 137.16 220.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cc86bf2-50ba-421a-9db9-689c360a95b7")
+		(property "Reference" "D5"
+			(at 130.81 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SML-LX1206SIC-TR"
+			(at 130.81 224.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "tp_library:LED_SML-LX1206SIC-TR_LUM-M"
+			(at 137.16 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SML-LX1206SIC-TR"
+			(at 137.16 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3687ba3d-6b14-4a56-9e10-d9c454962449")
+		)
+		(pin "1"
+			(uuid "917b0522-9b62-471f-832b-7214dff737d1")
+		)
+		(instances
+			(project "mainboard"
+				(path "/38e83f42-2cf9-4799-a46f-ca415d95b90a/a69a407c-1a7c-4ac9-a9eb-cd67809c5ec0"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ERJP06F3301V:ERJP06F3301V")
 		(at 64.77 297.18 90)
 		(mirror x)
@@ -25052,7 +25132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -25358,7 +25438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 114.3 228.6 0)
 			(effects
 				(font
@@ -25582,7 +25662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 186.69 58.42 0)
 			(effects
 				(font
@@ -25807,7 +25887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 260.35 58.42 0)
 			(effects
 				(font
@@ -26265,7 +26345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -26556,7 +26636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 252.73 134.62 0)
 			(effects
 				(font
@@ -27694,7 +27774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 58.42 58.42 0)
 			(effects
 				(font
@@ -28267,7 +28347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 318.77 132.08 0)
 			(effects
 				(font
@@ -28426,7 +28506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 270.51 58.42 0)
 			(effects
 				(font
@@ -28586,7 +28666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 242.57 224.79 0)
 			(effects
 				(font
@@ -28968,7 +29048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 483.87 180.34 0)
 			(effects
 				(font
@@ -29558,7 +29638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -29717,7 +29797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 72.39 57.15 0)
 			(effects
 				(font
@@ -30020,7 +30100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 219.71 58.42 0)
 			(effects
 				(font
@@ -30407,7 +30487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 135.89 59.69 0)
 			(effects
 				(font
@@ -30851,7 +30931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -31010,7 +31090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 201.93 58.42 0)
 			(effects
 				(font
@@ -31169,7 +31249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 194.31 58.42 0)
 			(effects
 				(font
@@ -31818,7 +31898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 66.04 57.15 0)
 			(effects
 				(font
@@ -32240,7 +32320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 242.57 134.62 0)
 			(effects
 				(font
@@ -33774,7 +33854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 146.05 309.88 0)
 			(effects
 				(font
@@ -35430,7 +35510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 95.25 309.88 0)
 			(effects
 				(font
@@ -36029,7 +36109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 549.91 139.7 0)
 			(effects
 				(font
@@ -36266,7 +36346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -36425,7 +36505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -37075,7 +37155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 307.34 181.61 0)
 			(effects
 				(font
@@ -37471,7 +37551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 236.22 58.42 0)
 			(effects
 				(font
@@ -37697,7 +37777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -37939,7 +38019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 563.88 147.32 0)
 			(effects
 				(font
@@ -38179,7 +38259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 80.01 57.15 0)
 			(effects
 				(font
@@ -38564,7 +38644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 128.27 59.69 0)
 			(effects
 				(font

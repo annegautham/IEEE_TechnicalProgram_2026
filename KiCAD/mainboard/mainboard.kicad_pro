@@ -499,8 +499,8 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
-        "via_diameter": 0.5,
-        "via_drill": 0.3
+        "via_diameter": 0.35,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.1,
@@ -880,7 +880,12 @@
         "BGA_Signal"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "BGA_Signal",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

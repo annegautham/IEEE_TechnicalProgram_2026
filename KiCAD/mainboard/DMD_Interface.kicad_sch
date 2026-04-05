@@ -5577,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 97.79 106.68 0)
 			(effects
 				(font
@@ -6305,7 +6305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 110.49 35.56 0)
 			(effects
 				(font
@@ -6333,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMK105BJ104KV"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 110.49 35.56 0)
 			(effects
 				(font
@@ -6464,7 +6464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 95.25 34.29 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 73.66 33.02 0)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 78.74 68.58 0)
 			(effects
 				(font
@@ -7344,7 +7344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -7372,7 +7372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMK105BJ104KV"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -7579,7 +7579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 83.82 34.29 0)
 			(effects
 				(font
@@ -7816,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KRX7R9BB104:CAPC2012X70"
+		(property "Footprint" "tp_library:CAP_CL05_SAM"
 			(at 120.65 34.29 0)
 			(effects
 				(font
@@ -7844,7 +7844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TMK105BJ104KV"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 120.65 34.29 0)
 			(effects
 				(font
