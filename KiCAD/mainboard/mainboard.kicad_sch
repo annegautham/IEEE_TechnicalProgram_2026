@@ -1475,16 +1475,6 @@
 				(justify left)
 			)
 		)
-		(pin "ACT_SYNC" input
-			(at 161.29 122.555 90)
-			(uuid "0029ba09-edca-46c5-a5fc-dc3a1724a4f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "HOST_IR" input
 			(at 153.67 122.555 90)
 			(uuid "9d76222e-ce88-4964-892a-7a3dbfe85ea3")

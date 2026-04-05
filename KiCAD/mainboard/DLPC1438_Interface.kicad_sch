@@ -11124,6 +11124,10 @@
 		(uuid "0a17ba7b-8ca3-4ae0-aa82-70826fb6ee6b")
 	)
 	(no_connect
+		(at 361.95 247.65)
+		(uuid "15f0f94a-fd6b-4d82-8196-f4a34d46ca36")
+	)
+	(no_connect
 		(at 492.76 158.75)
 		(uuid "171d023f-6798-4553-84e3-9edefbb701c7")
 	)
@@ -20056,17 +20060,6 @@
 		)
 		(uuid "355510d5-d961-4450-af26-48f30fdc5f3a")
 	)
-	(hierarchical_label "ACT_SYNC"
-		(shape input)
-		(at 361.95 247.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "398a8f4d-99ef-464f-9fb2-e74a7339fb00")
-	)
 	(hierarchical_label "DMD_HS_CLK_N"
 		(shape input)
 		(at 361.95 97.79 180)
@@ -22068,37 +22061,6 @@
 		)
 		(property "Component Class" ""
 			(at 114.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 247.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e92f9be-9944-4508-b538-1cb442d1525c")
-		(property "Netclass" "BGA_Signal"
-			(at 363.1565 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
