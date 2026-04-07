@@ -11345,6 +11345,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 95.25) (xy 417.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0404e491-4418-43a4-978b-a5c46ce1601c")
+	)
+	(wire
+		(pts
 			(xy 529.59 288.29) (xy 537.21 288.29)
 		)
 		(stroke
@@ -11935,6 +11945,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 140.97) (xy 417.83 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5229dc-e746-4746-9ca4-8ebc9374311a")
+	)
+	(wire
+		(pts
 			(xy 132.08 314.96) (xy 129.54 314.96)
 		)
 		(stroke
@@ -12095,6 +12115,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 184.15) (xy 417.83 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2404a7f5-a425-484f-9ec7-676e5e55af95")
+	)
+	(wire
+		(pts
 			(xy 331.47 115.57) (xy 361.95 115.57)
 		)
 		(stroke
@@ -12173,6 +12203,16 @@
 		)
 		(uuid "26a80acf-ece7-4f9f-996c-86ff3d1ced3e")
 	)
+	(wire
+		(pts
+			(xy 433.07 125.73) (xy 417.83 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27122c6a-a882-40d7-a0d3-6a8c91846add")
+	)
 	(polyline
 		(pts
 			(xy 163.83 382.27) (xy 29.21 382.27)
@@ -12242,6 +12282,16 @@
 			(type default)
 		)
 		(uuid "2aa2f050-c7db-4c58-9497-bcb2933951ae")
+	)
+	(wire
+		(pts
+			(xy 434.34 92.71) (xy 417.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b873228-5212-44ff-8221-6d25693fb93a")
 	)
 	(polyline
 		(pts
@@ -12405,6 +12455,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 148.59) (xy 417.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32816249-0f74-4350-871d-cfa52ab8129f")
+	)
+	(wire
+		(pts
 			(xy 260.35 64.008) (xy 260.35 66.04)
 		)
 		(stroke
@@ -12563,6 +12623,16 @@
 		)
 		(uuid "3bae6dcc-3eca-42a7-a9f5-fc87bdbaf80a")
 	)
+	(wire
+		(pts
+			(xy 433.07 128.27) (xy 417.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccec083-86e9-4440-beaa-6b4aa307cb59")
+	)
 	(polyline
 		(pts
 			(xy 298.45 13.97) (xy 298.45 407.67)
@@ -12632,6 +12702,16 @@
 			(type default)
 		)
 		(uuid "3ef0d84e-e1b5-4722-833e-19980b28235a")
+	)
+	(wire
+		(pts
+			(xy 433.07 146.05) (xy 417.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbe12eb-138c-4b41-baba-f86ccf69ad8f")
 	)
 	(wire
 		(pts
@@ -12722,6 +12802,16 @@
 			(type default)
 		)
 		(uuid "4144d7ca-fbc0-42c0-b2b3-3f94243f840a")
+	)
+	(wire
+		(pts
+			(xy 433.07 57.15) (xy 417.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418f75ad-3a87-4d01-bf5a-e54f552fa2eb")
 	)
 	(wire
 		(pts
@@ -13622,6 +13712,16 @@
 			(type default)
 		)
 		(uuid "616c0ddf-5336-4e2f-b7ab-c88c14eb78d4")
+	)
+	(wire
+		(pts
+			(xy 433.07 143.51) (xy 417.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6208dadc-e73f-477e-b802-21ed4e264a89")
 	)
 	(wire
 		(pts
@@ -15985,6 +16085,26 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 54.61) (xy 417.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22097db-dfc0-4267-a942-c31cb33609ac")
+	)
+	(wire
+		(pts
+			(xy 434.34 181.61) (xy 417.83 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2498d37-5081-4165-8dc9-3f6374ea55bb")
+	)
+	(wire
+		(pts
 			(xy 537.21 143.51) (xy 547.37 143.51)
 		)
 		(stroke
@@ -16232,6 +16352,16 @@
 			(type default)
 		)
 		(uuid "dba8361d-203f-4480-a746-1831fef31fe4")
+	)
+	(wire
+		(pts
+			(xy 434.34 179.07) (xy 417.83 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc08619-a0da-48c1-bda2-bc61b08f7b52")
 	)
 	(wire
 		(pts
@@ -19907,7 +20037,7 @@
 	)
 	(hierarchical_label "PDATA5"
 		(shape input)
-		(at 417.83 146.05 0)
+		(at 433.07 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19918,7 +20048,7 @@
 	)
 	(hierarchical_label "GPIO_18"
 		(shape input)
-		(at 417.83 179.07 0)
+		(at 434.34 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19995,7 +20125,7 @@
 	)
 	(hierarchical_label "PDATA3"
 		(shape input)
-		(at 417.83 125.73 0)
+		(at 433.07 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20006,7 +20136,7 @@
 	)
 	(hierarchical_label "THERM_PWR"
 		(shape input)
-		(at 417.83 57.15 0)
+		(at 433.07 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20050,7 +20180,7 @@
 	)
 	(hierarchical_label "GPIO_16"
 		(shape input)
-		(at 417.83 140.97 0)
+		(at 433.07 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20116,7 +20246,7 @@
 	)
 	(hierarchical_label "PDATA0"
 		(shape input)
-		(at 417.83 95.25 0)
+		(at 434.34 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20215,7 +20345,7 @@
 	)
 	(hierarchical_label "PDATA2"
 		(shape input)
-		(at 417.83 128.27 0)
+		(at 433.07 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20259,7 +20389,7 @@
 	)
 	(hierarchical_label "PDATA4"
 		(shape input)
-		(at 417.83 148.59 0)
+		(at 433.07 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20303,7 +20433,7 @@
 	)
 	(hierarchical_label "RC_CHARGE"
 		(shape input)
-		(at 417.83 54.61 0)
+		(at 433.07 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20325,7 +20455,7 @@
 	)
 	(hierarchical_label "GPIO_19"
 		(shape input)
-		(at 417.83 181.61 0)
+		(at 434.34 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20336,7 +20466,7 @@
 	)
 	(hierarchical_label "GPIO_17"
 		(shape input)
-		(at 417.83 143.51 0)
+		(at 433.07 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20347,7 +20477,7 @@
 	)
 	(hierarchical_label "PDATA7"
 		(shape input)
-		(at 417.83 184.15 0)
+		(at 434.34 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20380,7 +20510,7 @@
 	)
 	(hierarchical_label "PDATA1"
 		(shape input)
-		(at 417.83 92.71 0)
+		(at 434.34 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
