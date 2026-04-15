@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <SPI.h>
-#include <helperFuncs.h>
+// #include "TeensyToFPGA.h"
+// #include "TeensyToDLPC.h"
 
 uint32_t index_val = 0;
 uint32_t total_length = 921600;
@@ -10,121 +11,180 @@ uint16_t received_crc = 0;
 bool receiving_crc = false;
 uint8_t crc_bytes[2];
 uint8_t crc_index = 0;
+char command = 'A';
 
 #define CS_PIN 10
+#define IRQ_PIN 2
 #define CHUNK 512
-
-bool haveFPGA = false;
 
 char buffer[CHUNK];
 
+int8_t currentOpCode = 0;
+uint8_t expectedParams = 0;
+uint8_t paramCounter = 0;
+uint8_t paramBuffer[64];
+
 void setup() {
   Serial.begin(115200);
-  if (haveFPGA == true) {
-    SPI.begin();
-  }
   
-
   pinMode(CS_PIN, OUTPUT);
+  pinMode(IRQ_PIN, INPUT);
+
+  initDLPC(IRQ_PIN);
+
   digitalWrite(CS_PIN, HIGH);
 
-  if (haveFPGA == true) {
-    // 40-50 MHz ideally, testing at 20 MHz
-    // Teensy says it can go to 100 MHz SPI but like that's the hard max
-    // also the FPGA has a internal clock of 100 MHz so shouldn't go only 2x more
-    SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0)); 
-  }
-  
+  SPI.begin();
+  // FPGA clk must be 4x faster than SPI clk
+  // Teensy says it can go to 100 MHz SPI but like that's the hard max
+  SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0)); 
+
+  enum State {
+    WAITING_FOR_COMMAND,
+    RECEIVING_IMAGE,
+    WRITING_REG,
+    WRITING_PARAMETERS
+  }  
+
+  State currentState = WAITING_FOR_COMMAND;
+  static uint32_t sent = 0;
+  static bool first = true;
+  // pinMode(26,OUTPUT);
+  // pinMode(27,OUTPUT);
+  // digitalWrite(26,HIGH);
+  // digitalWrite(27,LOW);
 }
 
 void loop() {
-  static uint32_t sent = 0;
-  static bool first = true;
-
-  if (Serial.available()) {
-    // =========================
-    // IMAGE SENDING
-    // =========================
-    uint32_t remaining = total_length - sent;
-    uint32_t to_read = (remaining < CHUNK) ? remaining : CHUNK;
-    
-    int len = Serial.readBytes(buffer, to_read);
-
-    running_crc = crc16_update(running_crc, buffer, len);
-
-    digitalWrite(CS_PIN, LOW);
-
-    if (first) {
-      if (haveFPGA == true) {
-        send_header(true);
-      }
-      first = false;
-    } else {
-      if (haveFPGA == true) {
-        send_header(false);
-      }
-    }
-
-    if (haveFPGA == true) {
-      SPI.transfer(buffer, len);
-    }
-    
-
-    digitalWrite(CS_PIN, HIGH);
-
-    sent += len;
-
-    // ACK chunk
-    Serial.write(0xAA);
-    
-    // =========================
-    // once last chunk is sent we check crc and send the same crc to fpga
-    // =========================
-    if (sent >= total_length) {
-
-      while (Serial.available() && crc_index < 2) {
-        crc_bytes[crc_index++] = Serial.read();
-      }
-
-      if (crc_index == 2) {
-        received_crc = crc_bytes[0] | (crc_bytes[1] << 8);
-
-        if (received_crc == running_crc) {
-          Serial.write(0xCC);  // good
-
-          uint8_t resp1 = crc_bytes[0];
-          uint8_t resp2 = crc_bytes[1];
-          
-          if (haveFPGA == true) {
-            // send same crc to FPGA
-            digitalWrite(CS_PIN, LOW);
-            resp1 = SPI.transfer((uint8_t)(running_crc & 0xFF));
-            resp2 = SPI.transfer((uint8_t)((running_crc >> 8) & 0xFF));
-            digitalWrite(CS_PIN, HIGH);
-          }
-
-          // Combine FPGA response (if it's 16-bit)
-          uint16_t fpga_crc = resp1 | (resp2 << 8);
-
-          // Send FPGA result back to Python
-          if (fpga_crc == running_crc) {
-            Serial.write(0xDD);  // FPGA agrees
-          } else {
-            Serial.write(0xFF);  // FPGA mismatch
-          }
+  switch (currentState) {
+    case WAITING_FOR_COMMAND:
+      if (Serial.available()) {
+        command = Serial.read();
+        if (command == 'I') {
+          sent = 0;
+          first = true;
+          running_crc = 0xFFFF;
+          crc_index = 0;
+          currentState = RECEIVING_IMAGE;
+        } else if (command == 'R') {
+          currentState = WRITING_I2C;
         } else {
-          Serial.write(0xEE);  // bad
-          Serial.write(0xBB);
+          Serial.println("Unrecognized command! Please try again")
         }
-
-        // reset for new frame
-        sent = 0;
-        first = true;
-        running_crc = 0xFFFF;
-        crc_index = 0;
       }
+      break;
+  
+    case RECEIVING_IMAGE:
+      if (Serial.available()) {
+        // =========================
+        // IMAGE SENDING
+        // =========================
+        uint32_t remaining = total_length - sent;
+        uint32_t to_read = (remaining < CHUNK) ? remaining : CHUNK;
+        
+        int len = Serial.readBytes(buffer, to_read);
 
-      return;
-    }
+        running_crc = crc16_update(running_crc, buffer, len);
+        
+        digitalWrite(CS_PIN, LOW);
+
+        send_header(first);
+        SPI.transfer(buffer, len);
+
+        digitalWrite(CS_PIN, HIGH);
+
+        sent += len;
+
+        // ACK chunk
+        Serial.write(0xAA);
+        
+        // =========================
+        // once last chunk is sent we check crc and send the same crc to fpga
+        // =========================
+        if (sent >= total_length) {
+
+          while (Serial.available() && crc_index < 2) {
+            crc_bytes[crc_index++] = Serial.read();
+          }
+
+          if (crc_index == 2) {
+            received_crc = crc_bytes[0] | (crc_bytes[1] << 8);
+
+            if (received_crc == running_crc) {
+              Serial.write(0xCC);  // good
+
+              uint8_t resp1 = crc_bytes[0];
+              uint8_t resp2 = crc_bytes[1];
+              
+                // send same crc to FPGA
+              digitalWrite(CS_PIN, LOW);
+              resp1 = SPI.transfer((uint8_t)(running_crc & 0xFF));
+              resp2 = SPI.transfer((uint8_t)((running_crc >> 8) & 0xFF));
+              digitalWrite(CS_PIN, HIGH);
+
+              // Combine FPGA response (if it's 16-bit)
+              uint16_t fpga_crc = resp1 | (resp2 << 8);
+
+              // Send FPGA result back to Python
+              if (fpga_crc == running_crc) {
+                Serial.write(0xDD);  // FPGA agrees
+              } else {
+                Serial.write(0xFF);  // FPGA mismatch
+              }
+            } else {
+              Serial.write(0xEE);  // bad
+              Serial.write(0xBB);
+            }
+            currentState = WAITING_FOR_COMMAND;
+          }
+        }
+      }
+      break;
+    
+    case WRITING_REG:
+      if (Serial.available() >= 2) { 
+        currentOpCode = Serial.read();
+        expectedParams = Serial.read();
+        paramCounter = 0;
+
+        Serial.print("You selected opCode: ");
+        Serial.print("0x");
+        if (opCode < 0x10) Serial.print("0"); // Leading zero for single digits
+        Serial.println(val, HEX);
+
+        Serial.print("With ");
+        Serial.print(expectedParams);
+        Serial.println(" parameters (bytes)");
+        
+        if (expectedParams == 0) {
+          // Execute immediately if no params
+          writeDLPC(currentOpCode, NULL, 0);
+          currentState = WAITING_FOR_COMMAND;
+        } else {
+          Serial.println("What command do you want to write?")
+          currentState = WRITING_PARAMETERS;
+        }
+      }
+      break;
+    
+    case WRITING_PARAMETERS:
+      if (Serial.available()) {
+        paramBuffer[paramCounter++] = Serial.read();
+
+        Serial.print("Sending ")
+        for (uint8_t i = 0, i < expectedParams, i++) {
+          Serial.print(paramBuffer[i], HEX);
+          Serial.print(", ")
+        }
+        Serial.println("to the DLPC");
+        
+        if (paramCounter >= expectedParams) {
+            writeDLPC(currentOpCode, paramBuffer, expectedParams);
+            
+            Serial.write(0xAA);
+            currentState = WAITING_FOR_COMMAND;
+        }
+      }
+      break;
   }
 }

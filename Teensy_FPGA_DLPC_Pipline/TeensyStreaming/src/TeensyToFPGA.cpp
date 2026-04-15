@@ -1,18 +1,26 @@
-#include "helperFuncs.h"
+#include "TeensyToFPGA.h"
 
-void send_header(bool include_length) {
+void send_header(bool &isFirst) {
   uint8_t cmd = 0x04;
 
   SPI.transfer(cmd);
 
   // Row/Col index (little endian)
-  SPI.transfer((uint8_t*)&index_val, 4);
+  uint8_t* indexPtr = (uint8_t*)&index_val;
+  for(int i=0; i<4; i++) {
+    SPI.transfer(indexPtr[i]);
+  }
 
   // Dummy byte
   SPI.transfer(0x00);
 
-  if (include_length) {
-    SPI.transfer((uint8_t*)&total_length, 4);
+  if (isFirst) {
+    uint8_t* lengthPtr = (uint8_t*)&total_length;
+    for(int i=0; i<4; i++) {
+      SPI.transfer(lengthPtr[i]);
+    }
+
+    isFirst = false;
   }
 }
 
