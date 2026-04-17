@@ -2,101 +2,13 @@ import serial
 from PIL import Image
 import numpy as np
 import time
-import serial.tools.list_ports
-import tkinter as tk
-from tkinter import ttk, filedialog
-import os
-import re
 import cleanImages
+import miscFuncs
 
-# =========================
-# CONFIG
-# =========================
-ports = [port.device for port in serial.tools.list_ports.comports()]
-
-selected_port = None
-selected_image = None
-selected_folder = None
-
-def find_folder():
-    global selected_folder
-    folder_path = filedialog.askdirectory(title="Select Folder")
-    if folder_path:
-        selected_folder = folder_path
-        file_label.config(text=folder_path)
-
-def start():
-    global selected_port
-    selected_port = combo.get()
-    root.destroy()
-
-# =========================
-# UI
-# =========================
-root = tk.Tk()
-root.title("Setup")
-
-tk.Label(root, text="Choose COM Port:").pack(pady=5)
-
-combo = ttk.Combobox(root, values=ports)
-combo.pack(pady=5)
-
-# Image picker
-tk.Button(root, text="Select Folder With Images", command=find_folder).pack(pady=5)
-
-file_label = tk.Label(root, text="No file selected", wraplength=300)
-file_label.pack(pady=5)
-
-tk.Button(root, text="Start", command=start).pack(pady=10)
-
-root.mainloop()
-
-# =========================
-# RESULTS
-# =========================
-print("Selected COM:", selected_port)
-print("Selected Folder:", selected_folder)
-
-COM_PORT = selected_port
-BAUD = 115200
-TIMEOUT = 2      
-
-CHUNK = 512            
-FOLDER_PATH = selected_folder
-
-files = [f for f in os.listdir(selected_folder) if f.endswith(".png") and "tile_y" in f]
-
-coords = []
-for f in files:
-    match = re.search(r'tile_y(\d+)_x(\d+)', f)
-    if match:
-        coords.append((int(match.group(2)), int(match.group(1)))) # (x, y)
-
-nx = max(c[0] for c in coords) + 1
-ny = max(c[1] for c in coords) + 1
-
-# Sort coords so that it goes left to right and then moves up
-coords = sorted(coords, key=lambda c: (c[1], c[0]))
-
-# =========================
-# CRC16 (TI SPEC)
-# =========================
-def crc16(data):
-    crc = 0xFFFF
-    for b in data:
-        crc ^= (b << 8)
-        for _ in range(8):
-            if crc & 0x8000:
-                crc = ((crc << 1) ^ 0x8005) & 0xFFFF
-            else:
-                crc = (crc << 1) & 0xFFFF
-    return crc
-
-# =========================
-# LOAD + PREP IMAGE
-# =========================
-for ix, iy in coords:
-    IMAGE_PATH = os.path.join(selected_folder, f"tile_y{iy:02d}_x{ix:02d}.png")
+def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
+    # =========================
+    # LOAD + PREP IMAGE
+    # =========================
     cleanImages.remove_black_markers(IMAGE_PATH, IMAGE_PATH)
     img = Image.open(IMAGE_PATH).convert("L")  # grayscale
     arr = np.array(img, dtype=np.uint8)
@@ -114,7 +26,6 @@ for ix, iy in coords:
             exit()
 
     print(f"Image: {width}x{height}")
-    print(f"Printing: tile_y{iy:02d}_x{ix:02d}.png")
 
     # Flatten to 1D byte stream
     data = arr.flatten().tobytes()
@@ -155,7 +66,7 @@ for ix, iy in coords:
     # =========================
     # SEND CRC (OPTIONAL DEBUG)
     # =========================
-    crc = crc16(data)
+    crc = miscFuncs.crc16(data)
     print(f"CRC16: {hex(crc)}")
 
     # Send CRC as little endian
@@ -188,4 +99,3 @@ for ix, iy in coords:
         else:
             print("⚠️ Unknown FPGA response")
 
-    ser.close()
