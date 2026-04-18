@@ -26176,7 +26176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 261.62 234.95 0)
 			(effects
 				(font
@@ -26326,7 +26326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 85.09 151.13 0)
 			(effects
 				(font
@@ -31879,7 +31879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 326.39 198.12 0)
 			(effects
 				(font
@@ -33272,7 +33272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 321.31 74.93 0)
 			(effects
 				(font
@@ -33706,7 +33706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 342.9 191.77 0)
 			(effects
 				(font
@@ -35154,7 +35154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 323.85 81.28 0)
 			(effects
 				(font
@@ -36090,7 +36090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 345.44 156.21 0)
 			(effects
 				(font
@@ -37136,7 +37136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "tp_library:RESC1005X40N"
 			(at 320.04 113.03 0)
 			(effects
 				(font
