@@ -38,18 +38,18 @@ void setup() {
   // FPGA clk must be 4x faster than SPI clk
   // Teensy says it can go to 100 MHz SPI but like that's the hard max
   SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0)); 
-
-  enum State {
-    WAITING_FOR_COMMAND,
-    RECEIVING_IMAGE,
-    WRITING_REG,
-    WRITING_PARAMETERS
-  }  
-
-  State currentState = WAITING_FOR_COMMAND;
-  static uint32_t sent = 0;
-  static bool first = true;
 }
+
+enum State {
+  WAITING_FOR_COMMAND,
+  RECEIVING_IMAGE,
+  WRITING_REG,
+  WRITING_PARAMETERS
+};
+
+State currentState = WAITING_FOR_COMMAND;
+static uint32_t sent = 0;
+static bool first = true;
 
 void loop() {
   switch (currentState) {
@@ -65,9 +65,9 @@ void loop() {
           currentState = RECEIVING_IMAGE;
         } else if (command == 'W') {
           Serial.write(0xAC);
-          currentState = WRITING_I2C;
+          currentState = WRITING_REG;
         } else {
-          Serial.println("Unrecognized command! Please try again")
+          Serial.println("Unrecognized command! Please try again");
         }
       }
       break;
@@ -147,8 +147,8 @@ void loop() {
 
         Serial.print("You selected opCode: ");
         Serial.print("0x");
-        if (opCode < 0x10) Serial.print("0"); // Leading zero for single digits
-        Serial.println(val, HEX);
+        if (currentOpCode < 0x10) Serial.print("0"); // Leading zero for single digits
+        Serial.println(currentOpCode, HEX);
 
         Serial.print("With ");
         Serial.print(expectedParams);
@@ -159,7 +159,7 @@ void loop() {
           writeDLPC(currentOpCode, NULL, 0);
           currentState = WAITING_FOR_COMMAND;
         } else {
-          Serial.println("What command do you want to write?")
+          Serial.println("What command do you want to write?");
           currentState = WRITING_PARAMETERS;
         }
       }
@@ -169,10 +169,10 @@ void loop() {
       if (Serial.available()) {
         paramBuffer[paramCounter++] = Serial.read();
 
-        Serial.print("Sending ")
-        for (uint8_t i = 0, i < expectedParams, i++) {
+        Serial.print("Sending ");
+        for (uint8_t i = 0; i < expectedParams; i++) {
           Serial.print(paramBuffer[i], HEX);
-          Serial.print(", ")
+          Serial.print(", ");
         }
         Serial.println("to the DLPC");
         
