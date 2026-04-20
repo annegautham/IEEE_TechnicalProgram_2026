@@ -37,8 +37,8 @@ void initDLPC(int irqPin) {
     // active buffer = 0
     writeDLPC(REG_FPGA_BUF_SEL, 0x00, 1);
     // SECTION 3.3.6.1, TPG CONFIG LINEAR DEGAMMA AND TURN ON LED 1 I THINK, THE SOFTWARE GUIDE IS WRITTEN WEIRDLY
-    uint8_t TPGConfig = [0x00, 0x01];
-    writeDLPC(REG_EXT_PRING_CONFIG, TPGConfig, 2)
+    uint8_t extConfig = [0x00, 0x01];
+    writeDLPC(REG_EXT_PRING_CONFIG, extConfig, 2)
 
     Serial.println("Done configuring!")
     

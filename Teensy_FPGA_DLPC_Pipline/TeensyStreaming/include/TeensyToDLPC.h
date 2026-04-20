@@ -20,7 +20,7 @@ enum DLPC_Reg {
     REG_LED_ENABLE       = 0x52,
     REG_LED_CURRENT      = 0x54,
     REG_SYSTEM_STATUS    = 0xD1,
-    REG_CONTROLLER_ID    = 0xD4
+    REG_CONTROLLER_ID    = 0xD4,
     REG_EXT_PRINT_CONFIG = 0xA8,
     REG_EXT_PRINT_CCTRL  = 0xC1,
     REG_PVIDEO_EN        = 0xC3,

@@ -49,10 +49,6 @@ void setup() {
   State currentState = WAITING_FOR_COMMAND;
   static uint32_t sent = 0;
   static bool first = true;
-  // pinMode(26,OUTPUT);
-  // pinMode(27,OUTPUT);
-  // digitalWrite(26,HIGH);
-  // digitalWrite(27,LOW);
 }
 
 void loop() {
@@ -67,7 +63,7 @@ void loop() {
           running_crc = 0xFFFF;
           crc_index = 0;
           currentState = RECEIVING_IMAGE;
-        } else if (command == 'R') {
+        } else if (command == 'W') {
           Serial.write(0xAC);
           currentState = WRITING_I2C;
         } else {

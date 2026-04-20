@@ -49,6 +49,7 @@ try:
 
         elif action == 'c':
             cmd = input("Enter command to send: ")
+            # SEND W
             ser.write(f"{cmd}\n".encode())
             print(f"Sent: {cmd}")
 
