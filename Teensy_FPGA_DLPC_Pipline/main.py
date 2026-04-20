@@ -1,6 +1,6 @@
 import serial
 import os
-import computerSelectors, commandToTeensy, fileOfImagesToTeensy, imageToTeensy
+import computerSelectors, commandToTeensy, imageToTeensy
 
 # =========================
 # CONFIG & HELPERS
@@ -35,7 +35,7 @@ try:
         if action == 'i':
             image_path = computerSelectors.select_file_ui()
             if image_path:
-                imageToTeensy.sendImage(image_path, SELECTED_PORT, BAUD, TIMEOUT, CHUNK_SIZE)
+                SEND_OK = imageToTeensy.sendImage(image_path, SELECTED_PORT, BAUD, TIMEOUT, CHUNK_SIZE)
             else:
                 print("Selection cancelled.")
 
@@ -43,8 +43,7 @@ try:
             folder_path = computerSelectors.select_folder_ui()
             if folder_path:
                 print("Starting batch send...")
-                # def sendFileOfImages(selected_folder, COM_PORT, BAUD, TIMEOUT, CHUNK):
-                fileOfImagesToTeensy.sendFileOfImages(folder_path, SELECTED_PORT, BAUD, TIMEOUT, CHUNK_SIZE)
+                imageToTeensy.sendFolderOfImages(folder_path, SELECTED_PORT, BAUD, TIMEOUT, CHUNK_SIZE)
             else:
                 print("Selection cancelled.")
 

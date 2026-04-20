@@ -1,15 +1,12 @@
 import os
 from PIL import Image
-import tkinter as tk
-from tkinter import filedialog
+import computerSelectors
 import re
 import cleanImages
 
 def stitch_images():
     # 1. Open Folder Picker
-    root = tk.Tk()
-    root.withdraw()  # Hide the main tkinter window
-    folder_selected = filedialog.askdirectory(title="Select Folder with KLayout Tiles")
+    folder_selected = computerSelectors.select_folder_ui()
     
     if not folder_selected:
         print("No folder selected. Exiting.")

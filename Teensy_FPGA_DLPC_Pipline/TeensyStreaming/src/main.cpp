@@ -61,12 +61,14 @@ void loop() {
       if (Serial.available()) {
         command = Serial.read();
         if (command == 'I') {
+          Serial.write(0xAB);
           sent = 0;
           first = true;
           running_crc = 0xFFFF;
           crc_index = 0;
           currentState = RECEIVING_IMAGE;
         } else if (command == 'R') {
+          Serial.write(0xAC);
           currentState = WRITING_I2C;
         } else {
           Serial.println("Unrecognized command! Please try again")
