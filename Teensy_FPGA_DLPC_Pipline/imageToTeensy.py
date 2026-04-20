@@ -38,7 +38,7 @@ def sendImage(IMAGE_PATH, ser, CHUNK):
     # SERIAL CONNECT
     # =========================
     print("Sending...")
-    ser.write('I')
+    ser.write(b'I')
     ack = ser.read(1)
     if ack != b'\xAB':
         print("Error: Wrong ACK received")

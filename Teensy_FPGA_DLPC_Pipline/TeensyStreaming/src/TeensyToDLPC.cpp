@@ -29,17 +29,19 @@ void initDLPC(int irqPin) {
     Wire.setClock(100000); // 100kHz from TI
     Serial.println("DLPC Communication Initialized.");
 
-    Serial.println("Configuring settings")
+    Serial.println("Configuring settings");
     setStandby();
     // frame 1 steps 1-3
     // error injection, enable crc16, reset FPGA, allow reset
-    writeDLPC(REG_FPGA_CTRL, 0x0F, 1);
+    uint8_t val = 0x0F;
+    writeDLPC(REG_FPGA_CTRL, &val, 1); // The '&' passes the memory address
     // active buffer = 0
-    writeDLPC(REG_FPGA_BUF_SEL, 0x00, 1);
+    val = 0x00;
+    writeDLPC(REG_FPGA_BUF_SEL, &val, 1);
     // SECTION 3.3.6.1, TPG CONFIG LINEAR DEGAMMA AND TURN ON LED 1 I THINK, THE SOFTWARE GUIDE IS WRITTEN WEIRDLY
-    uint8_t extConfig = [0x00, 0x01];
-    writeDLPC(REG_EXT_PRING_CONFIG, extConfig, 2)
+    uint8_t extConfig[] = {0x00, 0x01};
+    writeDLPC(REG_EXT_PRINT_CONFIG, extConfig, 2);
 
-    Serial.println("Done configuring!")
+    Serial.println("Done configuring!");
     
 }

@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <SPI.h>
-// #include "TeensyToFPGA.h"
-// #include "TeensyToDLPC.h"
+#include "TeensyToFPGA.h"
+#include "TeensyToDLPC.h"
 
 uint32_t index_val = 0;
 uint32_t total_length = 921600;
@@ -17,9 +17,9 @@ char command = 'A';
 #define IRQ_PIN 2
 #define CHUNK 512
 
-char buffer[CHUNK];
+uint8_t buffer[CHUNK];
 
-int8_t currentOpCode = 0;
+uint8_t currentOpCode = 0;
 uint8_t expectedParams = 0;
 uint8_t paramCounter = 0;
 uint8_t paramBuffer[64];
@@ -80,7 +80,7 @@ void loop() {
         uint32_t remaining = total_length - sent;
         uint32_t to_read = (remaining < CHUNK) ? remaining : CHUNK;
         
-        int len = Serial.readBytes(buffer, to_read);
+        int len = Serial.readBytes((char*)buffer, to_read);
 
         running_crc = crc16_update(running_crc, buffer, len);
         
@@ -114,7 +114,7 @@ void loop() {
               uint8_t resp1 = crc_bytes[0];
               uint8_t resp2 = crc_bytes[1];
               
-                // send same crc to FPGA
+              // send same crc to FPGA
               digitalWrite(CS_PIN, LOW);
               resp1 = SPI.transfer((uint8_t)(running_crc & 0xFF));
               resp2 = SPI.transfer((uint8_t)((running_crc >> 8) & 0xFF));

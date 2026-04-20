@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 #include <i2c_device.h>
-#include <imx_rt1060_i2c_driver.h>
+#include <Wire.h>
 
 // Definitions
 #define DLPC_ADDR 0x36
@@ -47,9 +47,8 @@ enum DLPC_Pattern {
 
 // Function Prototypes
 bool writeDLPC(uint8_t opCode, uint8_t* params, uint8_t len);
-void setOperatingMode(uint8_t mode);
+void setOperatingMode(DLPC_Mode mode);
 void setStandby();
-void writeFPGABuffer(uint8_t buf);
 void initDLPC(int irqPin);
 
 #endif
