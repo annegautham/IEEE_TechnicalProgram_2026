@@ -7,7 +7,7 @@ import re
 import cleanImages
 import miscFuncs
 
-def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
+def sendImage(IMAGE_PATH, ser, CHUNK):
     # =========================
     # LOAD + PREP IMAGE
     # =========================
@@ -37,9 +37,6 @@ def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
     # =========================
     # SERIAL CONNECT
     # =========================
-    ser = serial.Serial(COM_PORT, BAUD, timeout=TIMEOUT)
-    time.sleep(2)  # wait for Teensy reset
-
     print("Sending...")
     ser.write('I')
     ack = ser.read(1)
@@ -110,7 +107,7 @@ def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
         else:
             print("⚠️ Unknown FPGA response")
 
-def sendFolderOfImages(selected_folder, COM_PORT, BAUD, TIMEOUT, CHUNK):
+def sendFolderOfImages(selected_folder, ser, CHUNK):
     files = [f for f in os.listdir(selected_folder) if f.endswith(".png") and "tile_y" in f]
 
     coords = []
@@ -128,4 +125,4 @@ def sendFolderOfImages(selected_folder, COM_PORT, BAUD, TIMEOUT, CHUNK):
     for ix, iy in coords:
         IMAGE_PATH = os.path.join(selected_folder, f"tile_y{iy:02d}_x{ix:02d}.png")
         print(f"Printing: tile_y{iy:02d}_x{ix:02d}.png")
-        sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK)
+        sendImage(IMAGE_PATH, ser, CHUNK)

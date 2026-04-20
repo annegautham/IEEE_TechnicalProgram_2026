@@ -64,7 +64,13 @@ This is solely because I couldn't get rid of the black squares in the LithoTestM
 
 This file has a function that will send hex bytes and prompt the teensy to send those to the DLPC, which will allow us to perform functions that aren't hardcoded (like more than just streaming video)
 
-All it does is read from input and converts it into a format that the teensy accepts
+This first checks if there are parameters. Then, it writes 'W' to the teensy to make it receive i2c commands, and checks the ACK to make sure it's correct.
+
+After that, it sends the first section which is the opcode and number of parameters.
+
+If there are parameters, it writes those as well and waits a short time for the teensy to print back debug outputs.
+
+Finally, it reads the ACK to make sure everything went smoothly.
 
 ### computerSelectors.py
 
@@ -78,9 +84,9 @@ It uses the select_folder_ui() function that computerSelectors creates, and then
 
 ### imageToTeensy.py
 
-#### sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK)
+#### sendImage(IMAGE_PATH, ser, CHUNK)
 
-This function takes the path of the image the user wants to send, which com port to send it from, the baud, timeout, and how much information to send in one transmission as the arguments.
+This function takes the path of the image the user wants to send, the serial object, and how much information to send in one transmission as the arguments.
 
 First, it cleans the image, converts it to grayscale, converts the image data to an numpy array, then checks if the size is 1280 x 720.
 
@@ -96,7 +102,7 @@ For every chunk, we write it through serial and then check for an ACK, failing i
 
 After the image is done sending, it calculates a CRC16 from the whole image data and sends it to the teensy to check with the teensy and FPGA, and prints out which checks were successful.
 
-#### sendFolderOfImages(selected_folder, COM_PORT, BAUD, TIMEOUT, CHUNK)
+#### sendFolderOfImages(selected_folder, ser, CHUNK)
 
 This function takes the same arguments of sendImage() but instead of an image path it's a folder path.
 
@@ -114,7 +120,9 @@ Currently, it can perform these operations:
 
 Send (I)mage, (F)older, (C)ommand. OR (Q)uit or use new (P)ort: 
 
-All of these commands should be self explainatory, and they use all the methods previously explained.
+All of these commands should be self explainatory (using tkinter to select and then passing arguments to the functions), and they use all the methods previously explained.
+
+Sending i2c is a bit different, as it still uses input(). The format of commands should be hex bytes separated by a space. After receiving everything, it splits the string into each separate byte and converts to integers, and passes those arguments into the function. 
 
 ## TeensyStreaming
 
