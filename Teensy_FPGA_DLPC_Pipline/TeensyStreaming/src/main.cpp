@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <SPI.h>
-// #include "TeensyToFPGA.h"
-// #include "TeensyToDLPC.h"
+#include "TeensyToFPGA.h"
+#include "TeensyToDLPC.h"
 
 uint32_t index_val = 0;
 uint32_t total_length = 921600;
@@ -17,9 +17,9 @@ char command = 'A';
 #define IRQ_PIN 2
 #define CHUNK 512
 
-char buffer[CHUNK];
+uint8_t buffer[CHUNK];
 
-int8_t currentOpCode = 0;
+uint8_t currentOpCode = 0;
 uint8_t expectedParams = 0;
 uint8_t paramCounter = 0;
 uint8_t paramBuffer[64];
@@ -38,22 +38,18 @@ void setup() {
   // FPGA clk must be 4x faster than SPI clk
   // Teensy says it can go to 100 MHz SPI but like that's the hard max
   SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0)); 
-
-  enum State {
-    WAITING_FOR_COMMAND,
-    RECEIVING_IMAGE,
-    WRITING_REG,
-    WRITING_PARAMETERS
-  }  
-
-  State currentState = WAITING_FOR_COMMAND;
-  static uint32_t sent = 0;
-  static bool first = true;
-  // pinMode(26,OUTPUT);
-  // pinMode(27,OUTPUT);
-  // digitalWrite(26,HIGH);
-  // digitalWrite(27,LOW);
 }
+
+enum State {
+  WAITING_FOR_COMMAND,
+  RECEIVING_IMAGE,
+  WRITING_REG,
+  WRITING_PARAMETERS
+};
+
+State currentState = WAITING_FOR_COMMAND;
+static uint32_t sent = 0;
+static bool first = true;
 
 void loop() {
   switch (currentState) {
@@ -61,15 +57,17 @@ void loop() {
       if (Serial.available()) {
         command = Serial.read();
         if (command == 'I') {
+          Serial.write(0xAB);
           sent = 0;
           first = true;
           running_crc = 0xFFFF;
           crc_index = 0;
           currentState = RECEIVING_IMAGE;
-        } else if (command == 'R') {
-          currentState = WRITING_I2C;
+        } else if (command == 'W') {
+          Serial.write(0xAC);
+          currentState = WRITING_REG;
         } else {
-          Serial.println("Unrecognized command! Please try again")
+          Serial.println("Unrecognized command! Please try again");
         }
       }
       break;
@@ -82,7 +80,7 @@ void loop() {
         uint32_t remaining = total_length - sent;
         uint32_t to_read = (remaining < CHUNK) ? remaining : CHUNK;
         
-        int len = Serial.readBytes(buffer, to_read);
+        int len = Serial.readBytes((char*)buffer, to_read);
 
         running_crc = crc16_update(running_crc, buffer, len);
         
@@ -116,7 +114,7 @@ void loop() {
               uint8_t resp1 = crc_bytes[0];
               uint8_t resp2 = crc_bytes[1];
               
-                // send same crc to FPGA
+              // send same crc to FPGA
               digitalWrite(CS_PIN, LOW);
               resp1 = SPI.transfer((uint8_t)(running_crc & 0xFF));
               resp2 = SPI.transfer((uint8_t)((running_crc >> 8) & 0xFF));
@@ -149,8 +147,8 @@ void loop() {
 
         Serial.print("You selected opCode: ");
         Serial.print("0x");
-        if (opCode < 0x10) Serial.print("0"); // Leading zero for single digits
-        Serial.println(val, HEX);
+        if (currentOpCode < 0x10) Serial.print("0"); // Leading zero for single digits
+        Serial.println(currentOpCode, HEX);
 
         Serial.print("With ");
         Serial.print(expectedParams);
@@ -161,7 +159,7 @@ void loop() {
           writeDLPC(currentOpCode, NULL, 0);
           currentState = WAITING_FOR_COMMAND;
         } else {
-          Serial.println("What command do you want to write?")
+          Serial.println("What command do you want to write?");
           currentState = WRITING_PARAMETERS;
         }
       }
@@ -171,10 +169,10 @@ void loop() {
       if (Serial.available()) {
         paramBuffer[paramCounter++] = Serial.read();
 
-        Serial.print("Sending ")
-        for (uint8_t i = 0, i < expectedParams, i++) {
+        Serial.print("Sending ");
+        for (uint8_t i = 0; i < expectedParams; i++) {
           Serial.print(paramBuffer[i], HEX);
-          Serial.print(", ")
+          Serial.print(", ");
         }
         Serial.println("to the DLPC");
         

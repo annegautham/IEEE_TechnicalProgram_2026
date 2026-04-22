@@ -6,3 +6,6 @@
 **/fp-info-cache
 **/*-backups/
 **/*.zip
+
+# macOS
+.DS_Store

@@ -1,6 +1,5 @@
 from PIL import Image
 import numpy as np
-import os
 
 def remove_black_markers(input_path, output_path, threshold=20):
     """

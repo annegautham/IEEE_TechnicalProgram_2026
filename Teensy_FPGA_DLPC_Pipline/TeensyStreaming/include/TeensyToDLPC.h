@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 #include <i2c_device.h>
-#include <imx_rt1060_i2c_driver.h>
+#include <Wire.h>
 
 // Definitions
 #define DLPC_ADDR 0x36
@@ -20,7 +20,7 @@ enum DLPC_Reg {
     REG_LED_ENABLE       = 0x52,
     REG_LED_CURRENT      = 0x54,
     REG_SYSTEM_STATUS    = 0xD1,
-    REG_CONTROLLER_ID    = 0xD4
+    REG_CONTROLLER_ID    = 0xD4,
     REG_EXT_PRINT_CONFIG = 0xA8,
     REG_EXT_PRINT_CCTRL  = 0xC1,
     REG_PVIDEO_EN        = 0xC3,
@@ -47,9 +47,8 @@ enum DLPC_Pattern {
 
 // Function Prototypes
 bool writeDLPC(uint8_t opCode, uint8_t* params, uint8_t len);
-void setOperatingMode(uint8_t mode);
+void setOperatingMode(DLPC_Mode mode);
 void setStandby();
-void writeFPGABuffer(uint8_t buf);
 void initDLPC(int irqPin);
 
 #endif

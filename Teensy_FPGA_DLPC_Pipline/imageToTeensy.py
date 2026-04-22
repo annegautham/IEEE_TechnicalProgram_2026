@@ -2,10 +2,12 @@ import serial
 from PIL import Image
 import numpy as np
 import time
+import os
+import re
 import cleanImages
 import miscFuncs
 
-def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
+def sendImage(IMAGE_PATH, ser, CHUNK):
     # =========================
     # LOAD + PREP IMAGE
     # =========================
@@ -35,10 +37,16 @@ def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
     # =========================
     # SERIAL CONNECT
     # =========================
-    ser = serial.Serial(COM_PORT, BAUD, timeout=TIMEOUT)
-    time.sleep(2)  # wait for Teensy reset
-
     print("Sending...")
+    ser.write(b'I')
+    ack = ser.read(1)
+    if ack != b'\xAB':
+        print("Error: Wrong ACK received")
+        print('Received: ', ack)
+        print("Failed image sending! Please try again")
+        return -1
+    
+    print("ACK received! Starting sending")
 
     # =========================
     # SEND DATA IN CHUNKS
@@ -53,7 +61,7 @@ def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
         if ack != b'\xAA':
             print("Error: Wrong ACK received")
             print('Received: ', ack)
-            break
+            return -1
 
         sent += len(chunk)
 
@@ -99,3 +107,22 @@ def sendImage(IMAGE_PATH, COM_PORT, BAUD, TIMEOUT, CHUNK):
         else:
             print("⚠️ Unknown FPGA response")
 
+def sendFolderOfImages(selected_folder, ser, CHUNK):
+    files = [f for f in os.listdir(selected_folder) if f.endswith(".png") and "tile_y" in f]
+
+    coords = []
+    for f in files:
+        match = re.search(r'tile_y(\d+)_x(\d+)', f)
+        if match:
+            coords.append((int(match.group(2)), int(match.group(1)))) # (x, y)
+
+        nx = max(c[0] for c in coords) + 1
+        ny = max(c[1] for c in coords) + 1
+
+        # Sort coords so that it goes left to right and then moves up
+        coords = sorted(coords, key=lambda c: (c[1], c[0]))
+
+    for ix, iy in coords:
+        IMAGE_PATH = os.path.join(selected_folder, f"tile_y{iy:02d}_x{ix:02d}.png")
+        print(f"Printing: tile_y{iy:02d}_x{ix:02d}.png")
+        sendImage(IMAGE_PATH, ser, CHUNK)

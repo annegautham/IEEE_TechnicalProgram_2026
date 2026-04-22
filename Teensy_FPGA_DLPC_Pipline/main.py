@@ -1,6 +1,6 @@
 import serial
 import os
-import computerSelectors, commandToTeensy, fileOfImagesToTeensy, imageToTeensy
+import computerSelectors, commandToTeensy, imageToTeensy
 
 # =========================
 # CONFIG & HELPERS
@@ -35,7 +35,7 @@ try:
         if action == 'i':
             image_path = computerSelectors.select_file_ui()
             if image_path:
-                imageToTeensy.sendImage(image_path, SELECTED_PORT, BAUD, TIMEOUT, CHUNK_SIZE)
+                SEND_OK = imageToTeensy.sendImage(image_path, ser, CHUNK_SIZE)
             else:
                 print("Selection cancelled.")
 
@@ -43,15 +43,25 @@ try:
             folder_path = computerSelectors.select_folder_ui()
             if folder_path:
                 print("Starting batch send...")
-                # def sendFileOfImages(selected_folder, COM_PORT, BAUD, TIMEOUT, CHUNK):
-                fileOfImagesToTeensy.sendFileOfImages(folder_path, SELECTED_PORT, BAUD, TIMEOUT, CHUNK_SIZE)
+                imageToTeensy.sendFolderOfImages(folder_path, ser, CHUNK_SIZE)
             else:
                 print("Selection cancelled.")
 
         elif action == 'c':
-            cmd = input("Enter command to send: ")
-            ser.write(f"{cmd}\n".encode())
-            print(f"Sent: {cmd}")
+            try:
+                # Example input: 1A 01 02 (OpCode=1A, Params=[01, 02])
+                raw_input = input("Enter Command (Hex OpCode) and Params (Hex) [e.g. 1A 00 FF]: ")
+                parts = raw_input.split()
+
+                # Convert hex strings to integers
+                op_code = int(parts[0], 16)
+                params = [int(p, 16) for p in parts[1:]]
+
+                # Call the new function
+                commandToTeensy.send_i2c_command(ser, op_code, params)
+
+            except ValueError:
+                print("Invalid format. Use Hex values separated by spaces (e.g., 0B 01).")
 
         elif action == 'q':
             print("Exiting...")
