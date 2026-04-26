@@ -1,0 +1,13 @@
+# Core dependencies (required)
+numpy
+numpy-quaternion
+pyserial
+colorama
+pyside6
+scikit-optimize
+
+# Optional camera dependencies — only install if you actually use a camera.
+# main.py defaults to camera=None, so you can skip these for headless use.
+#
+# opencv-python  # required for OpenCVCamera (USB webcams)
+# pypylon        # required for BaslerCamera (Basler industrial cameras)
