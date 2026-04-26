@@ -171,6 +171,17 @@ Cartesian jogs depend on all three motors being connected and configured.
 For testing a single motor in isolation, prefer the joint commands or the
 raw `M60` command described below.
 
+> **Single-motor caveat:** the GUI's Cartesian jogs (X±, Y±, Z±) assume all
+> three motors are connected and a working delta workspace. With only one
+> motor wired, the kinematic solver still computes targets for the missing
+> joints — so the connected motor will move through the kinematic projection
+> of cartesian motion, which on a delta is not monotonic. You will see what
+> looks like "stuck spots" or sudden direction reversals at certain
+> positions; those are kinematic singularities / direction reversals in the
+> delta math, not motor or driver faults. Always test individual motors with
+> `M60 J<n>` (single-joint slow spin) to rule in/out a hardware problem
+> before debugging.
+
 ---
 
 ## Serial protocol (G-code-ish)

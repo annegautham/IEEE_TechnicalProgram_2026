@@ -520,7 +520,13 @@ class DeviceControlMainWindow(QMainWindow):
         # self.save_transform(ask=False)
 
     def load_transform(self):
-        data = json.load(open("transform.json"))
+        if not os.path.exists("transform.json"):
+            QMessageBox.warning(self, "No saved transform",
+                "transform.json not found in the working directory. "
+                "Run a 3-point alignment and click Save Transform first.")
+            return
+        with open("transform.json", "r") as f:
+            data = json.load(f)
         T = np.array(data)
         self.oms.set_workspace_transform(T)
         self.oms.move_to(0, 0, 0, self.feedrates[self.step_size_idx])
@@ -534,7 +540,8 @@ class DeviceControlMainWindow(QMainWindow):
             if not confirmed: return
 
         T = self.oms.get_workspace_transform()
-        json.dump(T.tolist(), open("transform.json", "w"))
+        with open("transform.json", "w") as f:
+            json.dump(T.tolist(), f)
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key.Key_A:
