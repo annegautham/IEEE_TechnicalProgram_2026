@@ -8601,7 +8601,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
 			(at 295.91 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -8794,7 +8794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a644c0d-8866-44a6-8a75-72e90157757c")
-		(property "Reference" "C34"
+		(property "Reference" "C53"
 			(at 311.658 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8814,7 +8814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 315.9252 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8847,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C2012X5R1V106M085AC"
 			(at 314.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8867,7 +8867,7 @@
 		(instances
 			(project "mainboard"
 				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
-					(reference "C34")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -9072,7 +9072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 337.5152 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9105,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
 			(at 336.55 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9132,8 +9132,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 62.23 195.58 0)
+		(lib_id "Device:R_US")
+		(at 80.01 219.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9141,32 +9141,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12a5ff7a-d2fb-4827-9ef8-ce8d33cff396")
-		(property "Reference" "C113"
-			(at 66.04 194.3099 0)
+		(uuid "13e2fc93-888a-4d0a-9efa-5f40e0ad6be0")
+		(property "Reference" "R216"
+			(at 79.502 214.884 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 66.04 196.8499 0)
+		(property "Value" "10k"
+			(at 79.502 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 63.1952 199.39 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 79.756 220.726 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9177,7 +9174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 195.58 0)
+			(at 80.01 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9187,8 +9184,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 195.58 0)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,8 +9195,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
-			(at 62.23 195.58 0)
+		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+			(at 80.01 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9208,17 +9205,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "44e33e6d-2a59-4405-8142-cfce1bd2a8b2")
 		)
 		(pin "1"
-			(uuid "fda37752-2a10-4740-98dc-924c608635cd")
+			(uuid "fc581197-0852-4887-8ded-9e277f713236")
+		)
+		(pin "2"
+			(uuid "bfa52bc5-aff5-4abf-8c55-6b6cf19aa4df")
 		)
 		(instances
 			(project "mainboard"
 				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
-					(reference "C113")
+					(reference "R216")
 					(unit 1)
 				)
 			)
@@ -9255,7 +9252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 289.2552 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9288,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "KGM05ACG1H100JH"
 			(at 288.29 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9423,7 +9420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 350.2152 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9456,7 +9453,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
 			(at 349.25 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9513,7 +9510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 255.27 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -9546,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
 			(at 259.08 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10248,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "RC0402JR-073RL"
 			(at 254 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -10634,96 +10631,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 58.42 219.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c38c46f-8e4c-4a22-a592-e6c9b7ebe3bd")
-		(property "Reference" "R161"
-			(at 57.912 214.884 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 57.912 217.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.166 220.726 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 58.42 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
-			(at 58.42 219.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36ecfe77-127b-4544-b608-fa7086d9e44b")
-		)
-		(pin "2"
-			(uuid "469981d9-6ed7-47be-95b8-06e8d2aeeb71")
-		)
-		(instances
-			(project "mainboard"
-				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
-					(reference "R161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 193.04 118.11 270)
 		(unit 1)
@@ -10754,7 +10661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 189.23 119.0752 0)
 			(hide yes)
 			(show_name no)
@@ -10765,7 +10672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21A475KBQNNNE"
 			(at 193.04 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10998,6 +10905,96 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 58.42 219.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "493ad767-a342-4843-9971-c23448ee0675")
+		(property "Reference" "R214"
+			(at 57.912 214.884 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.912 217.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 58.166 220.726 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+			(at 58.42 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62bce7d6-679a-4262-b22b-2839dd3a5901")
+		)
+		(pin "2"
+			(uuid "7ba3db86-7ab5-4dd5-9c4b-d79019a1368f")
+		)
+		(instances
+			(project "mainboard"
+				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
+					(reference "R214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 168.91 186.69 270)
 		(unit 1)
 		(body_style 1)
@@ -11060,7 +11057,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "ERJ-2RKF2000X"
 			(at 168.91 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11561,7 +11558,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05A105KA5NQNC"
 			(at 212.09 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12130,7 +12127,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C1608X5R1A226M080AC"
 			(at 331.47 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12187,7 +12184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 203.2 129.2352 0)
 			(hide yes)
 			(show_name no)
@@ -12220,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05A105KA5NQNC"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12392,7 +12389,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C1608X5R1A226M080AC"
 			(at 309.88 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12449,7 +12446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -12460,7 +12457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21A475KBQNNNE"
 			(at 194.31 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12732,7 +12729,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
 			(at 300.99 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -12892,7 +12889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 287.9852 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12925,7 +12922,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CGA2B2C0G1H180J050BA"
 			(at 287.02 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13240,7 +13237,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C1608X5R1A226M080AC"
 			(at 322.58 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13564,7 +13561,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C1608X5R1A226M080AC"
 			(at 340.36 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13654,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C1608X5R1A226M080AC"
 			(at 327.66 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13711,7 +13708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 190.5 80.9752 0)
 			(hide yes)
 			(show_name no)
@@ -13744,7 +13741,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "GRM155R6YA224KE01D"
 			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13801,7 +13798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 324.8152 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13834,7 +13831,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
 			(at 323.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14175,7 +14172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 259.08 28.9052 0)
 			(hide yes)
 			(show_name no)
@@ -14208,7 +14205,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
 			(at 262.89 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14602,7 +14599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 293.0652 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14635,7 +14632,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "GCM1555C1H4R7CA16D"
 			(at 292.1 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14905,7 +14902,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "CRCW0402100KFKED"
 			(at 297.18 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -14995,7 +14992,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "ERJ-2RKF1243X"
 			(at 255.27 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -15094,96 +15091,6 @@
 			(project "mainboard"
 				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 80.01 219.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa0049af-1c2e-4b03-a4d3-2ce187fe1489")
-		(property "Reference" "R162"
-			(at 79.502 214.884 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 79.502 217.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 79.756 220.726 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 80.01 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
-			(at 80.01 219.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c052e0d-015d-4184-bf19-4a5a320b41dd")
-		)
-		(pin "2"
-			(uuid "e1f8033e-bfea-4c60-8176-02e99233a5e1")
-		)
-		(instances
-			(project "mainboard"
-				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
-					(reference "R162")
 					(unit 1)
 				)
 			)
@@ -15433,7 +15340,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05A105KA5NQNC"
 			(at 208.28 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15591,7 +15498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 194.31 40.3352 0)
 			(hide yes)
 			(show_name no)
@@ -15624,7 +15531,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "GRM155R6YA224KE01D"
 			(at 198.12 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15933,7 +15840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 42.8752 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15966,7 +15873,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
 			(at 41.91 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -15987,6 +15894,96 @@
 			(project "mainboard"
 				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c16e2cb8-1bdc-447f-b1b7-2de566d4cce3")
+		(property "Reference" "C113"
+			(at 58.928 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 65.786 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 63.1952 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
+			(at 62.23 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc025ba5-13c5-49ad-99f7-7a14e4dd9415")
+		)
+		(pin "2"
+			(uuid "14a3cfe7-29ef-4d6a-b481-ee6c862c6417")
+		)
+		(instances
+			(project "mainboard"
+				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/0390cd9c-7144-4b89-98bc-a4913faa19f1"
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -16772,7 +16769,7 @@
 				)
 			)
 		)
-		(property "Value" "53"
+		(property "Value" "10uF"
 			(at 309.626 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16782,7 +16779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 307.0352 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16815,7 +16812,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C2012X5R1V106M085AC"
 			(at 306.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16905,7 +16902,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C1608X5R1A226M080AC"
 			(at 313.69 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17055,7 +17052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 194.31 28.9052 0)
 			(hide yes)
 			(show_name no)
@@ -17066,7 +17063,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21A475KBQNNNE"
 			(at 198.12 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17260,7 +17257,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "MCR01MZPF4993"
 			(at 259.08 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -17578,7 +17575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 254 119.0752 0)
 			(hide yes)
 			(show_name no)
@@ -17611,7 +17608,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
 			(at 257.81 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17760,7 +17757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 189.23 130.5052 0)
 			(hide yes)
 			(show_name no)
@@ -17793,7 +17790,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "GRM155R6YA224KE01D"
 			(at 193.04 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17883,7 +17880,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "GRM188C81E475KE11D"
+		(property "Manufacturer_Name" "C1608X5R1A226M080AC"
 			(at 318.77 72.39 0)
 			(hide yes)
 			(show_name no)
