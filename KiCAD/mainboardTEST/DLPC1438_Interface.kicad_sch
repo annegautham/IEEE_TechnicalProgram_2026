@@ -31414,7 +31414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RES_R-070RL_VIS"
+		(property "Footprint" "tp_library:ERJ-2GE0R00X"
 			(at 481.33 -11.43 0)
 			(hide yes)
 			(show_name no)
@@ -35048,7 +35048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RES_R-070RL_VIS"
+		(property "Footprint" "tp_library:ERJ-2GE0R00X"
 			(at 481.33 -16.51 0)
 			(hide yes)
 			(show_name no)
@@ -40193,7 +40193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STA_RMCF0805_STP"
+		(property "Footprint" "tp_library:RC0402FR-0710KL"
 			(at 514.35 -20.32 0)
 			(hide yes)
 			(show_name no)
@@ -41785,7 +41785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STA_RMCF0805_STP"
+		(property "Footprint" "tp_library:RC0402FR-0710KL"
 			(at 502.92 -20.32 0)
 			(hide yes)
 			(show_name no)
