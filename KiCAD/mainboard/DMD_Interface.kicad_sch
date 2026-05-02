@@ -3470,6 +3470,12 @@
 		(uuid "237975c8-4ba5-43ca-b58e-25730e2a2ea4")
 	)
 	(junction
+		(at 83.82 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26fbf4ce-9ab4-4eb7-8a12-30123492d605")
+	)
+	(junction
 		(at 53.34 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3624,12 +3630,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9caebda-e6fd-479f-890f-6e10fe925922")
-	)
-	(junction
-		(at 83.82 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc7ac1f1-5034-4075-9813-e77635a72737")
 	)
 	(junction
 		(at 62.23 139.7)
@@ -3844,16 +3844,6 @@
 			(type default)
 		)
 		(uuid "2593797e-2f93-4295-bfbb-967216907d91")
-	)
-	(wire
-		(pts
-			(xy 110.49 104.14) (xy 110.49 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d8701e8-129b-48ec-a226-b21cf4ece734")
 	)
 	(wire
 		(pts
@@ -4084,16 +4074,6 @@
 			(type default)
 		)
 		(uuid "65308b25-e938-4a83-a886-58b24a273e97")
-	)
-	(wire
-		(pts
-			(xy 83.82 104.14) (xy 97.282 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "662f2ecf-8496-47d0-a723-f6f727606941")
 	)
 	(wire
 		(pts
@@ -4337,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 83.82 104.14)
+			(xy 83.82 101.6) (xy 83.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4354,16 +4334,6 @@
 			(type default)
 		)
 		(uuid "a9b51436-7ff3-4e4e-935c-46771a98fccf")
-	)
-	(wire
-		(pts
-			(xy 108.458 104.14) (xy 110.49 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc58602-eb51-4193-ad61-a5ea56dff11b")
 	)
 	(wire
 		(pts
@@ -4677,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 104.14) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ed3595-b959-46ae-8533-f049156d8de8")
+	)
+	(wire
+		(pts
 			(xy 62.23 139.7) (xy 74.93 139.7)
 		)
 		(stroke
@@ -4871,7 +4851,7 @@
 	)
 	(global_label "P1P8V_DLPC"
 		(shape input)
-		(at 83.82 102.87 0)
+		(at 83.82 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4881,7 +4861,7 @@
 		)
 		(uuid "800f0dfb-4b86-464c-98f6-3ee3b0bdb56a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6585 102.87 0)
+			(at 98.6585 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,193 +6229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
-		(at 102.87 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a12a46e-4230-471c-b12d-822ba0123335")
-		(property "Reference" "C137"
-			(at 107.95 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 109.982 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "tp_library:CAP_CL05_SAM"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 102.87 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" "311-1140-1-ND"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=snap"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "0805 Yageo"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CC0805KRX7R9BB104/Yageo/view-part/?ref=eda"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Yageo"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "CC0805KRX7R9BB104"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 102.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "698823f0-93db-4cfe-abd3-bf4c6e6d1273")
-		)
-		(pin "1"
-			(uuid "903ac397-49a9-48c7-9cde-65d7933d71e0")
-		)
-		(instances
-			(project "mainboard"
-				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/6913ad39-baaf-4729-a86e-9a753e847f84"
-					(reference "C137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 59.69 0)
 		(unit 1)
@@ -6796,7 +6589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 101.854 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7136,7 +6929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 80.264 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,7 +7196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 137.414 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7824,6 +7617,173 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abe8de9b-c6a5-49bd-b626-e57d13705375")
+		(property "Reference" "#PWR04"
+			(at 102.87 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c528172-5932-47cc-9dd6-2dff1ac80092")
+		)
+		(instances
+			(project "mainboard"
+				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/6913ad39-baaf-4729-a86e-9a753e847f84"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4b26bad-3985-40b1-959f-d001bf8543c2")
+		(property "Reference" "C60"
+			(at 99.568 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.426 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 103.8352 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "CL05B104KO5NNNC"
+			(at 102.87 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc923d8a-8360-42e6-870f-535d0189489b")
+		)
+		(pin "2"
+			(uuid "b495d2dd-59d2-43d1-892d-1f7499399282")
+		)
+		(instances
+			(project "mainboard"
+				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/6913ad39-baaf-4729-a86e-9a753e847f84"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 203.2 59.69 0)
 		(unit 1)
@@ -8098,7 +8058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 90.424 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,83 +8227,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c109a6b3-3ebe-4726-b06e-f2dd9f140312")
-		(property "Reference" "#PWR04"
-			(at 110.49 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 110.744 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58542048-aaa8-4a71-b8ad-f0232965c745")
-		)
-		(instances
-			(project "mainboard"
-				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/6913ad39-baaf-4729-a86e-9a753e847f84"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 72.39 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -8442,7 +8325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 127.254 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9139,7 +9022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 117.094 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
