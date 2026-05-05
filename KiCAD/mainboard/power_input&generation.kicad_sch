@@ -7731,6 +7731,16 @@
 		)
 		(uuid "ffb7ae52-90b3-4c9d-ba54-10f73a3d6d4f")
 	)
+	(label "P1P8V_SW"
+		(at 240.03 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f65c7a0-4af6-4969-8205-0d6f6e1646ca")
+	)
 	(label "P1P8V_PG"
 		(at 237.49 78.74 0)
 		(effects
@@ -7750,6 +7760,16 @@
 			(justify left bottom)
 		)
 		(uuid "2170ce0a-051f-410b-91af-c300467d6af6")
+	)
+	(label "P1P2V_SW"
+		(at 243.84 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3122c81b-413d-41b8-8afc-72145b90cf1a")
 	)
 	(label "P1P2V_VCC"
 		(at 220.98 38.1 180)
@@ -7821,6 +7841,16 @@
 		)
 		(uuid "82507c20-9b41-4fcc-bf51-8940dca4e02c")
 	)
+	(label "P1P8V_BOOT"
+		(at 240.03 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d19daa9-e0f6-48d7-9a43-4c85dae82d98")
+	)
 	(label "P1P2V_PG"
 		(at 241.3 38.1 0)
 		(effects
@@ -7840,6 +7870,16 @@
 			(justify right bottom)
 		)
 		(uuid "8dad0146-8834-40de-8260-67f3d113aa31")
+	)
+	(label "P1P2V_BOOT"
+		(at 243.84 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e96614c-ed5a-42c2-a145-c718dadccb57")
 	)
 	(label "P1P2V_FB"
 		(at 241.3 35.56 0)
@@ -8372,28 +8412,6 @@
 		)
 		(uuid "31262411-e7b5-4ecc-b9b2-64a5b53cbf2b")
 	)
-	(hierarchical_label "P1P2V_SW"
-		(shape input)
-		(at 243.84 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4bdd500d-cd43-4c44-9ed6-0fc6b0cac62f")
-	)
-	(hierarchical_label "P1P8V_BOOT"
-		(shape input)
-		(at 240.03 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4db6caae-cb71-4684-98c1-86d532bd3a27")
-	)
 	(hierarchical_label "P3P3V_SW"
 		(shape input)
 		(at 238.76 120.65 0)
@@ -8404,17 +8422,6 @@
 			(justify left)
 		)
 		(uuid "52dbad78-03cb-49d3-b094-9b64d959ba78")
-	)
-	(hierarchical_label "P1P8V_SW"
-		(shape input)
-		(at 240.03 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59992c91-6075-4511-bdfb-303264bf1105")
 	)
 	(hierarchical_label "P3P3V_BOOT"
 		(shape input)
@@ -8448,17 +8455,6 @@
 			(justify right)
 		)
 		(uuid "c2d3a2a3-b11d-41d1-bedf-359bf068994e")
-	)
-	(hierarchical_label "P1P2V_BOOT"
-		(shape input)
-		(at 243.84 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d25a1cc0-55ce-4aee-9133-6899e748cd5d")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")

@@ -5,6 +5,12 @@
 	(uuid "b2de12ad-2501-4f93-8878-215e8337bff5")
 	(paper "A3")
 	(lib_symbols)
+	(junction
+		(at 226.06 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8fd5a70-69f6-4472-990e-4217e9c2c6df")
+	)
 	(wire
 		(pts
 			(xy 193.04 105.41) (xy 193.04 110.49)
@@ -297,6 +303,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 58.42) (xy 226.06 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acda8f7-472a-4e5c-8827-37d94fa4530b")
+	)
+	(wire
+		(pts
 			(xy 85.09 69.85) (xy 91.44 69.85)
 		)
 		(stroke
@@ -364,6 +380,16 @@
 			(type default)
 		)
 		(uuid "ababbacc-b0c4-4b65-a814-0ed3069325d0")
+	)
+	(wire
+		(pts
+			(xy 226.06 64.77) (xy 228.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26d6b17-4e9e-41e7-8a4d-23ca7bbeed0c")
 	)
 	(wire
 		(pts
@@ -497,7 +523,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 64.77) (xy 228.6 64.77)
+			(xy 223.52 64.77) (xy 226.06 64.77)
 		)
 		(stroke
 			(width 0)
@@ -577,7 +603,7 @@
 	)
 	(sheet
 		(at 179.705 20.32)
-		(size 101.6 37.465)
+		(size 101.6 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -603,7 +629,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input&generation.kicad_sch"
-			(at 179.705 58.3696 0)
+			(at 179.705 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -614,7 +640,7 @@
 			)
 		)
 		(pin "FE_PROJ_ON" input
-			(at 190.4366 57.785 270)
+			(at 179.705 34.29 180)
 			(uuid "4acca4f0-85bb-4a3c-8425-ae5eca0df913")
 			(effects
 				(font
@@ -624,7 +650,7 @@
 			)
 		)
 		(pin "INTZ" input
-			(at 225.9966 57.785 270)
+			(at 225.9966 58.42 270)
 			(uuid "c281cc84-8cb7-42ec-be21-7ba07651f319")
 			(effects
 				(font
@@ -634,7 +660,7 @@
 			)
 		)
 		(pin "P1P2V_BOOT" input
-			(at 213.2966 57.785 270)
+			(at 179.705 43.18 180)
 			(uuid "25d2e6fe-c1f4-450a-9aad-a8a9cb0a31c6")
 			(effects
 				(font
@@ -644,7 +670,7 @@
 			)
 		)
 		(pin "P1P2V_SW" input
-			(at 233.6166 57.785 270)
+			(at 179.705 46.99 180)
 			(uuid "022301c6-98d7-48a2-ac71-8b257c934d9d")
 			(effects
 				(font
@@ -654,7 +680,7 @@
 			)
 		)
 		(pin "P1P8V_BOOT" input
-			(at 256.4766 57.785 270)
+			(at 256.4766 58.42 270)
 			(uuid "b4d7633b-b423-43ae-9b29-b6c885d2d451")
 			(effects
 				(font
@@ -664,7 +690,7 @@
 			)
 		)
 		(pin "P1P8V_SW" input
-			(at 246.3166 57.785 270)
+			(at 246.3166 58.42 270)
 			(uuid "fb62b164-d027-4038-93d7-a8945754eae1")
 			(effects
 				(font
@@ -674,7 +700,7 @@
 			)
 		)
 		(pin "P3P3V_BOOT" input
-			(at 272.9866 57.785 270)
+			(at 272.9866 58.42 270)
 			(uuid "db1374b9-e67f-43ef-9fa5-d06a919bd1d0")
 			(effects
 				(font
@@ -684,7 +710,7 @@
 			)
 		)
 		(pin "P3P3V_SW" input
-			(at 265.3666 57.785 270)
+			(at 265.3666 58.42 270)
 			(uuid "a61c0d2a-2e1d-41ee-9057-0d58ac2d5b3a")
 			(effects
 				(font
@@ -694,13 +720,13 @@
 			)
 		)
 		(pin "PROJ_ON" input
-			(at 281.305 52.705 0)
+			(at 179.705 39.37 180)
 			(uuid "f19abefc-5d4a-497e-83c1-43f17cd9e939")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -1724,8 +1750,8 @@
 		)
 	)
 	(sheet
-		(at 21.5266 62.865)
-		(size 63.5634 42.5449)
+		(at 66.675 62.865)
+		(size 18.415 42.5449)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1739,7 +1765,7 @@
 		)
 		(uuid "a1ed9265-fb21-452a-9a5e-2f45e6a1e47b")
 		(property "Sheetname" "FPGA_Connections"
-			(at 21.5266 59.436 0)
+			(at 66.675 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1750,7 +1776,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA_Connections.kicad_sch"
-			(at 21.5266 60.706 0)
+			(at 66.675 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
