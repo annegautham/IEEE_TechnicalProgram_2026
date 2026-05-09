@@ -9068,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 337.5152 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9416,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 350.2152 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9506,7 +9506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 255.27 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:GRM155R6YA224KE01D"
 			(at 190.5 80.9752 0)
 			(hide yes)
 			(show_name no)
@@ -13794,7 +13794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 324.8152 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14168,7 +14168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 259.08 28.9052 0)
 			(hide yes)
 			(show_name no)
@@ -14261,7 +14261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "tp_library:GRM188C81E475KE11D"
 			(at 31.4452 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15494,7 +15494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:GRM155R6YA224KE01D"
 			(at 194.31 40.3352 0)
 			(hide yes)
 			(show_name no)
@@ -15836,7 +15836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 42.8752 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15926,7 +15926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 63.1952 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -16436,7 +16436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "tp_library:GRM188C81E475KE11D"
 			(at 44.1452 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16607,7 +16607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "tp_library:GRM188C81E475KE11D"
 			(at 30.1752 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17313,7 +17313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "tp_library:C1608X5R1A106M080AC"
 			(at 117.8052 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17571,7 +17571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:ul_CL05B104KO5NNNC"
 			(at 254 119.0752 0)
 			(hide yes)
 			(show_name no)
@@ -17753,7 +17753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "tp_library:GRM155R6YA224KE01D"
 			(at 189.23 130.5052 0)
 			(hide yes)
 			(show_name no)

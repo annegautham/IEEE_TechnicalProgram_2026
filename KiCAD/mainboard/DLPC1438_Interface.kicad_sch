@@ -5582,6 +5582,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPD2E001DRYR:TPD2E001DRYR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 30.48 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPD2E001DRYR"
+				(at 30.48 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DRY6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tpd2e001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TPD2E001DRYR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DRY6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPD2E001DRYR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 53.34 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -10.16) (xy 53.34 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 60.96 -5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 60.96 -2.54 180)
+					(length 7.62)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 0 180)
+					(length 7.62)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -10463,7 +10719,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 472.694 266.446 0)
+		(at 562.864 264.668 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -10472,6 +10728,18 @@
 			)
 		)
 		(uuid "1744d32a-4834-416a-98fb-e7f688346056")
+	)
+	(text "JTAG\n"
+		(exclude_from_sim no)
+		(at 470.662 201.93 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "194d85f3-f9eb-42a9-b266-551333e88a6c")
 	)
 	(text "Decoupling/Bypass capacitors"
 		(exclude_from_sim no)
@@ -10569,6 +10837,18 @@
 			)
 		)
 		(uuid "8e28f535-726e-4285-9d34-a73b10e7af66")
+	)
+	(text "Flash SPI "
+		(exclude_from_sim no)
+		(at 471.932 263.144 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "90458789-ae89-4967-8b76-a8215e1baa90")
 	)
 	(text "Decoupling/Bypass capacitors"
 		(exclude_from_sim no)
@@ -10869,12 +11149,6 @@
 		(uuid "1bdbe050-8b96-42e6-97ff-09f2cf3491d1")
 	)
 	(junction
-		(at 494.03 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cba4778-631f-45a5-ae01-38e961859855")
-	)
-	(junction
 		(at 247.65 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11115,12 +11389,6 @@
 		(uuid "71617f83-2293-47e8-8715-06e5cac04e35")
 	)
 	(junction
-		(at 482.6 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72fd0530-707b-4ac2-8573-7c51e90eb5da")
-	)
-	(junction
 		(at 231.14 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11235,7 +11503,7 @@
 		(uuid "9ba93ca1-4aac-49fd-b447-90c883e1065d")
 	)
 	(junction
-		(at 544.83 64.77)
+		(at 562.61 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c0c2035-7311-4eb9-b4e8-983aa288616e")
@@ -11289,10 +11557,16 @@
 		(uuid "ada510c6-63d0-451b-bb2c-db6a5fdc2392")
 	)
 	(junction
-		(at 532.13 346.71)
+		(at 504.19 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5c8895-b6aa-4532-a480-185a3ef4b07b")
+	)
+	(junction
+		(at 482.6 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0db0cf4-dbdc-430f-a6a8-db578f7cc1f5")
 	)
 	(junction
 		(at 420.37 68.58)
@@ -11403,7 +11677,7 @@
 		(uuid "d49a31c6-0568-43f4-921e-446d8182e2bb")
 	)
 	(junction
-		(at 548.64 64.77)
+		(at 566.42 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4f26e6c-3e1f-4973-9716-657aca7efa8b")
@@ -11469,7 +11743,7 @@
 		(uuid "e3aa0858-60e2-4484-b9f2-3a4911d6856a")
 	)
 	(junction
-		(at 533.4 339.09)
+		(at 505.46 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e44efe34-5290-47f2-b2fe-c749c4e9e4c5")
@@ -11549,7 +11823,7 @@
 		(uuid "055691ab-b3dd-4c00-b004-507bb82e5da3")
 	)
 	(no_connect
-		(at 547.37 336.55)
+		(at 519.43 275.59)
 		(uuid "11329e97-44d1-4e5e-9c26-ce4f77270d06")
 	)
 	(no_connect
@@ -11585,10 +11859,6 @@
 		(uuid "68492fd8-d3ed-4330-a6a6-c3fa6d9ef6e2")
 	)
 	(no_connect
-		(at 482.6 142.24)
-		(uuid "801ac6b5-8c08-4f7b-a8fb-8681daf5627e")
-	)
-	(no_connect
 		(at 361.95 119.38)
 		(uuid "8741e3b6-e34d-4c5b-bdfe-59a132111e83")
 	)
@@ -11609,11 +11879,7 @@
 		(uuid "bdb3cb61-305b-4752-903f-d3fa77c6b851")
 	)
 	(no_connect
-		(at 494.03 134.62)
-		(uuid "c7ae2e8d-bd78-47f0-84d9-f1de969705a5")
-	)
-	(no_connect
-		(at 547.37 339.09)
+		(at 519.43 278.13)
 		(uuid "d6a6f6bf-16fa-4214-85a9-3e121bd548a6")
 	)
 	(no_connect
@@ -11681,6 +11947,16 @@
 			(type default)
 		)
 		(uuid "036ccb36-fca7-4cbb-a828-0f938f99e998")
+	)
+	(wire
+		(pts
+			(xy 359.41 165.1) (xy 361.95 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0386cc7a-3bbf-419f-8576-5305d85d57b3")
 	)
 	(polyline
 		(pts
@@ -11964,7 +12240,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 274.32) (xy 537.21 274.32)
+			(xy 560.07 275.59) (xy 567.69 275.59)
 		)
 		(stroke
 			(width 0)
@@ -12294,7 +12570,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 160.02) (xy 494.03 134.62)
+			(xy 494.03 149.86) (xy 494.03 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12394,6 +12670,16 @@
 	)
 	(wire
 		(pts
+			(xy 438.15 139.7) (xy 439.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2052969b-f850-4d2c-b662-8408ae8c3930")
+	)
+	(wire
+		(pts
 			(xy 346.71 264.16) (xy 361.95 264.16)
 		)
 		(stroke
@@ -12464,7 +12750,7 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 64.77) (xy 548.64 68.58)
+			(xy 566.42 58.42) (xy 566.42 62.23)
 		)
 		(stroke
 			(width 0)
@@ -12551,16 +12837,6 @@
 			(type default)
 		)
 		(uuid "27390046-01fb-47b2-8f04-77c9d6b54b50")
-	)
-	(wire
-		(pts
-			(xy 492.76 60.96) (xy 516.89 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27b04393-86d2-4fee-a245-5c6a0fecdabd")
 	)
 	(wire
 		(pts
@@ -12714,6 +12990,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 279.4) (xy 422.91 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dce49ae-649a-4bd6-90a0-bb0a26f8c6e9")
+	)
+	(wire
+		(pts
 			(xy 57.15 341.63) (xy 57.15 346.71)
 		)
 		(stroke
@@ -12814,7 +13100,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 284.48) (xy 537.21 284.48)
+			(xy 560.07 285.75) (xy 567.69 285.75)
 		)
 		(stroke
 			(width 0)
@@ -13064,7 +13350,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 341.63) (xy 533.4 341.63)
+			(xy 506.73 280.67) (xy 505.46 280.67)
 		)
 		(stroke
 			(width 0)
@@ -13094,6 +13380,16 @@
 	)
 	(wire
 		(pts
+			(xy 510.54 54.61) (xy 534.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d8c250-466a-413d-8920-462bd66d0c31")
+	)
+	(wire
+		(pts
 			(xy 64.77 289.56) (xy 64.77 293.37)
 		)
 		(stroke
@@ -13114,7 +13410,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 341.63) (xy 533.4 339.09)
+			(xy 505.46 280.67) (xy 505.46 278.13)
 		)
 		(stroke
 			(width 0)
@@ -13244,7 +13540,7 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 83.82) (xy 548.64 81.28)
+			(xy 566.42 77.47) (xy 566.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -13424,7 +13720,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 165.1) (xy 482.6 142.24)
+			(xy 482.6 165.1) (xy 482.6 148.59)
 		)
 		(stroke
 			(width 0)
@@ -13462,6 +13758,16 @@
 		)
 		(uuid "4403850e-1af1-4f6c-96c0-2cae70384ad4")
 	)
+	(wire
+		(pts
+			(xy 435.61 116.84) (xy 417.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a2e6bc-8e72-4d11-97f4-aaa5fedda469")
+	)
 	(polyline
 		(pts
 			(xy 20.32 198.12) (xy 170.18 198.12)
@@ -13484,7 +13790,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 344.17) (xy 534.67 344.17)
+			(xy 492.76 283.21) (xy 506.73 283.21)
 		)
 		(stroke
 			(width 0)
@@ -13804,7 +14110,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 289.56) (xy 537.21 289.56)
+			(xy 560.07 290.83) (xy 567.69 290.83)
 		)
 		(stroke
 			(width 0)
@@ -13932,6 +14238,16 @@
 		)
 		(uuid "5d67c669-4497-48b5-bf71-6ab73c4bdd4f")
 	)
+	(polyline
+		(pts
+			(xy 536.448 305.308) (xy 536.448 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc8c276-56e8-4c18-a0bd-f4135cb0d690")
+	)
 	(wire
 		(pts
 			(xy 307.34 168.91) (xy 307.34 172.212)
@@ -13944,7 +14260,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 203.2) (xy 420.37 203.2)
+			(xy 417.83 203.2) (xy 439.42 203.2)
 		)
 		(stroke
 			(width 0)
@@ -14061,6 +14377,16 @@
 			(type default)
 		)
 		(uuid "67ebb6a2-a905-4839-b3f4-6472077e8bd5")
+	)
+	(wire
+		(pts
+			(xy 439.42 129.54) (xy 445.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68058534-dda2-48f7-a954-32126afbf313")
 	)
 	(wire
 		(pts
@@ -14264,7 +14590,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 279.4) (xy 537.21 279.4)
+			(xy 560.07 280.67) (xy 567.69 280.67)
 		)
 		(stroke
 			(width 0)
@@ -14524,6 +14850,16 @@
 	)
 	(wire
 		(pts
+			(xy 439.42 134.62) (xy 439.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4fc157-a7a9-4ea9-aa6f-d7546a9ad402")
+	)
+	(wire
+		(pts
 			(xy 63.5 219.71) (xy 63.5 250.19)
 		)
 		(stroke
@@ -14574,7 +14910,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 64.77) (xy 528.32 64.77)
+			(xy 510.54 58.42) (xy 546.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14694,7 +15030,7 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 64.77) (xy 544.83 68.58)
+			(xy 562.61 58.42) (xy 562.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -14784,7 +15120,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 346.71) (xy 534.67 346.71)
+			(xy 504.19 285.75) (xy 506.73 285.75)
 		)
 		(stroke
 			(width 0)
@@ -14894,6 +15230,16 @@
 	)
 	(wire
 		(pts
+			(xy 494.03 149.86) (xy 504.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cc3b2c-7a8b-4100-8804-32b6433dfd3c")
+	)
+	(wire
+		(pts
 			(xy 233.68 123.19) (xy 242.57 123.19)
 		)
 		(stroke
@@ -14941,6 +15287,16 @@
 			(type default)
 		)
 		(uuid "93146353-1049-42a2-8c60-e1bd19e442b3")
+	)
+	(wire
+		(pts
+			(xy 504.19 134.62) (xy 504.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933b7ae9-93ad-48d6-9e93-ac4917980603")
 	)
 	(wire
 		(pts
@@ -15054,7 +15410,17 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 292.1) (xy 537.21 292.1)
+			(xy 438.15 148.59) (xy 438.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979ba48a-31dc-471c-8dd7-2aaf021e76b2")
+	)
+	(wire
+		(pts
+			(xy 560.07 293.37) (xy 567.69 293.37)
 		)
 		(stroke
 			(width 0)
@@ -15134,7 +15500,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 339.09) (xy 508 339.09)
+			(xy 469.9 278.13) (xy 480.06 278.13)
 		)
 		(stroke
 			(width 0)
@@ -15214,7 +15580,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 200.66) (xy 420.37 200.66)
+			(xy 417.83 200.66) (xy 439.42 200.66)
 		)
 		(stroke
 			(width 0)
@@ -15244,7 +15610,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 276.86) (xy 537.21 276.86)
+			(xy 560.07 278.13) (xy 567.69 278.13)
 		)
 		(stroke
 			(width 0)
@@ -15264,7 +15630,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 336.55) (xy 532.13 346.71)
+			(xy 504.19 275.59) (xy 504.19 285.75)
 		)
 		(stroke
 			(width 0)
@@ -15324,7 +15690,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 339.09) (xy 520.7 339.09)
+			(xy 505.46 278.13) (xy 492.76 278.13)
 		)
 		(stroke
 			(width 0)
@@ -15472,6 +15838,16 @@
 		)
 		(uuid "a6aec7c1-185b-4c80-98bb-8186a91283ac")
 	)
+	(wire
+		(pts
+			(xy 500.38 139.7) (xy 500.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70cc060-d2f4-4017-9e86-3f2458013b0c")
+	)
 	(polyline
 		(pts
 			(xy 280.67 270.51) (xy 280.67 198.12)
@@ -15571,16 +15947,6 @@
 			(type default)
 		)
 		(uuid "ab01248e-9348-461b-b902-12236a286296")
-	)
-	(wire
-		(pts
-			(xy 417.83 279.4) (xy 422.91 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab774d59-400b-4388-a361-732325dbf312")
 	)
 	(wire
 		(pts
@@ -15711,6 +16077,16 @@
 			(type default)
 		)
 		(uuid "afde833a-9749-42f0-b84c-d4641405bb62")
+	)
+	(wire
+		(pts
+			(xy 417.83 246.38) (xy 422.91 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05787ba-8eb0-4380-af94-7fc52585e207")
 	)
 	(wire
 		(pts
@@ -16024,7 +16400,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 160.02) (xy 494.03 160.02)
+			(xy 467.36 160.02) (xy 496.57 160.02)
 		)
 		(stroke
 			(width 0)
@@ -16114,7 +16490,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 64.77) (xy 544.83 64.77)
+			(xy 558.8 58.42) (xy 562.61 58.42)
 		)
 		(stroke
 			(width 0)
@@ -16144,6 +16520,16 @@
 	)
 	(wire
 		(pts
+			(xy 445.77 125.73) (xy 445.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bc74ef-6e31-40e3-86ff-a712afcefeb1")
+	)
+	(wire
+		(pts
 			(xy 236.22 45.72) (xy 227.33 45.72)
 		)
 		(stroke
@@ -16151,16 +16537,6 @@
 			(type default)
 		)
 		(uuid "c7c2707d-84f1-4ec9-b078-5688ae9ad38c")
-	)
-	(wire
-		(pts
-			(xy 494.03 160.02) (xy 496.57 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9338d54-dda6-44fe-8b95-5445fb22e504")
 	)
 	(wire
 		(pts
@@ -16304,7 +16680,7 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 64.77) (xy 553.72 64.77)
+			(xy 566.42 58.42) (xy 571.5 58.42)
 		)
 		(stroke
 			(width 0)
@@ -16324,7 +16700,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 281.94) (xy 537.21 281.94)
+			(xy 560.07 283.21) (xy 567.69 283.21)
 		)
 		(stroke
 			(width 0)
@@ -16404,7 +16780,7 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 344.17) (xy 547.37 344.17)
+			(xy 532.13 283.21) (xy 519.43 283.21)
 		)
 		(stroke
 			(width 0)
@@ -16424,7 +16800,17 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 346.71) (xy 547.37 346.71)
+			(xy 337.82 241.3) (xy 361.95 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d643d434-abe7-4eff-8ccc-5081821ae9a8")
+	)
+	(wire
+		(pts
+			(xy 532.13 285.75) (xy 519.43 285.75)
 		)
 		(stroke
 			(width 0)
@@ -16491,6 +16877,16 @@
 			(type default)
 		)
 		(uuid "d7613d05-5ca5-4f35-8b76-d71e223994dd")
+	)
+	(wire
+		(pts
+			(xy 482.6 148.59) (xy 438.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f6070b-eadf-43a2-af39-a8075392e82c")
 	)
 	(wire
 		(pts
@@ -16574,7 +16970,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 287.02) (xy 537.21 287.02)
+			(xy 560.07 288.29) (xy 567.69 288.29)
 		)
 		(stroke
 			(width 0)
@@ -16684,7 +17080,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 68.58) (xy 516.89 68.58)
+			(xy 510.54 62.23) (xy 534.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -16751,16 +17147,6 @@
 			(type default)
 		)
 		(uuid "e1dec992-f599-4cff-9c56-60855995b83a")
-	)
-	(wire
-		(pts
-			(xy 417.83 246.38) (xy 421.64 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e21a86ea-6220-4c53-bba0-b0181c44d3ad")
 	)
 	(wire
 		(pts
@@ -17054,7 +17440,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 339.09) (xy 533.4 339.09)
+			(xy 506.73 278.13) (xy 505.46 278.13)
 		)
 		(stroke
 			(width 0)
@@ -17164,7 +17550,7 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 341.63) (xy 547.37 341.63)
+			(xy 532.13 280.67) (xy 519.43 280.67)
 		)
 		(stroke
 			(width 0)
@@ -17254,6 +17640,16 @@
 	)
 	(wire
 		(pts
+			(xy 500.38 134.62) (xy 504.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f506f658-466e-4aec-8c28-b3e8066568ee")
+	)
+	(wire
+		(pts
 			(xy 356.87 190.5) (xy 356.87 194.31)
 		)
 		(stroke
@@ -17334,7 +17730,7 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 64.77) (xy 548.64 64.77)
+			(xy 562.61 58.42) (xy 566.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -17414,7 +17810,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 336.55) (xy 532.13 336.55)
+			(xy 506.73 275.59) (xy 504.19 275.59)
 		)
 		(stroke
 			(width 0)
@@ -18380,7 +18776,7 @@
 		(uuid "13684e23-27bf-4f7d-b320-92668c645062")
 	)
 	(label "TSTPT_4"
-		(at 529.59 284.48 180)
+		(at 560.07 285.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18560,7 +18956,7 @@
 		(uuid "3c7797ce-f05e-4ebd-abda-dd7d94ef7936")
 	)
 	(label "DLPC_LED_SEL_0"
-		(at 492.76 68.58 0)
+		(at 510.54 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18570,7 +18966,7 @@
 		(uuid "3cb10cbf-9a0b-4858-9a28-d3b951450e36")
 	)
 	(label "TSTPT_6"
-		(at 529.59 289.56 180)
+		(at 560.07 290.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18600,7 +18996,7 @@
 		(uuid "4677b747-e992-4f30-9ce4-9331da736732")
 	)
 	(label "TSTPT_0"
-		(at 529.59 274.32 180)
+		(at 560.07 275.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18679,6 +19075,16 @@
 		)
 		(uuid "5bac6eef-8b2d-426a-88ee-05bf3cbebc71")
 	)
+	(label "JTAG_TCK"
+		(at 524.51 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f9825d6-7c6c-42a8-9d7e-6e6851a5ce87")
+	)
 	(label "VDD_PLL"
 		(at 421.64 58.42 0)
 		(effects
@@ -18690,7 +19096,7 @@
 		(uuid "61895538-d912-4c9d-809e-9d287d21aab9")
 	)
 	(label "TSTPT_3"
-		(at 529.59 281.94 180)
+		(at 560.07 283.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18770,7 +19176,7 @@
 		(uuid "6edd0e4c-09b7-40eb-b76a-228e93a0fd5a")
 	)
 	(label "CMP_OUT"
-		(at 492.76 60.96 0)
+		(at 510.54 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18840,7 +19246,7 @@
 		(uuid "80e0b595-d8d0-40a2-a018-fea86125b59f")
 	)
 	(label "EXT_I2CPWR_F"
-		(at 495.3 154.94 0)
+		(at 494.03 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18890,7 +19296,7 @@
 		(uuid "90878d09-14f3-4237-8e50-062f224a291b")
 	)
 	(label "SPI0_CLK"
-		(at 560.07 344.17 180)
+		(at 532.13 283.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18940,7 +19346,7 @@
 		(uuid "99f7539b-7569-4fa1-988b-3e67468007f8")
 	)
 	(label "SPI0_CSZ0"
-		(at 560.07 346.71 180)
+		(at 532.13 285.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18960,7 +19366,7 @@
 		(uuid "9f8fbd36-f970-4319-a648-d9b1cda05b5f")
 	)
 	(label "SPI0_5V"
-		(at 530.86 339.09 180)
+		(at 502.92 278.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18990,7 +19396,7 @@
 		(uuid "a3ac3b2d-c531-462e-92ba-c01ffca3ea0f")
 	)
 	(label "DLPC_FLSH_PROG"
-		(at 508 339.09 180)
+		(at 480.06 278.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19000,7 +19406,7 @@
 		(uuid "a5fd0e57-e19b-4a1e-aa7f-f8e44325c481")
 	)
 	(label "SPI0_MOSI"
-		(at 520.7 344.17 0)
+		(at 492.76 283.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19030,7 +19436,7 @@
 		(uuid "aa8637e5-e144-4f64-bf6f-0d2c6b92e9f3")
 	)
 	(label "TSTPT_5"
-		(at 529.59 287.02 180)
+		(at 560.07 288.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19040,7 +19446,7 @@
 		(uuid "abb47664-4fa3-4d06-a675-8caee1f016d5")
 	)
 	(label "TSTPT_7"
-		(at 529.59 292.1 180)
+		(at 560.07 293.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19058,6 +19464,16 @@
 			(justify left bottom)
 		)
 		(uuid "b09de11c-2c97-458e-8c9f-ba2c3cb1ad57")
+	)
+	(label "JTAG_TCK"
+		(at 422.91 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1b8cf3b-3693-4556-a050-a9ea318c04ac")
 	)
 	(label "SPI0_MISO"
 		(at 331.47 106.68 0)
@@ -19129,18 +19545,8 @@
 		)
 		(uuid "cfd0ad30-6099-4752-bcca-133a29a05792")
 	)
-	(label "JTAG_TCK"
-		(at 421.64 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d855dfa2-e3a4-4376-b94c-5f43e20755d3")
-	)
 	(label "DLPC_LED_SEL_1"
-		(at 492.76 64.77 0)
+		(at 510.54 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19160,7 +19566,7 @@
 		(uuid "dc2050d3-e6fa-4309-ab60-b78747e8df0c")
 	)
 	(label "SPI0_MISO"
-		(at 560.07 341.63 180)
+		(at 532.13 280.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19180,7 +19586,7 @@
 		(uuid "e1c4e8f4-ab96-4030-ad77-f0dcf62f62f8")
 	)
 	(label "TSTPT_1"
-		(at 529.59 276.86 180)
+		(at 560.07 278.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19250,7 +19656,7 @@
 		(uuid "ea41dc49-1bea-4d52-b8ea-3fd9356e03eb")
 	)
 	(label "TSTPT_2"
-		(at 529.59 279.4 180)
+		(at 560.07 280.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19258,16 +19664,6 @@
 			(justify right bottom)
 		)
 		(uuid "ec428fe0-a579-4fc9-b5ec-deb1a8b42c21")
-	)
-	(label "JTAG_TCK"
-		(at 524.51 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ede77e9e-92d3-4a45-8edc-bc1b52def504")
 	)
 	(label "TSTPT_6"
 		(at 420.37 213.36 0)
@@ -19383,7 +19779,7 @@
 	)
 	(global_label "P1P1V"
 		(shape input)
-		(at 361.95 165.1 180)
+		(at 359.41 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19393,7 +19789,7 @@
 		)
 		(uuid "237c01f4-b172-4470-bb8f-d3bdb4246c29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.9172 165.1 0)
+			(at 350.3772 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19431,7 +19827,7 @@
 	)
 	(global_label "GPIO_6"
 		(shape input)
-		(at 361.95 241.3 180)
+		(at 337.82 241.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19441,7 +19837,7 @@
 		)
 		(uuid "26c878d1-77b1-4d4f-9bd6-c72a8026a764")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.3124 241.3 0)
+			(at 328.1824 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20005,6 +20401,30 @@
 			)
 		)
 	)
+	(global_label "P5V"
+		(shape input)
+		(at 445.77 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aafa25c7-a112-470a-a710-fe75028c8a2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 452.3233 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "P1P1V"
 		(shape input)
 		(at 420.37 48.26 0)
@@ -20556,7 +20976,7 @@
 		(uuid "033ad8a0-e915-4567-be7e-de77d133120d")
 	)
 	(hierarchical_label "IIC1_SDA"
-		(shape bidirectional)
+		(shape input)
 		(at 152.4 327.66 0)
 		(effects
 			(font
@@ -20678,7 +21098,7 @@
 	)
 	(hierarchical_label "CMP_OUT"
 		(shape input)
-		(at 516.89 60.96 0)
+		(at 534.67 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20711,7 +21131,7 @@
 	)
 	(hierarchical_label "LED_SEL_1"
 		(shape input)
-		(at 544.83 68.58 270)
+		(at 562.61 62.23 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20907,6 +21327,17 @@
 		)
 		(uuid "b781396d-ac92-4b82-8771-32bdfeb08b17")
 	)
+	(hierarchical_label "IIC0_SDA"
+		(shape input)
+		(at 439.42 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bac60b14-f2ef-45bc-a082-c5d80bafbe42")
+	)
 	(hierarchical_label "RESETZ"
 		(shape input)
 		(at 247.65 336.55 0)
@@ -21017,6 +21448,17 @@
 		)
 		(uuid "d587fd56-0214-46e6-b6e8-d96396a2fc0c")
 	)
+	(hierarchical_label "IIC0_SCL"
+		(shape input)
+		(at 439.42 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd6d51f0-0663-4d6e-898e-281bd106acde")
+	)
 	(hierarchical_label "DMD_HS_CLK_P"
 		(shape input)
 		(at 361.95 55.88 180)
@@ -21038,6 +21480,17 @@
 			(justify right)
 		)
 		(uuid "e057d9be-593f-4a75-85b0-5f9e40341a4a")
+	)
+	(hierarchical_label "FPGA_RDY"
+		(shape input)
+		(at 435.61 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e16ec5ab-2786-41b4-97e8-4939fe2cfc50")
 	)
 	(hierarchical_label "DMD_DEN_ARSTZ"
 		(shape input)
@@ -21094,17 +21547,6 @@
 		)
 		(uuid "eea191a3-c78f-4f1c-b97c-8ecbe6f415cd")
 	)
-	(hierarchical_label "FPGA_RDY"
-		(shape input)
-		(at 417.83 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eed5d2ba-4ba1-422c-b763-2880043e9f16")
-	)
 	(hierarchical_label "GPIO_12"
 		(shape input)
 		(at 417.83 83.82 0)
@@ -21160,4238 +21602,6 @@
 		)
 		(uuid "ff980586-d820-4dcd-9645-1b363f9b343f")
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "016c2887-fdb5-44da-b2ee-e256b8d60a35")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 281.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "047bbbb4-311f-47a3-b3c2-17313ee9efe3")
-		(property "Net Class" "BGA_Signal"
-			(at 437.134 280.416 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 420.37 292.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "058627da-a8cf-49f1-91e9-42db85b76c53")
-		(property "Net Class" "BGA_Signal"
-			(at 421.5765 289.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 115.57 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d602d3f-b04c-4536-a12b-b15bfc2b5327")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 236.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dddef2a-db65-426d-8c01-5e7c87f01630")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ff7c92c-42a4-4267-bacf-0792433559f6")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 359.41 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "145af627-814d-4746-b72a-b8b1743ff556")
-		(property "Net Class" "BGA_Signal"
-			(at 360.6165 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 54.61 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17d32a2c-8b96-48a2-be22-99daad3aac7e")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 -8.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 429.26 259.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17dc8d23-ab50-40ca-85a8-09721baeee39")
-		(property "Net Class" "BGA_Signal"
-			(at 430.4665 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 124.46 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18d2d201-125f-49ba-b3e9-f47a6fbb4b10")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 356.87 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f226fd8-7005-4021-a49a-7086effda37b")
-		(property "Net Class" "BGA_Signal"
-			(at 358.0765 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 52.07 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 279.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f835bda-98fa-478e-b030-9d622851ef92")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "217b9e7e-1c34-4c4c-9c4f-314d4c6eb47f")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 430.53 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2232a3c2-4431-4fba-92ec-219844762887")
-		(property "Net Class" "BGA_Signal"
-			(at 431.7365 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 125.73 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 421.64 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23568cac-ce85-4331-a42b-1120f542e82a")
-		(property "Net Class" "BGA_Signal"
-			(at 422.8465 241.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 116.84 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 351.79 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "299ccdc6-9116-46cf-98d8-3da87918d7c3")
-		(property "Net Class" "BGA_Signal"
-			(at 352.9965 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 46.99 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 355.7586 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a92f2a2-5486-4fa6-bf97-ebbd2a395c9b")
-		(property "Net Class" "BGA_Signal"
-			(at 356.9651 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 50.9586 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 359.41 279.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b5dfeca-99d4-4114-90d5-2b604dcd753e")
-		(property "Net Class" "BGA_Signal"
-			(at 360.6165 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 54.61 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33651aea-7499-44c3-be8b-3f05d47dd643")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 420.37 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33d08fe6-ea3c-44e8-b904-550003cb8287")
-		(property "Net Class" "BGA_Signal"
-			(at 421.5765 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 115.57 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37e3da8d-713f-4527-af7d-cac98675f097")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 -11.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a336911-1ba0-4707-bde7-9d76d88e5e1a")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 420.37 287.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a46ae14-1401-4360-aa5a-6ee6095d8176")
-		(property "Net Class" "BGA_Signal"
-			(at 421.5765 284.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 115.57 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b590de0-2b88-4283-97a6-2ba6adcd44e7")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 349.25 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d3c14fa-610e-4cf5-9b8f-9b4c5db28128")
-		(property "Net Class" "BGA_Signal"
-			(at 350.4565 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 44.45 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3de72433-0824-4e53-a0db-75bb1b33977d")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 421.64 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f8855ed-4ba8-4265-bc94-9cf0c9c1cb5c")
-		(property "Net Class" "BGA_Signal"
-			(at 422.8465 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 116.84 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fd9a3a5-f2a8-4034-9f40-f54e83239de9")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 358.1944 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4032521e-1b3a-49d3-98c3-3ff38ada7905")
-		(property "Net Class" "BGA_Signal"
-			(at 359.4009 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 53.3944 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 345.44 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41e3cd41-bfbb-4c35-b15d-0b9deb8f41d5")
-		(property "Net Class" "BGA_Signal"
-			(at 346.6465 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 40.64 -21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 359.41 251.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42e7234f-3d05-4961-8da1-d3697c4b1ec2")
-		(property "Net Class" "BGA_Signal"
-			(at 360.6165 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 54.61 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 325.12 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4871c2bf-e744-4a27-bb65-a3c43c17d808")
-		(property "Net Class" "BGA_Signal"
-			(at 326.3265 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 20.32 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.1 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49ef3af2-1266-4218-addf-bb24e3b946bc")
-		(property "Net Class" "BGA_Signal"
-			(at 420.3065 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.3 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a4f78d5-fcc5-474e-97b7-6a6340c7ec7a")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4be3cdc5-0f8b-4a37-b2e7-08f474e9902a")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.1 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c78f4f2-b0d1-461e-b25d-04c4db611bd7")
-		(property "Net Class" "BGA_Signal"
-			(at 420.3065 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.3 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 351.79 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cc79a65-12f3-4fa1-bcc0-e1a8ab22b1d6")
-		(property "Net Class" "BGA_Signal"
-			(at 352.9965 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 46.99 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 351.79 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "500d537f-3161-4ed0-b749-bb14363dcc3b")
-		(property "Net Class" "BGA_Signal"
-			(at 352.9965 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 46.99 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 420.37 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5540840f-9b0a-44df-bebf-5df8b7a4252c")
-		(property "Net Class" "BGA_Signal"
-			(at 421.5765 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 115.57 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d0e761d-0f8f-4d9e-82b5-2467760a8b4d")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 354.33 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60bed858-102b-444c-a7d8-b71b61579e1e")
-		(property "Net Class" "BGA_Signal"
-			(at 355.5365 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 49.53 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 359.41 284.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ff48ee4-7fb1-46e1-9212-6ed351a22d04")
-		(property "Net Class" "BGA_Signal"
-			(at 360.6165 281.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 54.61 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71f458ce-885d-495e-bb2a-db238e810506")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75771071-5aab-4ad5-a394-d6c17431e18c")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "769c1218-802a-4fee-84f3-d392cd708393")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 360.68 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "774b154c-2ade-4e80-9616-61bfb52082c3")
-		(property "Net Class" "BGA_Signal"
-			(at 361.8865 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 55.88 11.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 346.71 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "786af335-84e2-49d1-a119-d8977cd5411f")
-		(property "Net Class" "BGA_Signal"
-			(at 347.9165 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 41.91 8.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c2c6252-efa6-420c-b2cc-e7c7fd4b6331")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d2f0365-550d-4403-b990-ce2ac6b0e392")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e4b20a6-1b4b-41af-bcb7-9753bcbbaf86")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 354.33 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80de853e-662d-4452-a613-866acd8bee3f")
-		(property "Net Class" "BGA_Signal"
-			(at 355.5365 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 49.53 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 358.14 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81908f15-f9ed-4439-9716-f7ece0d8d995")
-		(property "Net Class" "BGA_Signal"
-			(at 359.3465 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 53.34 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83bf0495-539c-4093-af81-8e9845ddc3cc")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 351.79 194.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83ca33dc-2391-44b0-a11c-ec7c384b3b8d")
-		(property "Net Class" "BGA_Signal"
-			(at 352.9965 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 46.99 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83f9d1e4-7c80-458c-b7dc-3e79c13a1889")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 -6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85a5980d-3dbe-42ee-ad7d-5a0b375e3738")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 359.41 281.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89513999-e774-4b6f-b9a9-8874a209f1a8")
-		(property "Net Class" "BGA_Signal"
-			(at 360.6165 279.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 54.61 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 420.37 284.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a3de5be-2ba9-42c5-99fb-e2a1f7456ca2")
-		(property "Net Class" "BGA_Signal"
-			(at 434.594 284.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 115.57 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 355.6 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cef84e7-a26c-4d33-9376-ae9429319fa1")
-		(property "Net Class" "BGA_Signal"
-			(at 356.8065 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 50.8 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93cf5f42-1aa7-45b9-b8bc-200e81f62da5")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "955625fa-bb59-4f56-9a1c-ee4fead16441")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 -8.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 340.36 274.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9648ac52-c9a3-4e40-aece-f5e13356c92d")
-		(property "Net Class" "BGA_Signal"
-			(at 341.5665 271.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 35.56 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96fe6626-8720-4812-8b0c-8b7733475c67")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a1c4e02-14d3-4ea1-bd65-c5433891e875")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b1535f1-fe04-4f4f-9c83-b0c940d61946")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.1 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d36d410-f20a-433a-952e-d99b0183606b")
-		(property "Net Class" "BGA_Signal"
-			(at 420.3065 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.3 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 421.64 251.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d4bddc7-c81c-4db4-9597-ea83d3564a17")
-		(property "Net Class" "BGA_Signal"
-			(at 422.8465 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 116.84 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ddec391-6e37-410f-8bca-719150044d88")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 355.6 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f5ae640-bf19-4c1f-a454-1de5164c7056")
-		(property "Net Class" "BGA_Signal"
-			(at 356.8065 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 50.8 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a149756c-fd0d-42d1-892a-5068c195aa91")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 356.87 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6400835-6744-4784-8f95-5e96cf3e1ad0")
-		(property "Net Class" "BGA_Signal"
-			(at 358.0765 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 52.07 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 356.87 276.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a65cf7f7-19af-49d9-aac0-98e003c092b7")
-		(property "Net Class" "BGA_Signal"
-			(at 358.0765 274.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 52.07 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.1 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7059273-f3a2-4547-a843-73929b786bb7")
-		(property "Net Class" "BGA_Signal"
-			(at 420.3065 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.3 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.5609 193.3437 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7264b39-c8f3-4302-a5aa-da89cfe34e5a")
-		(property "Net Class" "BGA_Signal"
-			(at 420.7674 190.8037 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.7609 131.1137 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 345.44 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a798ea0b-2e35-4af3-9d93-1c795025f709")
-		(property "Net Class" "BGA_Signal"
-			(at 346.6465 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 40.64 -19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa803766-b925-4205-8817-1a880709f482")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 -16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 420.37 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab6e1605-43a8-4e87-9714-2c4edb50b771")
-		(property "Net Class" "BGA_Signal"
-			(at 421.5765 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 115.57 -6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac75c09b-4b28-48bf-97bf-e34620329354")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac97828f-d011-4259-abac-8009e49a90d8")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 421.64 248.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad36e9d2-7333-4974-9af2-b95c325fcc08")
-		(property "Net Class" "BGA_Signal"
-			(at 422.8465 246.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 116.84 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0278d62-d807-4caf-a2d8-c0f677027ca6")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0b4860f-6168-45b2-b80d-13b9bba7d83c")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b52ce95e-6743-4445-960e-645fbb6573e3")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 421.64 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b58016b9-f377-4214-80d0-40c9196c6f3e")
-		(property "Net Class" "BGA_Signal"
-			(at 422.8465 243.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 116.84 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6163cfc-8cfc-461b-883e-5d055548e38f")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7e35052-a6c9-4666-a1f3-22c2c5c10187")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 -11.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 354.33 238.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b9ab5206-6bb8-4610-99ed-7fb3d59c2e52")
-		(property "Net Class" "BGA_Signal"
-			(at 355.5365 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 49.53 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.354 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc001158-ab9a-415d-9c92-19b03a0940a4")
-		(property "Net Class" "BGA_Signal"
-			(at 420.5605 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.554 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd507b25-8ac2-4b6a-a50a-c918e64f0505")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 167.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfff4a1d-7bde-4d3d-8953-b7bfc839f9c9")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 359.41 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c173c151-02fc-4034-81a2-73dcb360b85b")
-		(property "Net Class" "BGA_Signal"
-			(at 360.6165 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 54.61 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.1 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3782869-4773-418f-acf7-25089789e3ba")
-		(property "Net Class" "BGA_Signal"
-			(at 420.3065 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.3 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.1 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c46c228a-e567-42d1-8aee-6a7a2cd4bd0f")
-		(property "Net Class" "BGA_Signal"
-			(at 420.3065 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.3 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 355.6 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7eeb22b-4bd9-480d-bfbf-6e8598e9e2e3")
-		(property "Net Class" "BGA_Signal"
-			(at 356.8065 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 50.8 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8f79fa2-59bf-4027-92a6-bc27450063f4")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cace0a8e-ddc0-4061-8354-8b084a1dcff4")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 -13.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb3ea039-7948-4c34-8546-47d996942280")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb659275-be06-4d70-8391-0a88f15ecc3e")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 341.63 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cce6f7fe-1936-4b62-84e7-20340aaec5f8")
-		(property "Net Class" "BGA_Signal"
-			(at 342.8365 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 36.83 6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf63f3c4-0388-4545-a171-15bf76f1fb07")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 421.64 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d201d842-85f1-4f69-a27b-5d5f7919492f")
-		(property "Net Class" "BGA_Signal"
-			(at 422.8465 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 116.84 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 420.37 289.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4a57880-02b3-4391-982d-61db3616cbfa")
-		(property "Net Class" "BGA_Signal"
-			(at 421.5765 287.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 115.57 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 350.52 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d52a254b-8678-4f10-a034-7c9eefc51b75")
-		(property "Net Class" "BGA_Signal"
-			(at 351.7265 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 45.72 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 356.87 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d70a6855-e2af-4e50-9c55-d2cdf051463d")
-		(property "Net Class" "BGA_Signal"
-			(at 358.0765 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 52.07 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8d309d1-f50a-41b8-871b-a8ec58ed53a9")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 353.06 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9216292-aedb-4349-b6db-d2ca89059b37")
-		(property "Net Class" "BGA_Signal"
-			(at 354.2665 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 48.26 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da438ed4-550f-4ff0-894c-b9fd93c88b32")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 359.41 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd1e9d27-07e7-4305-8b6b-1fc680ba8e3b")
-		(property "Net Class" "BGA_Signal"
-			(at 360.6165 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 54.61 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 345.44 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df5ecaa8-258e-430d-9d54-8ad98fcbacde")
-		(property "Net Class" "BGA_Signal"
-			(at 346.6465 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 40.64 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 345.44 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0cfea04-b457-4b8b-947a-5234b1b68c00")
-		(property "Net Class" "BGA_Signal"
-			(at 346.6465 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 40.64 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 421.64 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1c8ad4b-5fd2-4868-a723-3aa19f170523")
-		(property "Net Class" "BGA_Signal"
-			(at 422.8465 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 116.84 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1dce7d0-3721-4cb2-916f-ea8206ff1101")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 429.26 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3910673-9134-4313-858b-08cc18bc2ee4")
-		(property "Net Class" "BGA_Signal"
-			(at 430.4665 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 124.46 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 347.472 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3fc2cec-f7f5-4468-86ab-dac29b2798a0")
-		(property "Net Class" "BGA_Signal"
-			(at 348.6785 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 42.672 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 419.1 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5327e6a-7edf-4d9d-8a23-c59528862b86")
-		(property "Net Class" "BGA_Signal"
-			(at 420.3065 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 114.3 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 218.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9e9d415-a54f-48ec-a9f9-b3705af4ff4b")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 417.83 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef215eb0-83f0-49a7-a434-7f367875f2fa")
-		(property "Net Class" "BGA_Signal"
-			(at 419.0365 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 113.03 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3b2ad37-0069-4e36-8c49-63e78ed44bd5")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3cfcaa1-8f37-4ddb-86a3-7d476de0308b")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 -1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 355.6 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6839ec1-b8f1-4502-968a-bbd165605770")
-		(property "Net Class" "BGA_Signal"
-			(at 356.8065 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 50.8 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 361.95 241.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8b4c9bb-d85a-43a3-932d-2299aa65e0c6")
-		(property "Net Class" "BGA_Signal"
-			(at 363.1565 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 57.15 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "CC0805KRX7R9BB104:CC0805KRX7R9BB104")
 		(at 210.82 54.61 90)
@@ -25437,7 +21647,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 210.82 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -25459,7 +21669,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 210.82 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -26119,7 +22329,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 201.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -26141,7 +22351,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 201.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -26386,7 +22596,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -26408,7 +22618,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -26764,7 +22974,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -26786,7 +22996,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -27420,6 +23630,100 @@
 			(project "mainboard"
 				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/75591445-ebca-492a-8f65-2322c940442d"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPD2E001DRYR:TPD2E001DRYR")
+		(at 439.42 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25108edc-0ea0-4442-8984-7a26b47c070a")
+		(property "Reference" "U38"
+			(at 469.9 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPD2E001DRYR"
+			(at 469.9 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "tp_library:DRY6"
+			(at 439.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd2e001"
+			(at 439.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 439.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "0aa07261-2f01-4a26-ae29-f9c8c15d46cb")
+		)
+		(pin "1"
+			(uuid "9ff5a2cf-2b3c-429f-96cd-25df668daca6")
+		)
+		(pin "3"
+			(uuid "30110b1d-a5b2-4dfd-9823-037e3ddb68a6")
+		)
+		(pin "4"
+			(uuid "05a7716b-56a5-4ae7-b671-3174c621e739")
+		)
+		(pin "2"
+			(uuid "baee13ac-6dc8-4889-a0ab-ce7fdf7b1f8d")
+		)
+		(pin "6"
+			(uuid "f9983e11-a7a0-4a31-ba56-bc1e0459a00b")
+		)
+		(instances
+			(project "mainboard"
+				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/75591445-ebca-492a-8f65-2322c940442d"
+					(reference "U38")
 					(unit 1)
 				)
 			)
@@ -28159,7 +24463,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28181,7 +24485,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28348,7 +24652,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 270.51 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28370,7 +24674,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 270.51 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28692,7 +24996,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 563.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -28714,7 +25018,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 563.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29828,7 +26132,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 497.84 339.09 0)
+		(at 469.9 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29838,7 +26142,7 @@
 		(dnp no)
 		(uuid "4e357121-1c15-4a84-943c-4fb30463fa0f")
 		(property "Reference" "TP7"
-			(at 500.38 334.5179 0)
+			(at 472.44 273.5579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29849,7 +26153,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 498.856 331.978 0)
+			(at 470.916 271.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29860,7 +26164,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 502.92 339.09 0)
+			(at 474.98 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29871,7 +26175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 502.92 339.09 0)
+			(at 474.98 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29882,7 +26186,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 497.84 339.09 0)
+			(at 469.9 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29983,7 +26287,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 542.29 281.94 0)
+		(at 572.77 283.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29994,7 +26298,7 @@
 		(dnp no)
 		(uuid "4ea060d4-583e-42a0-b99c-ba73ff08f322")
 		(property "Reference" "J31"
-			(at 541.655 269.24 0)
+			(at 572.135 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30004,7 +26308,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 541.655 271.78 0)
+			(at 572.135 273.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30014,7 +26318,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 542.29 281.94 0)
+			(at 572.77 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30025,7 +26329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 281.94 0)
+			(at 572.77 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30036,7 +26340,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 542.29 281.94 0)
+			(at 572.77 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30912,7 +27216,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 227.33 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -30934,7 +27238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 227.33 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -31849,7 +28153,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 242.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -31871,7 +28175,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 242.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -32038,7 +28342,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -32060,7 +28364,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -32354,7 +28658,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 548.64 83.82 0)
+		(at 566.42 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32365,7 +28669,7 @@
 		(fields_autoplaced yes)
 		(uuid "74e4e618-6b5e-4978-a9fe-6a10736d6573")
 		(property "Reference" "#PWR031"
-			(at 548.64 90.17 0)
+			(at 566.42 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32376,7 +28680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 548.64 88.9 0)
+			(at 566.42 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32386,7 +28690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 548.64 83.82 0)
+			(at 566.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32397,7 +28701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 548.64 83.82 0)
+			(at 566.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32408,7 +28712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 548.64 83.82 0)
+			(at 566.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32432,7 +28736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 520.7 356.87 0)
+		(at 492.76 295.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -32444,7 +28748,7 @@
 		(fields_autoplaced yes)
 		(uuid "76a88b9f-dabe-4d7b-bf3d-203454ad722b")
 		(property "Reference" "#PWR027"
-			(at 520.7 363.22 0)
+			(at 492.76 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32455,7 +28759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 520.7 361.95 0)
+			(at 492.76 300.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32465,7 +28769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 520.7 356.87 0)
+			(at 492.76 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32476,7 +28780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 520.7 356.87 0)
+			(at 492.76 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32487,7 +28791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 520.7 356.87 0)
+			(at 492.76 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32637,7 +28941,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 260.35 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -32659,7 +28963,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 260.35 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -33004,7 +29308,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -33026,7 +29330,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -33193,7 +29497,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 245.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -33215,7 +29519,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 245.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -33416,7 +29720,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 542.29 341.63 0)
+		(at 514.35 280.67 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -33428,7 +29732,7 @@
 		(fields_autoplaced yes)
 		(uuid "8578d2e4-2b68-496c-ae7b-f762e7fb3949")
 		(property "Reference" "J3"
-			(at 541.02 330.2 0)
+			(at 513.08 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33438,7 +29742,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at 541.02 332.74 0)
+			(at 513.08 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33448,7 +29752,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
-			(at 542.29 341.63 0)
+			(at 514.35 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33459,7 +29763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 341.63 0)
+			(at 514.35 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33470,7 +29774,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 542.29 341.63 0)
+			(at 514.35 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33991,7 +30295,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 120.65 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -34013,7 +30317,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 120.65 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -35232,7 +31536,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 236.22 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -35254,7 +31558,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 236.22 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -35727,7 +32031,7 @@
 	)
 	(symbol
 		(lib_id "RC0805JR-070RL:RC0805JR-070RL")
-		(at 528.32 64.77 0)
+		(at 546.1 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35738,7 +32042,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d47bac6-8dd1-43ef-bafc-ab3906ed169b")
 		(property "Reference" "R171"
-			(at 535.9401 67.31 90)
+			(at 553.7201 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35749,7 +32053,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 533.4001 67.31 90)
+			(at 551.1801 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35760,7 +32064,7 @@
 			)
 		)
 		(property "Footprint" "RES_R-070RL_VIS"
-			(at 528.32 64.77 0)
+			(at 546.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35772,7 +32076,7 @@
 			)
 		)
 		(property "Datasheet" "RC0805JR-070RL"
-			(at 528.32 64.77 0)
+			(at 546.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35784,7 +32088,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 528.32 64.77 0)
+			(at 546.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35795,7 +32099,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
-			(at 528.32 64.77 0)
+			(at 546.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36394,7 +32698,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 194.31 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -36416,7 +32720,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 194.31 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -36847,7 +33151,7 @@
 	)
 	(symbol
 		(lib_id "RMCF0805FG100K:RMCF0805FG100K")
-		(at 548.64 81.28 90)
+		(at 566.42 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36857,7 +33161,7 @@
 		(dnp no)
 		(uuid "acd591ed-ea48-4b21-acce-b7478c91c87e")
 		(property "Reference" "R174"
-			(at 552.958 76.708 0)
+			(at 570.738 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36867,7 +33171,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 554.99 76.962 0)
+			(at 572.77 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36877,7 +33181,7 @@
 			)
 		)
 		(property "Footprint" "RES_RMCF0805_STP"
-			(at 548.64 81.28 0)
+			(at 566.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36889,7 +33193,7 @@
 			)
 		)
 		(property "Datasheet" "RMCF0805FG100K"
-			(at 548.64 81.28 0)
+			(at 566.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36901,7 +33205,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 548.64 81.28 0)
+			(at 566.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36912,7 +33216,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0805FG100K "
-			(at 548.64 81.28 0)
+			(at 566.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36939,7 +33243,7 @@
 	)
 	(symbol
 		(lib_id "RMCF0805FT10K0:RMCF0805FT10K0")
-		(at 508 339.09 0)
+		(at 480.06 278.13 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -36951,7 +33255,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad3d0258-fc22-4432-bb04-a6c55820acca")
 		(property "Reference" "R163"
-			(at 515.6201 341.63 90)
+			(at 487.6801 280.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36962,7 +33266,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 513.0801 341.63 90)
+			(at 485.1401 280.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36973,7 +33277,7 @@
 			)
 		)
 		(property "Footprint" "STA_RMCF0805_STP"
-			(at 508 339.09 0)
+			(at 480.06 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36985,7 +33289,7 @@
 			)
 		)
 		(property "Datasheet" "RMCF0805FT10K0"
-			(at 508 339.09 0)
+			(at 480.06 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36997,7 +33301,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 508 339.09 0)
+			(at 480.06 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37008,7 +33312,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0805FT10K0 "
-			(at 508 339.09 90)
+			(at 480.06 278.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37317,7 +33621,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 549.91 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -37339,7 +33643,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 549.91 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -37939,7 +34243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 532.13 346.71 0)
+		(at 504.19 285.75 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -37951,7 +34255,7 @@
 		(fields_autoplaced yes)
 		(uuid "be9a0654-16cb-4214-a9c1-a1a5503192d7")
 		(property "Reference" "#PWR026"
-			(at 532.13 353.06 0)
+			(at 504.19 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37962,7 +34266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 532.13 351.79 0)
+			(at 504.19 290.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37972,7 +34276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 532.13 346.71 0)
+			(at 504.19 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37983,7 +34287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 346.71 0)
+			(at 504.19 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37994,7 +34298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 532.13 346.71 0)
+			(at 504.19 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38018,7 +34322,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 516.89 68.58 0)
+		(at 534.67 62.23 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -38029,7 +34333,7 @@
 		(dnp no)
 		(uuid "c20401e5-9b0c-481d-9d43-61a308a56292")
 		(property "Reference" "TP20"
-			(at 519.43 73.1521 0)
+			(at 537.21 66.8021 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38040,7 +34344,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 517.906 75.692 0)
+			(at 535.686 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38051,7 +34355,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 521.97 68.58 0)
+			(at 539.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38062,7 +34366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 68.58 0)
+			(at 539.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38073,7 +34377,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 516.89 68.58 0)
+			(at 534.67 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38175,7 +34479,7 @@
 	)
 	(symbol
 		(lib_id "RMCF0805FT10K0:RMCF0805FT10K0")
-		(at 520.7 356.87 270)
+		(at 492.76 295.91 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -38187,7 +34491,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5153305-588e-45b3-9f52-f34c71b61324")
 		(property "Reference" "R165"
-			(at 527.05 350.52 0)
+			(at 499.11 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38197,7 +34501,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 524.51 350.52 0)
+			(at 496.57 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38207,7 +34511,7 @@
 			)
 		)
 		(property "Footprint" "STA_RMCF0805_STP"
-			(at 520.7 356.87 0)
+			(at 492.76 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38219,7 +34523,7 @@
 			)
 		)
 		(property "Datasheet" "RMCF0805FT10K0"
-			(at 520.7 356.87 0)
+			(at 492.76 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38231,7 +34535,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 520.7 356.87 0)
+			(at 492.76 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38242,7 +34546,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0805FT10K0 "
-			(at 520.7 356.87 0)
+			(at 492.76 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38390,7 +34694,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -38412,7 +34716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -38888,7 +35192,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 242.57 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -38910,7 +35214,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 242.57 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -39671,7 +35975,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 219.71 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -39693,7 +35997,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 219.71 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -40016,7 +36320,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 186.69 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -40038,7 +36342,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 186.69 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -40566,7 +36870,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -40588,7 +36892,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -41848,6 +38152,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 500.38 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1267962-dec5-46fc-8e4c-48b756bd0c42")
+		(property "Reference" "#PWR081"
+			(at 500.38 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 500.38 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 500.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 500.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 500.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b10097c-1656-42a4-96c5-f6313bc23d22")
+		)
+		(instances
+			(project "mainboard"
+				(path "/b2de12ad-2501-4f93-8878-215e8337bff5/75591445-ebca-492a-8f65-2322c940442d"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 354.33 124.46 270)
 		(mirror x)
 		(unit 1)
@@ -42124,7 +38506,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 251.46 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -42146,7 +38528,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 251.46 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -42362,7 +38744,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 553.72 64.77 270)
+		(at 571.5 58.42 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42372,7 +38754,7 @@
 		(dnp no)
 		(uuid "fae7d1d3-ac52-4459-9da6-7694d1fe808a")
 		(property "Reference" "TP21"
-			(at 558.2921 67.31 0)
+			(at 576.0721 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42383,7 +38765,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 560.832 64.516 0)
+			(at 578.612 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42394,7 +38776,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 553.72 69.85 0)
+			(at 571.5 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42405,7 +38787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 553.72 69.85 0)
+			(at 571.5 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42416,7 +38798,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 553.72 64.77 0)
+			(at 571.5 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42483,7 +38865,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "TMK105BJ104KV-F"
+		(property "Datasheet" ""
 			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -42505,7 +38887,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
